@@ -1,0 +1,11 @@
+.map-wrap {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
