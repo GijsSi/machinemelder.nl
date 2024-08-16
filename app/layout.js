@@ -2,7 +2,7 @@ import './globals.css';
 import '@maptiler/sdk/dist/maptiler-sdk.css';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { Inter } from 'next/font/google';
-import CookieBanner from '@/components/CookieBanner';
+import CookieBanner from '@/components/cookieBanner';
 import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
