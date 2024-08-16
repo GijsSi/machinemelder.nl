@@ -231,10 +231,12 @@ export default function Map() {
                                 if (!response.ok) {
                                     throw new Error(`HTTP error! status: ${response.status}`);
                                 }
+
                                 return response.json();
                             })
 
                             .then(data => {
+                                console.log('GeoJSON data:', data); // Inspect data here
                                 if (!data || !data.features) {
                                     throw new Error('Invalid GeoJSON data');
                                 }
@@ -258,11 +260,15 @@ export default function Map() {
                                             '#00FF00', // Green if working
                                             ['==', ['get', 'machineWorking'], 0],
                                             '#FF0000', // Red if not working
-                                            '#808080'  // Grey if null or undefined
+                                            ['==', ['get', 'machineWorking'], null],
+                                            '#808080', // Grey if null
+                                            '#0000FF'  // Default to blue if none of the above conditions are met
                                         ],
                                         'circle-radius': 8,
                                     },
                                 });
+
+                                console.log('GeoJSON data:', data);
 
                                 // Add a layer to display the store icons
                                 map.current.addLayer({
