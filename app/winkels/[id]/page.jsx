@@ -269,7 +269,7 @@ const WinkelPage = ({ params }) => {
                                 </p>
                             </div>
 
-                            <div className="mt-5">
+                            <div className="mt-5 flex justify-center space-x-4 lg:max-w-md w-full">
                                 <button
                                     type="button"
                                     className="inline-flex items-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-400 transition duration-300 ease-in-out transform hover:scale-105"
@@ -279,18 +279,26 @@ const WinkelPage = ({ params }) => {
                                 </button>
                                 <button
                                     type="button"
-                                    className="inline-flex items-center rounded-full bg-rose-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-rose-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-400 ml-3 transition duration-300 ease-in-out transform hover:scale-105"
+                                    className="inline-flex items-center rounded-full bg-rose-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-rose-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-400 transition duration-300 ease-in-out transform hover:scale-105"
                                     onClick={() => handleBrokenClick()}
                                 >
                                     Broken
                                 </button>
                                 <Link href={`/aanvraag-sticker/${params.id}`}
                                     type="button"
-                                    className="inline-flex items-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 ml-3 transition duration-300 ease-in-out transform hover:scale-105"
+                                    className="inline-flex items-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 transition duration-300 ease-in-out transform hover:scale-105"
                                 >
                                     Sticker weg?
                                 </Link>
                             </div>
+                            <Link href={`/`}
+                                type="button"
+                                className="mt-4 w-full inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 text-center transition duration-300 ease-in-out transform hover:scale-105"
+                            >
+                                <p className='w-full text-center'>
+                                    Zie alle automaten in de buurt
+                                </p>
+                            </Link>
 
                         </div>
                     </div>
