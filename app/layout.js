@@ -1,8 +1,8 @@
 import './globals.css';
 import '@maptiler/sdk/dist/maptiler-sdk.css';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+// import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { Inter } from 'next/font/google';
-import CookieBanner from '@/components/cookieBanner';
+// import CookieBanner from '@/components/cookieBanner';
 import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -14,9 +14,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (<html lang='en'>
-    <GoogleAnalytics GA_MEASUREMENT_ID='G-7NMFHCTV7G' />
+    {/* <GoogleAnalytics GA_MEASUREMENT_ID='G-7NMFHCTV7G' /> */}
     <body className={inter.className}>{children}
-      <CookieBanner />
+      {/* <CookieBanner /> */}
       <Analytics />
     </body>
   </html>);
