@@ -275,14 +275,14 @@ const WinkelPage = ({ params }) => {
                                     className="inline-flex items-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-400 transition duration-300 ease-in-out transform hover:scale-105"
                                     onClick={() => handleWorkingClick()}
                                 >
-                                    Working
+                                    Werkend
                                 </button>
                                 <button
                                     type="button"
                                     className="inline-flex items-center rounded-full bg-rose-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-rose-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-400 transition duration-300 ease-in-out transform hover:scale-105"
                                     onClick={() => handleBrokenClick()}
                                 >
-                                    Broken
+                                    Kapot
                                 </button>
                                 <Link href={`/aanvraag-sticker/${params.id}`}
                                     type="button"
