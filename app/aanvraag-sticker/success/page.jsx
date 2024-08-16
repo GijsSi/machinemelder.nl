@@ -1,8 +1,8 @@
 'use client'
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-const SuccessPage = () => {
+const SuccessPageContent = () => {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -10,7 +10,6 @@ const SuccessPage = () => {
     const storeId = searchParams.get('storeId');
 
     useEffect(() => {
-        // Call the API to update the payment status
         const updatePaymentStatus = async () => {
             try {
                 const response = await fetch('/api/payment/update-payment', {
@@ -18,7 +17,7 @@ const SuccessPage = () => {
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ session_id }), // Ensure the session_id is sent in the body
+                    body: JSON.stringify({ session_id }),
                 });
 
                 if (!response.ok) {
@@ -39,7 +38,6 @@ const SuccessPage = () => {
         }
     }, [session_id]);
 
-
     return (
         <div className="flex items-center justify-center min-h-screen bg-green-50">
             <div className="text-center">
@@ -55,5 +53,11 @@ const SuccessPage = () => {
         </div>
     );
 };
+
+const SuccessPage = () => (
+    <Suspense fallback={<div>Loading...</div>}>
+        <SuccessPageContent />
+    </Suspense>
+);
 
 export default SuccessPage;
