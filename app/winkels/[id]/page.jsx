@@ -297,7 +297,7 @@ const WinkelPage = ({ params }) => {
 
                     <div className="bg-white shadow-lg rounded-lg mt-8 mx-10 w-full max-w-3xl px-6 py-8 sm:p-10">
                         <div className="text-center">
-                            <p className="text-lg font-semibold mb-2 text-left">Ik ben student die deze tool zijn eentje in de lucht houdt. Ik drink graag een biertje op jouw!</p>
+                            <p className="text-lg font-semibold mb-2 text-left">Ik ben student die deze tool in zijn eentje in de lucht houdt. Ik drink graag een biertje op jou!</p>
                             <p className='text-left'>Deze tool heb ik gebouwd omdat ik er helemaal klaar mee ben, dat elke keer als ik met kratten naar de albert heijn loop en de machine kapot is. Om dit probleem op te lossen heb ik deze oplossing bedacht in de hoop dat mensen het gebruiken en dat je van te voren kan kijken of de machine werkt. Nu hoef je ook niet meer te bellen om te vragen of de machine werkt.</p>
                             <p className="text-md text-gray-600 mb-6">Je kan al vanaf 1 euro doneren!</p>
                             <a
