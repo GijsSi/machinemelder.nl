@@ -1,8 +1,8 @@
-'use client'
-import React from 'react';
+'use client';
+import React, { Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-const CancelPage = () => {
+const CancelPageContent = () => {
     const router = useRouter();
     const searchParams = useSearchParams();
     const storeId = searchParams.get('storeId');
@@ -14,7 +14,7 @@ const CancelPage = () => {
                 <p className="mt-4">Your payment was not completed. If you wish to try again, please click the button below.</p>
                 <button
                     className="mt-6 inline-flex items-center justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500"
-                    onClick={() => router.push(`/store/${storeId}`)}
+                    onClick={() => router.push(storeId ? `/store/${storeId}` : '/store')}
                 >
                     Try Again
                 </button>
@@ -22,5 +22,11 @@ const CancelPage = () => {
         </div>
     );
 };
+
+const CancelPage = () => (
+    <Suspense fallback={<div>Loading...</div>}>
+        <CancelPageContent />
+    </Suspense>
+);
 
 export default CancelPage;
