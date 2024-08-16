@@ -11,6 +11,7 @@
   "dependencies": {
     "@maptiler/sdk": "^2.2.1",
     "@stripe/stripe-js": "^4.3.0",
+    "client-only": "^0.0.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.28",
     "mysql2": "^3.11.0",
@@ -24,6 +25,7 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
