@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRouter } from 'next/navigtion';
+import { useRouter } from 'next/navigation';
 
 const CancelPage = () => {
     const router = useRouter();
