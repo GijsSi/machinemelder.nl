@@ -24,6 +24,10 @@ results = cursor.fetchall()
 cursor.close()
 db.close()
 
+# Filter results to include only the specified IDs
+specified_ids = {1112, 1391, 2209, 1676, 5602}
+filtered_results = [row for row in results if row[0] in specified_ids]
+
 # Template image (PDF converted to PNG or an existing image file)
 template_path = 'templates/template-no-bg.psd' 
 
@@ -49,7 +53,7 @@ font_size = 50
 font = ImageFont.truetype(font_path, font_size)
 
 # Loop through each store and create QR codes and stickers
-for row in results:
+for row in filtered_results:
     store_id = row[0]
     store_uuid = row[1]
     street_name = row[2]
@@ -95,7 +99,7 @@ for row in results:
     text_position = positions['street_text'][0]
     draw.text(text_position, street_name, font=font, fill="black")
 
-    # Save the final image
-    template.save(os.path.join(output_dir, f'sticker_{store_id}.png'))
+    # Save the final image as PDF
+    template.save(os.path.join(output_dir, f'sticker_{store_id}.pdf'), "PDF")
 
 print("Stickers generated and saved in the 'final_stickers' directory.")

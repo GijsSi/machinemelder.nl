@@ -114,7 +114,49 @@ import * as maptilersdk from '@maptiler/sdk';
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 import './map.css';
 
+
 function StoreCard({ store, position }) {
+    const [latestReport, setLatestReport] = useState(null);
+
+    useEffect(() => {
+        async function fetchReports() {
+            try {
+                const response = await fetch(`/api/reports/${store.id}`);
+                const data = await response.json();
+
+                console.log('Fetched reports:', data);
+
+                if (data.reports && data.reports.features && data.reports.features.length > 0) {
+                    const latest = data.reports.features.reduce((latest, report) => {
+                        return new Date(report.properties.createdAt) > new Date(latest.properties.createdAt) ? report : latest;
+                    }, data.reports.features[0]);
+
+                    console.log('Latest report:', latest);
+                    setLatestReport(latest);
+                } else {
+                    console.log('No reports available for this store.');
+                }
+            } catch (error) {
+                console.error('Error fetching reports:', error);
+            }
+        }
+
+        fetchReports();
+    }, [store.id]);
+
+    const formatDate = (dateString) => {
+        const date = new Date(dateString);
+        const options = { weekday: 'long', day: 'numeric', month: 'short' };
+        const datePart = date.toLocaleDateString('nl-NL', options);
+        const timePart = date.toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' });
+        return `${timePart} ${datePart}`;
+    };
+
+
+    const machineWorking = latestReport?.properties?.machineWorking;
+    const createdAt = latestReport?.properties?.createdAt;
+    const dotColor = machineWorking ? 'bg-green-400' : 'bg-red-400';
+
     return (
         <div
             style={{
@@ -124,22 +166,29 @@ function StoreCard({ store, position }) {
                 transform: 'translate(-50%, -100%)',
                 pointerEvents: 'none',
             }}
-            className="bg-white p-4 rounded-lg shadow-lg border border-gray-200 w-64"
+            className="bg-white p-4 rounded-lg shadow-lg border border-gray-200 w-74"
         >
             <h3 className="text-lg font-semibold">{store.street}</h3>
-            {/* <p className="text-sm text-gray-500">ID: {store.id}</p> */}
-            <p className="text-sm text-gray-500">Laatste melding: Today - 20:22</p>
-
-            <p className="flex items-center text-sm text-gray-500">
-                Automaat status:
-                <span className="ml-2 relative flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-green-400"></span>
-                </span>
+            <p className="text-sm text-gray-500">
+                Laatste melding: {createdAt ? formatDate(createdAt) : 'nog geen meldingen'}
             </p>
+
+            {createdAt && (
+                <p className="flex items-center text-sm text-gray-500">
+                    Automaat status:
+                    <span className="ml-2 relative flex h-3 w-3">
+                        <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${dotColor} opacity-75`}></span>
+                        <span className={`relative inline-flex rounded-full h-3 w-3 ${dotColor}`}></span>
+                    </span>
+                </p>
+            )}
         </div>
     );
 }
+
+
+
+
 
 export default function Map() {
     const mapContainer = useRef(null);
@@ -157,7 +206,7 @@ export default function Map() {
 
         if (mapContainer.current) {
             // Set API key for MapTiler SDK
-            maptilersdk.config.apiKey = '4g1c0YAafWCgBYnEQNkl'; // Your API key
+            maptilersdk.config.apiKey = process.env.NEXT_PUBLIC_MAP_TILE_API_KEY;
 
             // Initialize the map
             map.current = new maptilersdk.Map({
@@ -170,9 +219,6 @@ export default function Map() {
             // Handle map load event
             map.current.on('load', async () => {
                 try {
-                    console.log('Loading image manually...');
-
-                    // Manually create an HTMLImageElement
                     const image = new Image();
                     image.src = '/images/ah-logo.png';
 
@@ -187,16 +233,12 @@ export default function Map() {
                                 }
                                 return response.json();
                             })
+
                             .then(data => {
-                                console.log('Data fetched:', data);
                                 if (!data || !data.features) {
                                     throw new Error('Invalid GeoJSON data');
                                 }
-
-                                // Log each feature to check properties
-                                data.features.forEach(feature => {
-                                    console.log('Feature:', feature);
-                                });
+                                console.log('Data fetched:', data);
 
                                 // Add a source for stores
                                 map.current.addSource('stores', {
@@ -204,7 +246,25 @@ export default function Map() {
                                     data: data,
                                 });
 
-                                // Add a layer to display the stores with the custom icon
+                                // Add a layer to display the status circle
+                                map.current.addLayer({
+                                    id: 'store-status',
+                                    type: 'circle',
+                                    source: 'stores',
+                                    paint: {
+                                        'circle-color': [
+                                            'case',
+                                            ['==', ['get', 'machineWorking'], 1],
+                                            '#00FF00', // Green if working
+                                            ['==', ['get', 'machineWorking'], 0],
+                                            '#FF0000', // Red if not working
+                                            '#808080'  // Grey if null or undefined
+                                        ],
+                                        'circle-radius': 10,
+                                    },
+                                });
+
+                                // Add a layer to display the store icons
                                 map.current.addLayer({
                                     id: 'stores',
                                     type: 'symbol',

@@ -45,6 +45,7 @@ export async function GET(req, res) {
               houseNumberExtra: row.houseNumberExtra,
               postalCode: row.postalCode,
               street: row.street,
+              machineWorking: row.machineWorking,
               // Check if openingDays is a string and needs parsing
               openingDays: typeof row.openingDays === 'string' ?
                   JSON.parse(row.openingDays) :
@@ -71,6 +72,60 @@ export async function GET(req, res) {
   } catch (error) {
     console.error('Database query failed', error);
     return new Response(JSON.stringify({error: 'Failed to load data'}), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+  }
+}
+
+
+export async function PUT(req, res) {
+  try {
+    const connection = await connectToDatabase();
+    const {
+      id,
+      latitude,
+      longitude,
+      storeType,
+      city,
+      countryCode,
+      houseNumber,
+      houseNumberExtra,
+      postalCode,
+      street,
+      openingDays,
+      workingMachine
+    } = await req.json();
+
+    const [result] = await connection.execute(
+        'UPDATE albertheijn SET latitude = ?, longitude = ?, storeType = ?, city = ?, countryCode = ?, houseNumber = ?, houseNumberExtra = ?, postalCode = ?, street = ?, openingDays = ?, machineWorking WHERE id = ?',
+        [
+          latitude, longitude, storeType, city, countryCode, houseNumber,
+          houseNumberExtra, postalCode, street, JSON.stringify(openingDays), id,
+          workingMachine
+        ]);
+
+    if (result.affectedRows === 0) {
+      return new Response(JSON.stringify({error: 'Item not found'}), {
+        status: 404,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+    }
+
+    return new Response(
+        JSON.stringify({message: 'Item updated successfully'}), {
+          status: 200,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+  } catch (error) {
+    console.error('Database update failed', error);
+    return new Response(JSON.stringify({error: 'Failed to update data'}), {
       status: 500,
       headers: {
         'Content-Type': 'application/json',

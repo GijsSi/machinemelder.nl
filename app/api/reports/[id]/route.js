@@ -96,12 +96,18 @@ export async function POST(req, {params}) {
       });
     }
 
-
     const connection = await connectToDatabase();
 
+    // Insert the new report into the meldingen table
     const [result] = await connection.execute(
         'INSERT INTO meldingen (supermarktId, latitude, longitude, machineWorking, reporterIpAddress) VALUES (?, ?, ?, ?, ?)',
         [id, latitude, longitude, machineWorking, reporterIpAddress]);
+
+    // Update the machineWorking status in the albertheijn table
+    const [updateResult] = await connection.execute(
+        'UPDATE albertheijn SET machineWorking = ? WHERE id = ?',
+        [machineWorking, id]);
+    // console.log('Update result:', updateResult);
 
     return new Response(JSON.stringify({success: true, id: result.insertId}), {
       status: 201,
@@ -110,12 +116,14 @@ export async function POST(req, {params}) {
       },
     });
   } catch (error) {
-    console.error('Database insert failed', error);
-    return new Response(JSON.stringify({error: 'Failed to add report'}), {
-      status: 500,
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    console.error('Database insert or update failed', error);
+    return new Response(
+        JSON.stringify({error: 'Failed to add report and update store status'}),
+        {
+          status: 500,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
   }
 }

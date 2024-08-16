@@ -23,7 +23,7 @@ export async function GET(req, res) {
     const connection = await connectToDatabase();
 
     const [rows] = await connection.execute(
-        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, openingDays FROM albertheijn');
+        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, machineWorking, openingDays FROM albertheijn');
 
 
     const geojson = {
@@ -45,6 +45,7 @@ export async function GET(req, res) {
               houseNumberExtra: row.houseNumberExtra,
               postalCode: row.postalCode,
               street: row.street,
+              machineWorking: row.machineWorking,
               // Check if openingDays is a string and needs parsing
               openingDays: typeof row.openingDays === 'string' ?
                   JSON.parse(row.openingDays) :
