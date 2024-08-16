@@ -260,7 +260,7 @@ export default function Map() {
                                             '#FF0000', // Red if not working
                                             '#808080'  // Grey if null or undefined
                                         ],
-                                        'circle-radius': 10,
+                                        'circle-radius': 8,
                                     },
                                 });
 
