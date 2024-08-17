@@ -18,6 +18,8 @@ async function connectToDatabase() {
   return cachedConnection;
 }
 
+
+
 export async function GET(req, res) {
   try {
     const connection = await connectToDatabase();
@@ -100,11 +102,12 @@ export async function PUT(req, res) {
     } = await req.json();
 
     const [result] = await connection.execute(
-        'UPDATE albertheijn SET latitude = ?, longitude = ?, storeType = ?, city = ?, countryCode = ?, houseNumber = ?, houseNumberExtra = ?, postalCode = ?, street = ?, openingDays = ?, machineWorking WHERE id = ?',
+        'UPDATE albertheijn SET latitude = ?, longitude = ?, storeType = ?, city = ?, countryCode = ?, houseNumber = ?, houseNumberExtra = ?, postalCode = ?, street = ?, openingDays = ?, machineWorking = ? WHERE id = ?',
         [
           latitude, longitude, storeType, city, countryCode, houseNumber,
-          houseNumberExtra, postalCode, street, JSON.stringify(openingDays), id,
-          workingMachine
+          houseNumberExtra, postalCode, street, JSON.stringify(openingDays),
+          workingMachine,  // Use the correct variable for machineWorking
+          id
         ]);
 
     if (result.affectedRows === 0) {

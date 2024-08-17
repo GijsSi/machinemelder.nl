@@ -220,6 +220,11 @@ const WinkelPage = ({ params }) => {
     };
 
     const formatDateTime = (dateString) => {
+        const date = new Date(dateString);
+
+        // Subtract 2 hours from the time
+        date.setHours(date.getHours() - 2);
+
         const options = {
             weekday: 'long',
             year: 'numeric',
@@ -227,9 +232,11 @@ const WinkelPage = ({ params }) => {
             day: 'numeric',
             hour: 'numeric',
             minute: 'numeric',
-            hour12: true
+            hour12: false // If you want to use 24-hour format
         };
-        return new Date(dateString).toLocaleDateString(undefined, options);
+
+        // Use 'nl-NL' for Dutch (Netherlands) formatting
+        return date.toLocaleDateString('nl-NL', options);
     };
 
     return (
@@ -265,7 +272,7 @@ const WinkelPage = ({ params }) => {
                             </div>
                             <div className="mt-2 max-w-xl text-sm text-gray-500">
                                 <p className="bg-yellow-100 border border-yellow-300 p-2 rounded">
-                                    ⚠️ We will ask for your location to determine if you are in the vicinity of the store.
+                                    ⚠️ We vragen voor je locatie om te controleren of je in de buurt van de winkel bent.
                                 </p>
                             </div>
 

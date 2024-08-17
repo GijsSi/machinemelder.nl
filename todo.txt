@@ -1,0 +1,2 @@
+- Engelse teksten er uit
+- meest recente melding bovenaan tonen.
