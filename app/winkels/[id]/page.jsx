@@ -62,7 +62,7 @@ const WinkelPage = ({ params }) => {
                         setModalProps({
                             version: 'warning',
                             title: 'Out of Range',
-                            message: 'You are not within 100 to 150 meters of the store location.',
+                            message: 'Je bent niet binnen 150m van de winkel.',
                             buttonText: 'Close',
                         });
                         setIsModalOpen(true);
@@ -71,8 +71,8 @@ const WinkelPage = ({ params }) => {
                 (error) => {
                     let modalConfig = {
                         version: 'default',
-                        title: 'Location Error',
-                        message: 'An error occurred while retrieving your location.',
+                        title: 'Locatie Error',
+                        message: 'Er is een fout opgetreden bij het ophalen van je locatie.',
                         buttonText: 'Close',
                     };
 
@@ -81,15 +81,15 @@ const WinkelPage = ({ params }) => {
                             modalConfig = {
                                 version: 'error',
                                 title: 'Oops, ben je in de winkel?',
-                                message: "We need your location to verify you're near the store. Without it, we can't ensure that you're reporting from the correct location.",
+                                message: "We hebben je locatie nodig om te controleren of je in de buurt van de winkel bent.",
                                 buttonText: 'Begrepen',
                             };
                             break;
                         case error.POSITION_UNAVAILABLE:
                             modalConfig = {
                                 version: 'warning',
-                                title: 'Location Unavailable',
-                                message: 'Location information is unavailable.',
+                                title: 'Locatie niet beschikbaar',
+                                message: 'Locatie-informatie is niet beschikbaar.',
                                 buttonText: 'Okay',
                             };
                             break;
@@ -166,7 +166,7 @@ const WinkelPage = ({ params }) => {
             console.log(ipAddress);
 
             // Submit the report with the IP address
-            const response = await fetch(`/api/reports/${params.id}`, {
+            const reportResponse = await fetch(`/api/reports/${params.id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -175,33 +175,40 @@ const WinkelPage = ({ params }) => {
                     latitude: latitude,
                     longitude: longitude,
                     machineWorking: machineWorking,
-                    reporterIpAddress: ipAddress
+                    reporterIpAddress: ipAddress,
                 }),
             });
 
-            if (!response.ok) {
+            const reportData = await reportResponse.json();
+            console.log('Report response status:', reportResponse.status);
+            console.log('Report response data:', reportData);
+
+            // Check if the report was successfully submitted
+            if (reportResponse.status === 201 && reportData.success) {
+                // Set success modal properties
+                setModalProps({
+                    version: 'success',
+                    title: 'Success!',
+                    message: 'Dankjewel voor je melding. Jouw melding helpt anderen!',
+                    buttonText: 'Close',
+                });
+                setIsModalOpen(true);
+            } else {
                 throw new Error('Failed to submit report');
             }
-
-            // Set success modal properties
-            setModalProps({
-                version: 'success',
-                title: 'Success!',
-                message: 'Thank you for your report. Your submission helps others!',
-                buttonText: 'Close',
-            });
-            setIsModalOpen(true);
         } catch (error) {
             console.error('Error submitting report:', error);
             setModalProps({
                 version: 'error',
                 title: 'Submission Error',
-                message: 'Failed to submit report. Please try again later.',
+                message: 'Melding is niet gelukt. Probeer het later nog een keer.',
                 buttonText: 'Close',
             });
             setIsModalOpen(true);
         }
     };
+
+
 
     const handleWorkingClick = () => {
         checkUserLocation((position) => {
@@ -239,6 +246,9 @@ const WinkelPage = ({ params }) => {
         return date.toLocaleDateString('nl-NL', options);
     };
 
+    const dotColor = storeData?.machineWorking ? 'bg-green-400' : 'bg-red-400';
+
+
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
             <Modal
@@ -254,29 +264,36 @@ const WinkelPage = ({ params }) => {
             {storeData ? (
                 <>
                     <div className="mb-4">
-                        <Image
+                        <video
                             src={WarningAnimation}
-                            alt="Warning Animation"
                             width={150}
                             height={150}
+                            autoPlay
+                            muted
+                            playsInline
                         />
                     </div>
 
                     <div className="bg-white shadow sm:rounded-lg mx-10 w-full max-w-3xl">
                         <div className="px-4 py-5 sm:p-6">
                             <h3 className="text-2xl font-semibold leading-6 text-gray-900 pb-1">
-                                Werkt de machine op {storeData.street}?
+                                Werkt de machine op {storeData.street} {storeData.houseNumber}?
                             </h3>
-                            <div>
-                                <p className='text-gray-300 font-semibold text-sm'>Laatste update: {formatDateTime(lastUpdate)}</p>
-                            </div>
-                            <div className="mt-2 max-w-xl text-sm text-gray-500">
+                            <p className="text-gray-300 font-semibold text-sm flex items-center">
+                                Laatste update: {formatDateTime(lastUpdate)}
+                                <span className="relative inline-flex ml-2">
+                                    <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${dotColor} opacity-75`}></span>
+                                    <span className={`relative inline-flex rounded-full h-3 w-3 ${dotColor}`}></span>
+                                </span>
+                                {storeData.machineWorking}
+                            </p>
+                            <div className="mt-2 text-sm text-gray-500">
                                 <p className="bg-yellow-100 border border-yellow-300 p-2 rounded">
                                     ⚠️ We vragen voor je locatie om te controleren of je in de buurt van de winkel bent.
                                 </p>
                             </div>
 
-                            <div className="mt-5 flex justify-center space-x-4 lg:max-w-md w-full">
+                            <div className="mt-5 flex justify-center space-x-4 w-full">
                                 <button
                                     type="button"
                                     className="inline-flex items-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-400 transition duration-300 ease-in-out transform hover:scale-105"
@@ -291,22 +308,23 @@ const WinkelPage = ({ params }) => {
                                 >
                                     Kapot
                                 </button>
-                                <Link href={`/aanvraag-sticker/${params.id}`}
+                                <Link
+                                    href={`/aanvraag-sticker/${params.id}`}
                                     type="button"
                                     className="inline-flex items-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 transition duration-300 ease-in-out transform hover:scale-105"
                                 >
                                     Sticker weg?
                                 </Link>
                             </div>
-                            <Link href={`/`}
+                            <Link
+                                href={`/`}
                                 type="button"
                                 className="mt-4 w-full inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 text-center transition duration-300 ease-in-out transform hover:scale-105"
                             >
-                                <p className='w-full text-center'>
+                                <p className="w-full text-center">
                                     Zie alle automaten in de buurt
                                 </p>
                             </Link>
-
                         </div>
                     </div>
 
