@@ -78,7 +78,7 @@ const WinkelSelector = () => {
 
                 {selectedStore && selectedStore.geometry && (
                     <div className="selected-store mt-4 p-4 bg-gray-100 rounded-lg shadow-md">
-                        <h3 className="text-lg font-semibold">Geselecteerde Winkel:</h3>
+                        <h3 className="text-lg font-semibold">Geselecteerde winkel:</h3>
                         <p className="text-gray-700">{selectedStore.street} {selectedStore.houseNumber}, {selectedStore.city}</p>
                         <p className="text-gray-700">Status van de machine: {selectedStore.machineWorking !== null ? (selectedStore.machineWorking ? 'Werkend' : 'Niet werkend') : 'Onbekend'}</p>
                         <p className="text-gray-700">Coördinaten: {selectedStore.geometry.coordinates.join(', ')}</p>
