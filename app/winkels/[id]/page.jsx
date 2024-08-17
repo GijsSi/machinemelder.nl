@@ -19,7 +19,7 @@ const WinkelPage = ({ params }) => {
         buttonText: 'Understood',
     });
 
-    const lastUpdate = new Date();
+    // const lastUpdate = new Date();
 
     useEffect(() => {
         const fetchStoreData = async () => {
@@ -246,7 +246,11 @@ const WinkelPage = ({ params }) => {
         return date.toLocaleDateString('nl-NL', options);
     };
 
-    const dotColor = storeData?.machineWorking ? 'bg-green-400' : 'bg-red-400';
+    const sortedReports = reports.sort((a, b) => new Date(b.properties?.createdAt) - new Date(a.properties?.createdAt));
+    const latestReport = sortedReports[0];
+    const dotColor = latestReport?.properties.machineWorking ? 'bg-green-400' : 'bg-red-400';
+
+
 
 
     return (
@@ -279,8 +283,8 @@ const WinkelPage = ({ params }) => {
                             <h3 className="text-2xl font-semibold leading-6 text-gray-900 pb-1">
                                 Werkt de machine op {storeData.street} {storeData.houseNumber}?
                             </h3>
-                            <p className="text-gray-300 font-semibold text-sm flex items-center">
-                                Laatste update: {formatDateTime(lastUpdate)}
+                            <p className='text-gray-300 font-semibold text-sm flex items-center'>
+                                Laatste update: {formatDateTime(latestReport.properties?.createdAt)}
                                 <span className="relative inline-flex ml-2">
                                     <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${dotColor} opacity-75`}></span>
                                     <span className={`relative inline-flex rounded-full h-3 w-3 ${dotColor}`}></span>
@@ -353,8 +357,8 @@ const WinkelPage = ({ params }) => {
                                 Recente meldingen ({reports.length})
                             </h3>
                             <ul className="mt-5 space-y-4 max-h-48 overflow-y-auto">
-                                {reports.length > 0 ? (
-                                    reports.map((report) => (
+                                {sortedReports.length > 0 ? (
+                                    sortedReports.map((report) => (
                                         <li key={report.properties.id} className="flex items-center justify-between pr-8">
                                             <span>{formatDateTime(report.properties.createdAt)}</span>
                                             <span className={`ml-2 relative flex h-3 w-3 `}>
