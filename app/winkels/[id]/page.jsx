@@ -19,8 +19,6 @@ const WinkelPage = ({ params }) => {
         buttonText: 'Understood',
     });
 
-    // const lastUpdate = new Date();
-
     useEffect(() => {
         const fetchStoreData = async () => {
             try {
@@ -193,6 +191,7 @@ const WinkelPage = ({ params }) => {
                     buttonText: 'Close',
                 });
                 setIsModalOpen(true);
+                setReports(prevReports => [reportData.report, ...prevReports]);
             } else {
                 throw new Error('Failed to submit report');
             }
@@ -207,8 +206,6 @@ const WinkelPage = ({ params }) => {
             setIsModalOpen(true);
         }
     };
-
-
 
     const handleWorkingClick = () => {
         checkUserLocation((position) => {
@@ -247,11 +244,8 @@ const WinkelPage = ({ params }) => {
     };
 
     const sortedReports = reports.sort((a, b) => new Date(b.properties?.createdAt) - new Date(a.properties?.createdAt));
-    const latestReport = sortedReports[0];
-    const dotColor = latestReport?.properties.machineWorking ? 'bg-green-400' : 'bg-red-400';
-
-
-
+    const latestReport = sortedReports.length > 0 ? sortedReports[0] : null;
+    const dotColor = latestReport?.properties?.machineWorking ? 'bg-green-400' : 'bg-red-400';
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -283,14 +277,19 @@ const WinkelPage = ({ params }) => {
                             <h3 className="text-2xl font-semibold leading-6 text-gray-900 pb-1">
                                 Werkt de machine op {storeData.street} {storeData.houseNumber}?
                             </h3>
-                            <p className='text-gray-300 font-semibold text-sm flex items-center'>
-                                Laatste update: {formatDateTime(latestReport.properties?.createdAt)}
-                                <span className="relative inline-flex ml-2">
-                                    <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${dotColor} opacity-75`}></span>
-                                    <span className={`relative inline-flex rounded-full h-3 w-3 ${dotColor}`}></span>
-                                </span>
-                                {storeData.machineWorking}
-                            </p>
+                            {latestReport ? (
+                                <p className='text-gray-300 font-semibold text-sm flex items-center'>
+                                    Laatste update: {formatDateTime(latestReport.properties?.createdAt)}
+                                    <span className="relative inline-flex ml-2">
+                                        <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${dotColor} opacity-75`}></span>
+                                        <span className={`relative inline-flex rounded-full h-3 w-3 ${dotColor}`}></span>
+                                    </span>
+                                </p>
+                            ) : (
+                                <p className='text-gray-300 font-semibold text-sm flex items-center'>
+                                    Nog geen meldingen beschikbaar.
+                                </p>
+                            )}
                             <div className="mt-2 text-sm text-gray-500">
                                 <p className="bg-yellow-100 border border-yellow-300 p-2 rounded">
                                     ⚠️ We vragen voor je locatie om te controleren of je in de buurt van de winkel bent.
