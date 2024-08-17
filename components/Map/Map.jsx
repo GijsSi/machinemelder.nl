@@ -15,13 +15,21 @@ const Map = () => {
     };
 
     const handleStoreClick = (id) => {
-        router.push(`/winkels/${id}`);
+        if (typeof id === 'string' || typeof id === 'number') {
+            router.push(`/winkels/${id}`);
+            console.log('Navigating to:', `/winkels/${id}`);
+        } else {
+            console.error('Invalid store ID:', id);
+        }
     };
+
 
     return (
         <div className="relative w-full h-full">
-            <MapContainer onStoreHover={handleStoreHover} onStoreClick={handleStoreClick} />
-            {hoveredStore && (
+            <MapContainer
+                onStoreHover={handleStoreHover}
+                onStoreClick={(store) => handleStoreClick(store.id)}
+            />           {hoveredStore && (
                 <StoreCard store={hoveredStore} position={hoverPosition} />
             )}
         </div>
