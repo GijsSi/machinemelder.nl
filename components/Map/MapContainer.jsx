@@ -6,11 +6,11 @@ import "@maptiler/sdk/dist/maptiler-sdk.css";
 const MapContainer = ({ onStoreHover, onStoreClick }) => {
     const mapContainer = useRef(null);
     const map = useRef(null);
-    const amsterdam = { lng: 4.9041, lat: 52.3676 };
-    const zoom = 14;
+    const amsterdam = { lng: 5.2913, lat: 52.1326 };
+    const zoom = 8;
 
     useEffect(() => {
-        if (map.current) return; // Prevent reinitialization
+        if (map.current) return; // tegen reinitialization
 
         if (mapContainer.current) {
             maptilersdk.config.apiKey = process.env.NEXT_PUBLIC_MAP_TILE_API_KEY;
@@ -79,8 +79,16 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                                 });
 
                                 map.current.on('click', 'stores', (e) => {
-                                    const id = e.features[0].properties.id;
-                                    onStoreClick(id);
+                                    const store = {
+                                        id: e.features[0].properties.id,
+                                        street: e.features[0].properties.street,
+                                        houseNumber: e.features[0].properties.houseNumber,
+                                        houseNumberExtra: e.features[0].properties.houseNumberExtra,
+                                        machineWorking: e.features[0].properties.machineWorking,
+                                    };
+                                    const coordinates = e.features[0].geometry.coordinates.slice();
+                                    const pos = map.current.project(coordinates);
+                                    onStoreClick(store, pos);
                                 });
                             })
                             .catch(error => console.error("Error fetching or adding data:", error));
