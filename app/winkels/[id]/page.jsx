@@ -262,13 +262,10 @@ const WinkelPage = ({ params }) => {
             {storeData ? (
                 <>
                     <div className="mb-4">
-                        <video
+                        <Image
                             src={WarningAnimation}
                             width={150}
                             height={150}
-                            autoPlay
-                            muted
-                            playsInline
                         />
                     </div>
 
