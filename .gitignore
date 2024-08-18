@@ -37,3 +37,6 @@ next-env.d.ts
 
 # Generated stickers
 /Z. supermarktscrapers/labels-printen/final_stickers
+
+.env
+Z. supermarktscrapers/.env

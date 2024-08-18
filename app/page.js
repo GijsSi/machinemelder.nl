@@ -6,12 +6,23 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className=''><SearchBar /><Map />
-      <Link
-        className='absolute top-4 left-4 z-50 bg-blue-500 text-white py-2 px-4 rounded'
-        href={'/aanvraag-sticker'}
-      >
-        Nog geen sticker op jouw machine?
-      </Link>
+
+
+      <div>
+        <Link
+          className='absolute top-4 left-4 z-50 bg-blue-500 text-wrap max-w-xs text-white py-2 px-4 rounded md:py-3 md:px-6'
+          href={'/aanvraag-sticker'}
+        >
+          Sticker aanvragen
+        </Link>
+        <Link
+          className='absolute top-4 right-4 z-50 bg-blue-500 text-white py-2 px-4 rounded md:py-3 md:px-6'
+          href={'/waarom'}
+        >
+          Waarom?
+        </Link>
+      </div>
+
 
     </main>);
 }

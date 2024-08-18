@@ -25,7 +25,7 @@ const StickerAanvraag = ({ params }) => {
             <div className="border-b border-gray-300 pb-12 max-w-3xl shadow-md rounded-md mx-auto p-8 my-auto bg-white">
                 <h2 className="text-xl font-semibold leading-7 text-gray-900">Stickeraanvraag 🚀</h2>
                 <p className="mt-1 text-sm leading-6 text-gray-600">
-                    Om de kosten voor het printen en verzenden van de stickers te dekken, vragen we een bijdrage van <strong>3 euro</strong> per vel stickers (elk vel heeft 3 stickers). Je steun helpt mij om dit project draaiende te houden. Bedankt voor je begrip! 🙏
+                    Om de kosten voor het printen en verzenden van de stickers te dekken, vragen we een bijdrage van <strong>5 euro</strong> per vel stickers (elk vel heeft 3 stickers). Je steun helpt mij om dit project draaiende te houden. Bedankt voor je begrip! 🙏
                 </p>
 
                 <form className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -149,7 +149,7 @@ const StickerAanvraag = ({ params }) => {
                     </div>
 
                     <div className="mt-8 col-span-full">
-                        <CheckoutButton amount={3} storeId={params.id} formData={formData} />
+                        <CheckoutButton amount={5} storeId={params.id} formData={formData} />
                     </div>
                 </form>
             </div>
