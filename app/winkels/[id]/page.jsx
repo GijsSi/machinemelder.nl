@@ -54,7 +54,7 @@ const WinkelPage = ({ params }) => {
                     };
                     const distance = haversineDistance(userCoords, storeCoords);
                     console.log('Distance:', distance);
-                    if (distance >= 0 && distance <= 150) {
+                    if (distance >= 0 && distance <= 300) {
                         callback(position);
                     } else {
                         setModalProps({
