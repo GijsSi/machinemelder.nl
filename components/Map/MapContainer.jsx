@@ -10,7 +10,7 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
     const zoom = 8;
 
     useEffect(() => {
-        if (map.current) return; // tegen reinitialization
+        if (map.current) return; // Prevent reinitialization
 
         if (mapContainer.current) {
             maptilersdk.config.apiKey = process.env.NEXT_PUBLIC_MAP_TILE_API_KEY;
@@ -24,85 +24,87 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
 
             map.current.on('load', async () => {
                 try {
-                    const image = new Image();
-                    image.src = '/images/ah-logo.png';
+                    // Load logos
+                    const ahLogo = new Image();
+                    ahLogo.src = '/images/ah-logo.png';
+                    const jumboLogo = new Image();
+                    jumboLogo.src = '/images/jumbo-logo.png';
 
-                    image.onload = () => {
-                        map.current.addImage('ahLogo', image);
+                    await Promise.all([
+                        new Promise((resolve) => (ahLogo.onload = resolve)),
+                        new Promise((resolve) => (jumboLogo.onload = resolve)),
+                    ]);
 
-                        fetch('/api/stores')
-                            .then(response => response.json())
-                            .then(data => {
-                                map.current.addSource('stores', {
-                                    type: 'geojson',
-                                    data: data,
-                                });
+                    map.current.addImage('ahLogo', ahLogo);
+                    map.current.addImage('jumboLogo', jumboLogo);
 
-                                map.current.addLayer({
-                                    id: 'store-status',
-                                    type: 'circle',
-                                    source: 'stores',
-                                    paint: {
-                                        'circle-color': [
-                                            'case',
-                                            ['==', ['get', 'machineWorking'], 1],
-                                            '#00FF00',
-                                            ['==', ['get', 'machineWorking'], 0],
-                                            '#FF0000',
-                                            '#808080',
-                                        ],
-                                        'circle-radius': 8,
-                                    },
-                                });
+                    // Fetch store data from the API
+                    const response = await fetch('/api/stores');
+                    const data = await response.json();
 
-                                map.current.addLayer({
-                                    id: 'stores',
-                                    type: 'symbol',
-                                    source: 'stores',
-                                    layout: {
-                                        'icon-image': 'ahLogo',
-                                        'icon-size': 0.12,
-                                        'icon-anchor': 'bottom',
-                                    },
-                                });
+                    console.log('Stores:', data);
 
-                                map.current.on('mouseenter', 'stores', (e) => {
-                                    map.current.getCanvas().style.cursor = 'pointer';
-                                    const coordinates = e.features[0].geometry.coordinates.slice();
-                                    const pos = map.current.project(coordinates);
-                                    onStoreHover(e.features[0].properties, pos);
-                                });
+                    // Log each store's properties to check the data structure
+                    data.features.forEach(feature => {
+                        console.log('Store ID:', feature.properties.id, 'Branch:', feature.properties.supermarktBranch);
+                        // Ensure 'supermarktBranch' is at least an empty string if undefined
+                        feature.properties.supermarktBranch = feature.properties.supermarktBranch || 'unknown';
+                    });
 
-                                map.current.on('mouseleave', 'stores', () => {
-                                    map.current.getCanvas().style.cursor = '';
-                                    onStoreHover(null);
-                                });
+                    // Add the GeoJSON source for the stores
+                    map.current.addSource('stores', {
+                        type: 'geojson',
+                        data: data,
+                    });
 
-                                map.current.on('click', 'stores', (e) => {
-                                    const store = {
-                                        id: e.features[0].properties.id,
-                                        street: e.features[0].properties.street,
-                                        houseNumber: e.features[0].properties.houseNumber,
-                                        houseNumberExtra: e.features[0].properties.houseNumberExtra,
-                                        machineWorking: e.features[0].properties.machineWorking,
-                                    };
-                                    const coordinates = e.features[0].geometry.coordinates.slice();
-                                    const pos = map.current.project(coordinates);
-                                    onStoreClick(store, pos);
-                                });
-                            })
-                            .catch(error => console.error("Error fetching or adding data:", error));
-                    };
+                    // Add a layer for Albert Heijn stores
+                    map.current.addLayer({
+                        id: 'ah-stores',
+                        type: 'symbol',
+                        source: 'stores',
+                        layout: {
+                            'icon-image': 'ahLogo',
+                            'icon-size': 0.12,
+                            'icon-anchor': 'bottom',
+                        },
+                        filter: ['==', ['get', 'supermarktBranch'], 'albertheijn']
+                    });
 
-                    image.onerror = () => {
-                        throw new Error('Failed to load the image');
-                    };
+                    // Add a layer for Jumbo stores
+                    map.current.addLayer({
+                        id: 'jumbo-stores',
+                        type: 'symbol',
+                        source: 'stores',
+                        layout: {
+                            'icon-image': 'jumboLogo',
+                            'icon-size': 0.12,
+                            'icon-anchor': 'bottom',
+                        },
+                        filter: ['==', ['get', 'supermarktBranch'], 'jumbo']
+                    });
+
+                    // Add a layer for stores with unknown or undefined branch
+                    map.current.addLayer({
+                        id: 'unknown-stores',
+                        type: 'symbol',
+                        source: 'stores',
+                        layout: {
+                            'icon-image': 'defaultLogo', // Add a default logo if desired
+                            'icon-size': 0.12,
+                            'icon-anchor': 'bottom',
+                        },
+                        filter: ['==', ['get', 'supermarktBranch'], null]
+                    });
+
                 } catch (error) {
                     console.error("Error loading the map or adding resources:", error);
                 }
             });
         }
     }, [amsterdam.lng, amsterdam.lat, zoom, onStoreHover, onStoreClick]);
+
+
+
 
     return <div ref={mapContainer} className="w-full h-screen" />;
 };

@@ -25,7 +25,7 @@ export async function GET(req, res) {
     const connection = await connectToDatabase();
 
     const [rows] = await connection.execute(
-        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, openingDays FROM albertheijn');
+        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, openingDays, supermarketBranch FROM supermarkets');
 
 
     const geojson = {
@@ -48,6 +48,7 @@ export async function GET(req, res) {
               postalCode: row.postalCode,
               street: row.street,
               machineWorking: row.machineWorking,
+              supermarktBranch: row.supermarketBranch,
               // Check if openingDays is a string and needs parsing
               openingDays: typeof row.openingDays === 'string' ?
                   JSON.parse(row.openingDays) :
@@ -102,7 +103,7 @@ export async function PUT(req, res) {
     } = await req.json();
 
     const [result] = await connection.execute(
-        'UPDATE albertheijn SET latitude = ?, longitude = ?, storeType = ?, city = ?, countryCode = ?, houseNumber = ?, houseNumberExtra = ?, postalCode = ?, street = ?, openingDays = ?, machineWorking = ? WHERE id = ?',
+        'UPDATE supermarkets SET latitude = ?, longitude = ?, storeType = ?, city = ?, countryCode = ?, houseNumber = ?, houseNumberExtra = ?, postalCode = ?, street = ?, openingDays = ?, machineWorking = ? WHERE id = ?',
         [
           latitude, longitude, storeType, city, countryCode, houseNumber,
           houseNumberExtra, postalCode, street, JSON.stringify(openingDays),

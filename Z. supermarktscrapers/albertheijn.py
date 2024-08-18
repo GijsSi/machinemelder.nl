@@ -2,15 +2,19 @@ import requests
 import json
 import pymysql
 import uuid
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 # MySQL Database connection
 db = pymysql.connect(
-    host="161.97.151.230",
-    user="root",
-    password="E12deab3C8!!",
-    database="statiegeld"
+    host=os.getenv("DB_HOST"),
+    user=os.getenv("DB_USER"),
+    password=os.getenv("DB_PASSWORD"),
+    database=os.getenv("DB_NAME")
 )
-
 cursor = db.cursor()
 
 headers = {

@@ -26,7 +26,7 @@ export async function GET(req, {params}) {
 
     // Fetch store information and related reports
     const [storeRows] = await connection.execute(
-        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, openingDays FROM albertheijn WHERE id = ?',
+        'SELECT id, latitude, longitude, storeType, city, countryCode, houseNumber, houseNumberExtra, postalCode, street, openingDays FROM supermarkets WHERE id = ?',
         [id]);
 
     if (storeRows.length === 0) {

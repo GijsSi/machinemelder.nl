@@ -1,0 +1,702 @@
+uuid,latitude,longitude,storeType,city,countryCode,houseNumber,houseNumberExtra,postalCode,street,openingDays,machineWorking,supermarketBranch
+gmcKYx4X5HEAAAFIdhIYwKxK,52.264417,4.762433,SupermarktPuP,,NLD,124,,,Ophelialaan,{},,jumbo
+gssKYx4XJwoAAAFbn.BMqPTb,52.264417,4.762433,SupermarktPuP,Aalsmeer,NLD,124,,1431 HN,Ophelialaan,{},,jumbo
+zkIKYx4XXxcAAAFI7CMYwKxK,51.399843,5.469597,SupermarktPuP,,NLD,2,,,Hortensialaan,{},,jumbo
+WbQKY7MydcoAAAGKfZA359kj,51.399843,5.469597,SupermarktPuP,Aalst,NLD,2,,5582 CL,Hortensialaan,{},,jumbo
+0XcKYx4XNRQAAAFI3LgYwKxK,51.923993,6.576066,SupermarktPuP,Aalten,NLD,10,,7122 WJ,Admiraal de Ruyterstraat,{},,jumbo
+DlUKY7S1QFcAAAGCZ.h4Vlvn,51.275006,3.444601,SupermarktPuP,Aardenburg,NLD,21,,4527 BK,Peurssensstraat,{},,jumbo
+V7cKYx4X0QUAAAFMTmYM5CXj,52.645601,4.749492,SupermarktPuP,Alkmaar,NLD,416,,1824 XT,Muiderwaard,{},,jumbo
+lFoKYx4X5PcAAAFIjrwYwKxJ,52.665822,4.766146,SupermarktPuP,Alkmaar,NLD,49-51,,1827 LB,J. Naberstraat,{},,jumbo
+HLkKYx4XyjkAAAFICUgYwKxK,52.633740,4.745031,SupermarktPuP,Alkmaar,NLD,2,,1811 KH,Paardenmarkt,{},,jumbo
+kiAKYx4XTw4AAAFKH9h0LVDS,52.645642,4.759373,SupermarktPuP,Alkmaar,NLD,486,,1824 HX,Winkelwaard,{},,jumbo
+ApoKYx4XqrYAAAFT48gG6uPF,52.349813,6.660543,SupermarktPuP,Almelo,NLD,79,,7601 BD,Bornerbroeksestraat,{},,jumbo
+gi8KYx4XGtUAAAFIQlIYwKxK,52.384906,5.224110,SupermarktPuP,Almere,NLD,32-37,,1316 HC,Geinplein,{},,jumbo
+MKUKYx4XUdYAAAFJpwcYZ4CR,52.395474,5.274883,SupermarktPuP,Almere-Buiten,NLD,1,,1334 KB,Detroitpad,{},,jumbo
+A4UKYx4XavkAAAFI3soYwKxJ,52.336693,5.231883,SupermarktPuP,Almere-Haven,NLD,250,,1356 AZ,Jaagmeent,{},,jumbo
+iWwKYx4Xu7gAAAFNmhtasGod,52.150632,4.661277,SupermarktPuP,Alphen aan den Rijn,NLD,183,,2402 DK,Herenhof,{},,jumbo
+xf0KYx4XpRcAAAFIL5EYwKxK,52.002437,5.461122,SupermarktPuP,Amerongen,NLD,36,,3958 XH,Koenestraat,{},,jumbo
+iiIKYx4XwVgAAAFMzechgUnv,52.185990,5.398059,SupermarktPuP,Amersfoort,NLD,248,,3823 ET,Emiclaerhof,{},,jumbo
+3kIKYx4XYocAAAFNDH47frdc,52.199279,5.376590,SupermarktPuP,Amersfoort,NLD,21,,3824 EE,Zonnewijzer,{},,jumbo
+xSgKYx4XXk0AAAFTOqsG6pvj,52.143866,5.381369,SupermarktPuP,Amersfoort,NLD,152,,3817 KD,Leusderweg,{},,jumbo
+9_wKYx4XGYkAAAFILMQYwKxJ,52.173049,5.389766,SupermarktPuP,Amersfoort,NLD,6-8,,3813 PR,Pieter Stastokerf,{},,jumbo
+qAIKYx4Xn9wAAAFIqgQYwKxK,52.193992,5.430602,SupermarktPuP,Amersfoort,NLD,1,,3825 LS,Ursulapolder,{},,jumbo
+zT0KYx4X_ZsAAAFI39EYwKxJ,52.166540,5.409000,SupermarktPuP,Amersfoort,NLD,261,,3815 GK,Wiekslag,{},,jumbo
+yTEKYx4Xq8IAAAFIg1QYwKxK,52.289047,4.869239,SupermarktPuP,Amstelveen,NLD,165,,1186 EZ,Groenhof,{},,jumbo
+OlQKYx4Xd4IAAAFYVp9bFbLM,52.314032,4.862680,SupermarktPuP,Amstelveen,NLD,617-635,,1181 GV,Rembrandtweg,{},,jumbo
+vm8KYx4XG08AAAFif2U0nIjb,52.363928,4.874795,SupermarktPuP,Amsterdam,NLD,55H,,1054 BS,1e Constantijn Huygensstraat,{},,jumbo
+UJYKYx4X8vEAAAFM1eJYQQHW,52.358817,4.855152,SupermarktPuP,Amsterdam,NLD,303-305,,1058 AH,Baarsjesweg,{},,jumbo
+vCoKYx4X08YAAAFIiL8YwKxJ,52.399066,4.935776,SupermarktPuP,Amsterdam,NLD,52,,1025 EW,Buikslotermeerplein,{},,jumbo
+f.AKYx4XC_IAAAFIvaoYwKxK,52.324550,4.868105,SupermarktPuP,,NLD,184,,,Buitenveldertselaan,{},,jumbo
+SqYKYx4XpCAAAAFg4NQKf5qv,52.324550,4.868105,SupermarktPuP,Amsterdam,NLD,184,,1081 AC,Buitenveldertselaan,{},,jumbo
+Y6IKYx4XkTsAAAFITxkYwKxK,52.349779,4.786455,SupermarktPuP,Amsterdam,NLD,808,,1060 TZ,Pieter Calandlaan,{},,jumbo
+Ao4KYx4XjhcAAAFi_s0ophzs,52.354061,4.890952,SupermarktPuP,Amsterdam,NLD,89B,,1072 LD,Ferdinand Bolstraat,{},,jumbo
+5KsKYx4XUj8AAAFJ7S5Gp2Rc,52.383263,4.919767,SupermarktPuP,Amsterdam,NLD,223,,1021 KP,Gedempt Hamerkanaal,{},,jumbo
+CiYKYx4XHvkAAAFIDkkYwKxK,52.351722,4.860463,SupermarktPuP,Amsterdam,NLD,9,,1075 PA,H. Jacobszstraat,{},,jumbo
+M5sKY7OwwcoAAAF4XF5GZeyh,52.369500,4.902940,SupermarktPuP,Amsterdam,NLD,11,,1011 NG,Jodenbreestraat,{},,jumbo
+eZAKY7Nw7SUAAAGJTMI4l_aL,52.345990,4.920140,SupermarktPuP,Amsterdam,NLD,48,,1097 DN,Julianaplein,{},,jumbo
+KcsKY7WfY2gAAAF06N1L.msQ,52.355840,4.928243,SupermarktPuP,Amsterdam,NLD,245,,1093 ER,Linnaeusstraat,{},,jumbo
+yx0KY7VS2SEAAAFzxdtPkdre,52.297414,4.957262,SupermarktPuP,Amsterdam,NLD,1,,1105 AW,Markelerbergpad,{},,jumbo
+bBkKYx4XaBwAAAFNDfk7fpNP,52.374447,4.935351,SupermarktPuP,Amsterdam,NLD,1005,,1019 BW,Oostelijke Handelskade,{},,jumbo
+81kKY7S5TnMAAAFyAy1Mo5Zu,52.357891,4.804324,SupermarktPuP,Amsterdam,NLD,1014,,1068 TG,Osdorpplein,{},,jumbo
+Gb8KYx4XfJMAAAFU9ZYHUsZd,52.380655,4.821771,SupermarktPuP,Amsterdam,NLD,12,,1063 KR,Plein '40-'45,{},,jumbo
+.6YKY7WWMOYAAAGPEGs8FeCZ,52.294533,4.976122,SupermarktPuP,Amsterdam,NLD,196,,1107 ET,Reigersbos,{},,jumbo
+qisKYx4X6wwAAAFY.DNSOmWN,52.389402,4.879655,SupermarktPuP,Amsterdam,NLD,544,,1013 TH,Spaarndammerstraat,{},,jumbo
+w8kKYx4XMdgAAAFIIQIYwKxK,52.326242,4.883150,SupermarktPuP,Amsterdam,NLD,70,,1083 CD,Kastelenstraat,{},,jumbo
+R74KYx4XucoAAAFIqY8YwKxK,52.378670,4.883832,SupermarktPuP,Amsterdam,NLD,98-102,,1015 MN,Westerstraat,{},,jumbo
+MZwKYx4XUSQAAAFIEuQYwKxJ,52.296945,4.987549,SupermarktPuP,Amsterdam,NLD,126,,1106 MC,Wisseloord,{},,jumbo
+x_oKY7S5454AAAFy4i9Mo5Zu,52.370415,4.885096,SupermarktPuP,Amsterdam,NLD,32,,1016 EP,Wolvenstraat,{},,jumbo
+ROcKYx4X1lQAAAFIa78YwKxJ,52.861430,4.832920,SupermarktPuP,Anna Paulowna,NLD,10-14,,1761 BV,Molengang,{},,jumbo
+hf0KY7U.jWEAAAF2zIxfM4gD,52.194600,6.005550,SupermarktPuP,Apeldoorn,NLD,606,,7329 DN,De Eglantier,{},,jumbo
+U0wKYx4X6f4AAAFL_AVYbVfl,52.221170,5.992215,SupermarktPuP,Apeldoorn,NLD,61,,7322 NB,Korianderplein,{},,jumbo
+j8gKYx4X_HYAAAFIlgQYwKxK,52.190328,5.966148,SupermarktPuP,Apeldoorn,NLD,1-5,,7333 DJ,Schubertplein,{},,jumbo
+4_wKY7Sv6GEAAAGHt4UkPjUE,53.315822,6.864727,SupermarktPuP,Appingedam,NLD,1-5,,9902 CX,Harddraversplein,{},,jumbo
+4HgKYx4XVp0AAAFoLDtWMVlg,51.500224,3.676611,SupermarktPuP,Arnemuiden,NLD,5,,4341 ER,Clasinastraat,{},,jumbo
+v2IKYx4XCacAAAFIXUQYwKxK,51.988239,5.893909,SupermarktPuP,Arnhem,NLD,33,,6814 GB,Amsterdamseweg,{},,jumbo
+jYYKYx4XEnAAAAFITVkYwKxK,51.973083,5.933527,SupermarktPuP,Arnhem,NLD,9-13,,6827 BH,Dr. C. Lelyweg,{},,jumbo
+Y7EKYx4XyPwAAAFIbqUYwKxK,51.961061,5.859301,SupermarktPuP,Arnhem,NLD,12,,6843 JA,Elderveldplein,{},,jumbo
+BncKYx4XSPoAAAFIxc8YwKrG,51.948520,5.867014,SupermarktPuP,Arnhem,NLD,12,,6845 CZ,Oostburgwal,{},,jumbo
+jz4KYx4XyOEAAAFl08QV9qHu,51.941442,5.894429,SupermarktPuP,Arnhem,NLD,2,,6836 ND,Op het Toneel,{},,jumbo
+odkKYx4XqdsAAAFIKBEYwKxK,51.997751,5.938591,SupermarktPuP,Arnhem,NLD,696,,6824 KT,Rosendaalseweg,{},,jumbo
+n_MKYx4XHjEAAAFIEkYYwKxK,53.017556,6.585363,SupermarktPuP,Assen,NLD,106,,9403 LS,Kleuvenstee,{},,jumbo
+YLUKYx4XlpEAAAFIYU4YwKxK,52.998792,6.569965,SupermarktPuP,Assen,NLD,141,,9401 AL,Nijlandstraat,{},,jumbo
+sGQKYx4XT5kAAAFNg.lmVAMd,53.000548,6.548531,SupermarktPuP,Assen,NLD,259,,9406 AJ,Nobellaan,{},,jumbo
+rHkKYx4XdCMAAAFIzvwYwKxJ,51.444124,4.932090,SupermarktPuP,Baarle-Nassau,NLD,15,,5111 CA,St. Annaplein,{},,jumbo
+.nIKYx4X0zIAAAFLYtAai3Gk,52.211878,5.285692,SupermarktPuP,Baarn,NLD,87,,3743 BC,Laanstraat,{},,jumbo
+O_EKYx4Xz30AAAFQb9Yfuabc,51.499358,5.742722,SupermarktPuP,Bakel,NLD,17,,5761 EG,Auerschootseweg,{},,jumbo
+u_cKY7XYuXMAAAF2qIJH7z_q,52.600439,6.391980,SupermarktPuP,Balkbrug,NLD,2,,7707 AV,Ommerweg,{},,jumbo
+fPcKYx4XFrYAAAFIulkYwKxK,51.847071,4.498515,SupermarktPuP,Barendrecht,NLD,4,,2993 EH,van Beuningenhaven,{},,jumbo
+.ooKYx4Xh4AAAAFIhiAYwKrH,51.853890,4.541214,SupermarktPuP,Barendrecht,NLD,44,,2991 EM,Onderlangs,{},,jumbo
+F0wKYx4XrlUAAAFI.cEYwKxJ,52.136588,5.580403,SupermarktPuP,Barneveld,NLD,70,,3772 CK,Amersfoortsestraat,{},,jumbo
+a9EKYx4X7xYAAAFe_nItOCtX,52.123580,5.588782,SupermarktPuP,Barneveld,NLD,40,,3772 EX,Buru,{},,jumbo
+mI0KYx4X8ZoAAAFIb8YYwKxJ,52.141901,5.583035,SupermarktPuP,Barneveld,NLD,5,,3771 CB,Nieuwe Markt,{},,jumbo
+trIKYx4Xo5oAAAFo6IhGLpcs,52.248608,6.290092,SupermarktPuP,Bathmen,NLD,18,,7437 BM,Larenseweg,{},,jumbo
+w1YKYx4XE1IAAAFIS7QYwKxK,53.299966,6.594219,SupermarktPuP,Bedum,NLD,7,,9781 AD,Noordwolderweg,{},,jumbo
+2pQKY7QFeEEAAAGP_Ok_IzvN,50.938020,5.792220,SupermarktPuP,Beek,NLD,26,,6191 AD,Maastrichterlaan,{},,jumbo
+GsIKYx4X4dgAAAFpp0Y8.dtm,51.529063,5.632454,SupermarktPuP,Beek en Donk,NLD,73,,5741 JJ,Heuvelplein,{},,jumbo
+9bIKYx4X3wgAAAFIRv0YwKxJ,52.858527,6.512763,SupermarktPuP,Beilen,NLD,3,,9411 ZZ,Ventweg Zuid,{},,jumbo
+OLAKYx4XYvIAAAFInpQYwKxK,51.312098,6.113321,SupermarktPuP,Belfeld,NLD,10,,5951 CZ,Muldersplein,{},,jumbo
+uaYKYx4XrgEAAAFI1J0YwKxK,51.891547,5.899557,SupermarktPuP,Bemmel,NLD,1,,6681 BN,Kloosterplaats,{},,jumbo
+8RsKYx4Xw5cAAAFJ.QgYZ4CR,51.880765,5.522079,SupermarktPuP,Beneden-Leeuwen,NLD,4,,6658 EM,Nijverheidsstraat,{},,jumbo
+RaAKYx4XU4oAAAFKWDxHt71m,51.321653,5.356824,SupermarktPuP,Bergeijk,NLD,50,,5571 LA,Elsenhof,{},,jumbo
+JcoKYx4XcqwAAAFIJVoYwKxK,51.493401,4.290690,SupermarktPuP,Bergen op Zoom,NLD,1,,4611 BG,Burg. van Hasseltstraat,{},,jumbo
+PtkKYx4Xvp0AAAFIW84YwKxJ,51.479833,4.281549,SupermarktPuP,Bergen op Zoom,NLD,29,,4617 LG,Vogelaar,{},,jumbo
+hb0KY7MsuCIAAAGOM6M38Awt,51.492800,4.300700,SupermarktPuP,Bergen op Zoom,NLD,11,,4621 EM,Piusplein,{},,jumbo
+gmEKYx4XCUcAAAFjWYlJu6k_,51.771748,5.568354,SupermarktPuP,Berghem,NLD,1-3,,5351 EH,Meester Gielenplein,{},,jumbo
+sysKYx4X.5cAAAFSyw0qZJ.M,51.989246,4.500430,SupermarktPuP,Bergschenhoek,NLD,39,,2661 CE,Dorpsstraat,{},,jumbo
+MFEKY7M_pnIAAAFv0whhUPQE,51.579907,5.128909,SupermarktPuP,Berkel Enschot,NLD,64,,5057 DK,Koningsoord,{},,jumbo
+LTAKY7PzvFwAAAGO37Y9itTO,52.002845,4.489602,SupermarktPuP,Berkel en Rodenrijs,NLD,1,,2651 RC,Esdoornlaan,{},,jumbo
+y34KYx4Xtw8AAAFPSeFeAc7x,51.990683,4.454902,SupermarktPuP,Berkel en Rodenrijs,NLD,86,,2652 KW,Westpolderstraat,{},,jumbo
+B0QKYx4XvB4AAAFIaEEYwKxK,51.678900,5.400282,SupermarktPuP,Berlicum,NLD,67,,5258 AW,Mercuriusplein,{},,jumbo
+bTwKYx4XwSQAAAFLWApYbVfl,51.503687,5.414346,PuP,Best,NLD,63,,5683 PW,Eindhovenseweg Zuid,{},,jumbo
+wPEKY7PTJvkAAAGLSOo4dl8I,51.859852,5.770297,SupermarktPuP,Beuningen,NLD,14,,6641 CA,Thorbeckeplein,{},,jumbo
+UhcKY7V8ME8AAAF.a9ZBqiRe,52.119820,5.183610,SupermarktPuP,Bilthoven,NLD,13,,3721 LG,Neptunuslaan,{},,jumbo
+a.QKYx4XsDgAAAFVPsV.Ky1c,51.366486,5.218227,SupermarktPuP,Bladel,NLD,18,,5531 CP,Gindrapassage,{},,jumbo
+JAoKYx4XUvkAAAFZaYxOXLRK,52.010304,4.530442,SupermarktPuP,Bleiswijk,NLD,39,,2665 BG,Dorpsstraat,{},,jumbo
+3_kKYx4XSH8AAAFLIVQai5Wx,51.368237,6.149932,SupermarktPuP,,NLD,40,,,Wieënpassage,{},,jumbo
+O40KY7WGiuMAAAGNVJQv9Xv7,51.365220,6.152140,SupermarktPuP,Blerick,NLD,7,,5921 GX,Laurentiusplein,{},,jumbo
+QSQKYx4XPAAAAAFrch1nsQYX,51.366690,6.130883,SupermarktPuP,Blerick,NLD,78,,5924 AG,Vossenerlaan,{},,jumbo
+yBgKYx4XNk0AAAFJqAcYZ4CR,52.076824,4.751117,SupermarktPuP,Bodegraven,NLD,19-29,,2411 LG,Vromade,{},,jumbo
+XVMKYx4XXJkAAAFIyRMYwKxK,52.086641,4.746440,SupermarktPuP,Bodegraven,NLD,15,,2411 BD,Raadhuisplein,{},,jumbo
+A78KYx4XbsUAAAFIEL8YwKxK,53.061388,5.527809,SupermarktPuP,Bolsward,NLD,14,,8701 XD,Snekerstraat,{},,jumbo
+ohwKYx4XUc4AAAFIXQ0YwKxK,51.032432,5.809002,SupermarktPuP,Born,NLD,4a,,6121 JB,Kapelweg,{},,jumbo
+.aoKYx4X7RAAAAFJrwcYZ4CR,51.645361,5.949890,SupermarktPuP,Boxmeer,NLD,26-32,,5831 EK,Burg. Verkuijlstraat,{},,jumbo
+EbgKYx4Xw7YAAAFISUsYwKxK,51.587163,5.334548,SupermarktPuP,Boxtel,NLD,5,,5283 BV,Oosterhof,{},,jumbo
+k14KYx4XBhkAAAFIalsYwKxK,51.598767,4.793045,SupermarktPuP,Breda,NLD,20,,4816 GD,Baliendijk,{},,jumbo
+aT0KYx4XVA0AAAFIQDEYwKxK,51.596607,4.770219,SupermarktPuP,Breda,NLD,5-7,,4815 HA,Belcrumweg,{},,jumbo
+yh0KYx4XzMAAAAFIqSEYwKrH,51.587510,4.753484,SupermarktPuP,Breda,NLD,21,,4814 PN,Cypresstraat,{},,jumbo
+9d8KYx4XR4IAAAFIXyEYwKxK,51.572716,4.806992,SupermarktPuP,Breda,NLD,20,,4834 HE,De Burcht,{},,jumbo
+BqUKYx4Xr3EAAAFIRhYYwKxK,51.607354,4.746425,SupermarktPuP,Breda,NLD,4,,4824 CS,Donk,{},,jumbo
+6MYKYx4XkaYAAAFIFYMYwKxK,51.576775,4.755936,SupermarktPuP,Breda,NLD,60,,4812 TA,Dr. Struyckenplein,{},,jumbo
+YKwKYx4XuWcAAAFLDIUJ5jPY,51.593948,4.748829,SupermarktPuP,Breda,NLD,4,,4815 NZ,Rat Verleghstraat,{},,jumbo
+82YKYx4Xs18AAAFmDmFzjJ5G,51.622827,4.744883,SupermarktPuP,Breda,NLD,37,,4823 JT,Heksenwaag,{},,jumbo
+t1oKYx4Xj8AAAAFlDj9QTn3i,51.608923,4.789411,SupermarktPuP,Breda,NLD,23,,4826 HN,Moerwijk,{},,jumbo
+kbcKYx4Xz1kAAAFKhtR0LVDS,51.578387,4.739012,SupermarktPuP,Breda,NLD,60,,4813 BS,Pastoor van Spaandonkstraat,{},,jumbo
+yc0KYx4XnCoAAAFIg94YwKxJ,51.395932,3.548912,SupermarktPuP,Breskens,NLD,79,,4511 GL,Burg. van Zuyenstraat,{},,jumbo
+ovoKYx4XLp4AAAFI4uYYwKxJ,52.180958,4.999103,SupermarktPuP,Breukelen,NLD,10-25,,3621 JX,Karel Doormanweg,{},,jumbo
+OG8KYx4XP4wAAAFIlsEYwKxK,51.899563,4.169814,SupermarktPuP,Brielle,NLD,1,,3231 KD,Thoelaverweg,{},,jumbo
+txoKYx4XEFoAAAFIorkYwKxK,52.088166,6.154375,SupermarktPuP,Brummen,NLD,38,,6971 BR,Ambachtstraat,{},,jumbo
+66kKY7NNXL4AAAGOqi44.HhT,51.274960,5.576020,SupermarktPuP,Budel,NLD,9,,6021 CJ,Dr. Anton Mathijsenstraat,{},,jumbo
+PJUKY7Ty9HMAAAGL5Ws4LTr8,50.897070,5.573083,SupermarktPuP,Bunde,NLD,8,,6241 CA,Sint Agnesplein,{},,jumbo
+JcwKY7S5vboAAAGG8GsqCO0i,52.251971,5.379090,SupermarktPuP,Bunschoten-Spakenburg,NLD,45-51,,3751 BT,de Ziel,{},,jumbo
+M78KY7X.e6QAAAGODeQ_I_O0,53.190550,5.993016,SupermarktPuP,Burgum,NLD,38,,9251 JS,Markt,{},,jumbo
+G7kKYx4XcAIAAAFI8lsYwKxK,50.829337,5.760103,SupermarktPuP,Cadier en Keer,NLD,27,,6267 AD,Rijksweg,{},,jumbo
+tOcKYx4XRn8AAAFIVBsYwKxK,51.935262,4.567031,SupermarktPuP,Capelle aan den IJssel,NLD,251,,2906 TH,Wingerd,{},,jumbo
+PwgKY7N3QRYAAAFzhFNLMf7r,51.929481,4.589300,SupermarktPuP,Capelle ad IJssel,NLD,35,,2903 AD,Koperwiek,{},,jumbo
+Ca8KYx4XlBcAAAFIVEYYwKxK,52.670375,6.735401,SupermarktPuP,Coevorden,NLD,6-8,,7741 KA,Ing. A. Vonkweg,{},,jumbo
+TeAKYx4XPUoAAAFJj40FS1eI,52.662229,6.733706,SupermarktPuP,Coevorden,NLD,3,,7741 KH,EDS-Plein,{},,jumbo
+nLcKYx4XdXcAAAFMt9khgXLr,52.247877,6.217211,SupermarktPuP,Colmschate,NLD,2,,7422 LL,Flora,{},,jumbo
+gmQKYx4XMhsAAAFIncEYwKxK,51.741554,5.859177,SupermarktPuP,Cuijk,NLD,382,,5432 DW,Lavendel,{},,jumbo
+T6cKYx4XotsAAAFpBEY8.dtm,51.953149,5.221995,SupermarktPuP,Culemborg,NLD,5,,4101 XA,Vianensestraat,{},,jumbo
+WgIKYx4Xfs8AAAFI3.YYwKxJ,52.505816,6.260976,SupermarktPuP,Dalfsen,NLD,18,,7721 CH,Wilhelminastraat,{},,jumbo
+Dv0KY7X.RycAAAFwT5RUImAp,53.098468,4.764259,SupermarktPuP,De Koog (Texel),NLD,73,,1796 BR,Nikadel,{},,jumbo
+bRcKYx4XNdcAAAFIM8sYwKxJ,51.973730,4.249613,SupermarktPuP,De Lier,NLD,40,,2678 GP,Oranjeplein,{},,jumbo
+QUEKYx4X.A4AAAFZH1cnMIXx,52.079717,5.038105,SupermarktPuP,De Meern,NLD,3,,3454 CJ,Mereveldplein,{},,jumbo
+Og0KYx4Xi6QAAAFSgAw6N1dz,52.601379,6.455360,SupermarktPuP,Dedemsvaart,NLD,32,,7701 GW,Markt,{},,jumbo
+O1YKYx4XAw8AAAFIdb8YwKxJ,52.009115,4.364720,SupermarktPuP,Delft,NLD,135,,2611 DC,Bastiaansplein,{},,jumbo
+bYUKYx4XRLQAAAFI2OYYwKxJ,51.987493,4.345893,SupermarktPuP,Delft,NLD,1,,2625 RD,Vrijheidslaan,{},,jumbo
+k.gKY7X.eEUAAAGPQDA_IzGB,51.985163,4.360654,SupermarktPuP,Delft,NLD,9,,2623 CB,Dasstraat,{},,jumbo
+R.wKYx4XPQAAAAFIkLwYwKxJ,51.998150,4.353700,SupermarktPuP,Delft,NLD,9,,2624 ET,Troelstralaan,{},,jumbo
+xdcKYx4XN6AAAAFMgIAhgW3F,53.326930,6.914190,SupermarktPuP,Delfzijl,NLD,4-10,,9934 JB,Jachtlaan,{},,jumbo
+G0AKYx4XMRkAAAFIVh8YwKrH,53.335617,6.911093,SupermarktPuP,Delfzijl,NLD,11,,9933 KM,de Wending,{},,jumbo
+V6gKYx4XWl0AAAFIgFwYwKxK,51.712313,5.314117,SupermarktPuP,Den Bosch,NLD,21,,5233 AN,Rompertpassage,{},,jumbo
+RhYKYx4XL9YAAAFN.xVasCIE,51.694717,5.266967,SupermarktPuP,Den Bosch,NLD,346,,5224 AR,Helftheuvelpassage,{},,jumbo
+hIoKY7NbBKcAAAF0JV9NhEcE,51.685766,5.289255,SupermarktPuP,Den Bosch,NLD,2,,5223 MC,Hofvijver,{},,jumbo
+BeEKYx4XZAwAAAFI2pEYwKxK,51.726560,5.307170,SupermarktPuP,Den Bosch,NLD,138-146,,5235 KS,Lokerenpassage,{},,jumbo
+n1AKYx4XPbsAAAFJnwcYZ4CR,51.679884,5.317005,SupermarktPuP,Den Bosch,NLD,375-377,,5216 BM,Pettelaarseweg,{},,jumbo
+kzIKY7RvTvsAAAGNJ5w4j8QU,51.690419,5.329953,SupermarktPuP,Den Bosch,NLD,26,,5215 CZ,Rivierenplein,{},,jumbo
+LUMKYx4XKScAAAFfMoV3TZQL,51.690249,5.299453,SupermarktPuP,Den Bosch,NLD,54,,5211 DN,Visstraat,{},,jumbo
+V1AKY7X.A70AAAFwU5RUImAp,53.055260,4.795110,SupermarktPuP,Den Burg (Texel),NLD,11,,1791 EZ,Vogelenzang,{},,jumbo
+5JgKYx4X2HAAAAFIK9EYwKxK,51.660613,5.369435,SupermarktPuP,Den Dungen,NLD,29,,5271 XD,Maaskantje,{},,jumbo
+VJ0KYx4XQ7kAAAFI3xMYwKxK,52.059620,4.231047,SupermarktPuP,Den Haag,NLD,6-22,,2551 KE,Alphons Diepenbrockhof,{},,jumbo
+du4KYx4XZeUAAAFIyF0YwKxK,52.076272,4.259622,SupermarktPuP,Den Haag,NLD,4,,2565 DD,Anemoonstraat,{},,jumbo
+m2EKYx4XbBgAAAFIsFwYwKxK,52.043748,4.259757,SupermarktPuP,Den Haag,NLD,21,,2543 BG,De Stede,{},,jumbo
+JCUKY7SzRUcAAAF1hQVNJkNc,52.093944,4.276564,SupermarktPuP,Den Haag,NLD,87,,2582 BW,Frederik Hendriklaan,{},,jumbo
+N2kKY7WLT0QAAAFuu51UMxUU,52.076304,4.310929,SupermarktPuP,Den Haag,NLD,24-30,,2511 BJ,Grote Marktstraat,{},,jumbo
+xBUKYx4XtUsAAAFICDUYwKxK,52.067176,4.329947,SupermarktPuP,Den Haag,NLD,126,,2521 SC,Laakweg,{},,jumbo
+4dkKY7V1fJUAAAF6woBEpw0F,52.050380,4.275020,SupermarktPuP,Den Haag,NLD,918C,,2545 GV,Leyweg,{},,jumbo
+QcIKYx4XHkIAAAFInukYwKxJ,52.062237,4.269073,SupermarktPuP,Den Haag,NLD,670,,2547 CK,Volendamlaan,{},,jumbo
+SCYKYx4XyfcAAAFgVJZYUyQ9,52.070513,4.321272,SupermarktPuP,Den Haag,NLD,1,,2515 BT,Stationsplein,{},,jumbo
+aZQKYx4X.c4AAAFoo4dGLpcs,52.075115,4.279928,SupermarktPuP,Den Haag,NLD,180,,2562 HP,Weimarstraat,{},,jumbo
+rYQKYx4XNCMAAAFjqA1Ju81M,52.041680,4.368780,SupermarktPuP,Den Haag,NLD,6,,2496 SE,Oude Kustlijn,{},,jumbo
+AnYKYx4X2vcAAAFInAsYwKxK,52.464503,6.494559,SupermarktPuP,Den Ham,NLD,2,,7683 BB,Grotestraat,{},,jumbo
+6RIKYx4X1bwAAAFqPx8ZpwSZ,52.374299,7.002435,SupermarktPuP,Denekamp,NLD,10,,7591 GE,Lange Voor,{},,jumbo
+fIQKYx4XE5EAAAFI814YwKxK,51.456157,5.804116,SupermarktPuP,Deurne (NL),NLD,40,,5751 VH,Schelde,{},,jumbo
+N7QKYx4XP1QAAAFIBccYwKxJ,51.461763,5.792282,SupermarktPuP,Deurne (NL),NLD,43,,5751 HB,Stationsstraat,{},,jumbo
+VecKYx4XpYYAAAFIwlcYwKxK,52.253411,6.165298,SupermarktPuP,Deventer,NLD,4,,7411 EH,Boreelplein,{},,jumbo
+K8IKYx4XgL8AAAFIHPoYwKxJ,52.267400,6.142730,SupermarktPuP,Deventer,NLD,2,,7412 MH,Constantijn Huygensstraat,{},,jumbo
+9MQKYx4XPuoAAAFIpqgYwKxK,52.349806,4.977776,SupermarktPuP,Diemen,NLD,9,,1113 HL,Gruttoplein,{},,jumbo
+Xk4KYx4XaTsAAAFInagYwKxK,52.333628,4.957084,SupermarktPuP,Diemen,NLD,26,,1112 PS,Kruidenhof,{},,jumbo
+6C0KY7QFwcYAAAGPOso_I2UA,52.051378,6.099568,SupermarktPuP,Dieren,NLD,44,,6951 CW,Diderna,{},,jumbo
+Mj0KY7XN3REAAAGAAb5M5iqS,51.860851,6.495248,SupermarktPuP,Dinxperlo,NLD,73,,7091 BT,Heelweg,{},,jumbo
+snQKYx4XAg0AAAFIc30YwKxK,51.969476,6.296354,SupermarktPuP,Doetinchem,NLD,62,,7009 HA,J.F. Kennedylaan,{},,jumbo
+D30KY7XMhTUAAAGF_.NXETdl,53.329377,5.998279,SupermarktPuP,Dokkum,NLD,14,,9101 AB,Hantumerweg,{},,jumbo
+7H8KYx4Xn5YAAAFJDQkYZ4CR,51.627679,4.942178,SupermarktPuP,Dongen,NLD,8,,5104 JZ,Mgr. Schaepmanlaan,{},,jumbo
+gw8KY7UtIiMAAAF9QihDf3OP,52.034460,5.346111,SupermarktPuP,Doorn,NLD,26,,3941 ES,Plein 1923,{},,jumbo
+xSgKYx4XXk8AAAFJOQoYZ4CR,51.979279,5.794896,SupermarktPuP,Doorwerth,NLD,66,,6865 GC,Mozartlaan,{},,jumbo
+QuwKY7XeLu8AAAF.YW15jGrA,51.784670,4.675990,SupermarktPuP,Dordrecht,NLD,152,,3318 JW,P.A. de Kokplein,{},,jumbo
+3IwKYx4XZ4cAAAFplJIV6yde,51.801534,4.665475,SupermarktPuP,Dordrecht,NLD,68,,3314 KL,Krispijnseweg,{},,jumbo
+8UkKYx4X4q8AAAFI.0AYwKxK,51.819026,4.696502,SupermarktPuP,Dordrecht,NLD,50,,3313 CS,Merwedestraat,{},,jumbo
+S6EKYx4XteEAAAFIFToYwKxK,51.774373,4.674954,SupermarktPuP,Dordrecht,NLD,5,,3328 DN,Slangenburg,{},,jumbo
+1qgKYx4XpCkAAAFjr44q7_FY,53.098820,6.074600,SupermarktPuP,Drachten,NLD,30,,9204 JX,Eems,{},,jumbo
+3bEKYx4Xp0QAAAFI77kYwKxK,53.117626,6.096756,SupermarktPuP,Drachten,NLD,164,,9201 GT,Stationsweg,{},,jumbo
+M7cKYx4XbvUAAAFIobQYwKxK,51.848035,5.431719,SupermarktPuP,Dreumel,NLD,5,,6621 CJ,Ekershof,{},,jumbo
+nQIKYx4X1c4AAAFhbqxkYMVg,52.049957,5.273536,SupermarktPuP,Driebergen,NLD,1-12,,3972 CV,De Sluis,{},,jumbo
+DEYKYx4Xb8cAAAFIRtQYwKxK,52.525239,5.716434,SupermarktPuP,Dronten,NLD,10,,8254 KL,De Binnenloop,{},,jumbo
+Po8KYx4XB.IAAAFIA_MYwKrG,52.513091,5.721375,SupermarktPuP,Dronten,NLD,8,,8251 TH,Wardhof,{},,jumbo
+CzwKYx4XoMwAAAFlgMUV9qHu,51.685622,5.132072,SupermarktPuP,Drunen,NLD,5,,5151 EE,Aalbersestraat,{},,jumbo
+mPMKYx4XP84AAAFIcisYwKxK,51.890251,5.610155,SupermarktPuP,Druten,NLD,15,,6651 VD,Marktpassage,{},,jumbo
+3hUKYx4Xv4sAAAFIuKEYwKxK,51.941391,6.006349,SupermarktPuP,Duiven,NLD,506-508,,6922 ER,Eilandplein,{},,jumbo
+4wgKYx4XnB4AAAFIkOkYwKxJ,51.950217,6.022794,SupermarktPuP,Duiven,NLD,2,,6921 BX,Pastoriestraat,{},,jumbo
+0X4KYx4Xh9IAAAFnHu8s5uLt,51.102954,5.864905,SupermarktPuP,Echt,NLD,31,,6101 KA,Zuiderpoort,{},,jumbo
+cgUKYx4XDBQAAAFItrkYwKxK,52.042685,5.643840,SupermarktPuP,,NLD,63,,,Bellestein,{},,jumbo
+pOAKYx4XwWQAAAFmb1df8VYt,52.042685,5.643840,SupermarktPuP,Ede,NLD,63,,6714 DP,Bellestein,{},,jumbo
+b8oKYx4XJN0AAAFmoNoxiXo5,52.028200,5.666276,SupermarktPuP,Ede,NLD,45,,6717 HZ,Hoog Maanen,{},,jumbo
+zQoKYx4XIaQAAAFlbMoGOuoH,52.017560,5.649458,SupermarktPuP,Ede,NLD,45,,6716 RH,Stadspoort,{},,jumbo
+MmgKYx4XLxcAAAFNjetmVAMd,53.133709,6.564739,SupermarktPuP,Eelde,NLD,1,,9761 CA,Stoffer Holtjerweg,{},,jumbo
+pVUKYx4XdPcAAAFIAXgYwKrH,52.105392,6.061368,SupermarktPuP,Eerbeek,NLD,3,,6961 CL,Loenenseweg,{},,jumbo
+I4UKYx4XUC8AAAFJEIMFS1eI,51.361505,5.316678,SupermarktPuP,Eersel,NLD,8,,5521 KC,Willibrorduslaan,{},,jumbo
+lj0KYx4Xrk4AAAFIrekYwKxJ,52.101557,6.648551,SupermarktPuP,Eibergen,NLD,35,,7151 CR,Brink,{},,jumbo
+KBkKYx4XSfoAAAFIf2AYwKxK,51.479727,5.478941,SupermarktPuP,Eindhoven,NLD,21,,5628 XJ,Belgieplein,{},,jumbo
+W58KYx4X7asAAAFIUSwYwKxK,51.482902,5.449340,SupermarktPuP,Eindhoven,NLD,37,,5627 LE,Biarritzplein,{},,jumbo
+4oMKYx4Xt9oAAAFImNEYwKxK,51.451005,5.464946,SupermarktPuP,Eindhoven,NLD,289,,5612 HD,Boschdijk,{},,jumbo
+NKkKYx4Xgo8AAAFIhH8YwKxK,51.427559,5.465047,SupermarktPuP,Eindhoven,NLD,56,,5615 KT,Boutenslaan,{},,jumbo
+WW8KYx4XcYwAAAFIay4YwKxK,51.433142,5.490035,SupermarktPuP,Eindhoven,NLD,103,,5611 SE,Geldropseweg,{},,jumbo
+_XMKYx4XNGEAAAFIpUsYwKxK,51.470731,5.463269,SupermarktPuP,Eindhoven,NLD,67,,5624 JP,Gerretsonplein,{},,jumbo
+nfEKYx4Xe1wAAAFUw3YHNV9e,51.419103,5.440903,SupermarktPuP,Eindhoven,NLD,86,,5653 LR,Kastelenplein,{},,jumbo
+4iYKYx4XaNUAAAFIfXkYwKxK,51.442225,5.408455,SupermarktPuP,Eindhoven,NLD,8,,5658 LM,Meerwater,{},,jumbo
+8bwKYx4Xrw4AAAFIWdQYwKxJ,51.479272,5.463380,SupermarktPuP,Eindhoven,NLD,103,,5628 AJ,Nederlandplein,{},,jumbo
+3HEKYx4XnGMAAAFIkksYwKxK,51.452017,5.517419,SupermarktPuP,Eindhoven,NLD,9,,5641 CB,Pagelaan,{},,jumbo
+BlIKYx4XnT8AAAFqetEdbY.k,51.440120,5.471631,SupermarktPuP,Eindhoven,NLD,90,,5611 BM,Victoriapark,{},,jumbo
+xIoKYx4XBgEAAAFJKwoYZ4CR,51.468220,5.477477,SupermarktPuP,Eindhoven,NLD,1,,5625 AA,Winkelcentrum Woensel,{},,jumbo
+6ZIKYx4XWHgAAAFsolR9Tv7G,52.447553,5.837842,SupermarktPuP,Elburg,NLD,1,,8081 CG,Zwolscheweg,{},,jumbo
+WFMKYx4X_fIAAAFJfoQFS1eI,51.917456,5.842928,SupermarktPuP,Elst,NLD,22,,6662 DD,Europaplein,{},,jumbo
+6KUKYx4XxpMAAAFIfOwYwKxJ,51.922134,5.861260,SupermarktPuP,Elst,NLD,19,,6661 TT,Basilica,{},,jumbo
+igYKY7S5NtUAAAGG71FMhZWW,52.711890,5.757470,SupermarktPuP,Emmeloord,NLD,1,,8302 ET,De Boei,{},,jumbo
+BvgKYx4XunkAAAFJ1wsYZ4CR,52.711511,5.739695,SupermarktPuP,Emmeloord,NLD,33,,8303 GH,Europalaan,{},,jumbo
+ox0KYx4XqEYAAAFImLwYwKxJ,52.792601,6.939040,SupermarktPuP,Emmen,NLD,296,,7823 PV,Houtweg,{},,jumbo
+cV8KYx4XnKYAAAFIzckYwKxJ,52.779773,6.923236,SupermarktPuP,Emmen,NLD,33,,7824 CS,Statenweg,{},,jumbo
+AEQKYx4X4cUAAAFIVS0YwKrH,52.750653,6.889522,SupermarktPuP,Emmen,NLD,50,,7827 HC,Valkenveld,{},,jumbo
+XhwKYx4X8yMAAAFIuUYYwKxK,52.791939,6.898426,SupermarktPuP,Emmen,NLD,232B,,7811 CE,Weerdingerstraat,{},,jumbo
+ZmEKYx4X5JwAAAFIjzQYwKxK,52.778127,6.896808,SupermarktPuP,Emmen,NLD,7,,7811 JA,Wilhelminastraat,{},,jumbo
+ROAKYx4XCHsAAAFISzIYwKxK,52.231521,6.891671,SupermarktPuP,Enschede,NLD,55,,7523 MA,Brouwerijplein,{},,jumbo
+TLwKYx4Xfl8AAAFXhF90knNL,52.206207,6.878991,SupermarktPuP,Enschede,NLD,100,,7543 AB,Burgemeester van Veenlaan,{},,jumbo
+svYKYx4XuSUAAAFIoVUYwKxK,52.221350,6.898243,SupermarktPuP,Enschede,NLD,75,,7511 EK,Noorderhagen,{},,jumbo
+jPoKYx4XFeYAAAFoqIhGLpcs,52.212979,6.895101,SupermarktPuP,Enschede,NLD,118,,7512 CL,Kuipersdijk,{},,jumbo
+qn4KYx4XBQ8AAAFrr2M6qUPj,52.223856,6.910623,SupermarktPuP,Enschede,NLD,161,,7533 AS,Lage Bothofstraat,{},,jumbo
+5usKY7MkfB4AAAGAIbxJSatR,52.225510,6.890770,SupermarktPuP,Enschede,NLD,15-3,,7514 JK,De Cooperatie,{},,jumbo
+HdMKYx4XVP4AAAFqp8gvx0eL,52.228929,6.920525,SupermarktPuP,Enschede,NLD,100,,7531 KA,Magnoliastraat,{},,jumbo
+NhMKYx4XhjEAAAFNtgQ7fttp,52.206207,6.878991,SupermarktPuP,,NLD,100,,,Burgemeester van Veenlaan,{},,jumbo
+fYsKYx4X3d8AAAFKRpNPW5Zz,52.191539,6.880051,SupermarktPuP,Enschede,NLD,21,,7544 JB,Wesselernering,{},,jumbo
+PrcKY7Wyer4AAAGHG2c4SF43,52.211470,6.863090,SupermarktPuP,Enschede,NLD,238,,7545 NP,Wethouder Nijhuisstraat,{},,jumbo
+x4UKYx4XcGUAAAFLUNAai3Gk,52.346144,5.984636,SupermarktPuP,Epe,NLD,15,,8161 HN,Gruttersplein,{},,jumbo
+zm8KYx4XtOgAAAFI6o0YwKxK,51.586719,4.654339,SupermarktPuP,Etten-Leur,NLD,9,,4871 CK,Geerkade,{},,jumbo
+yo4KYx4X.JIAAAFMU10hgZb4,51.565013,4.642907,SupermarktPuP,Etten-Leur,NLD,25,,4873 CE,Kerkwerve,{},,jumbo
+A.oKYx4X5CEAAAFIaM8YwKxJ,50.894142,6.060411,SupermarktPuP,Eygelshoven,NLD,1,,6471 EX,Portbeemden,{},,jumbo
+QbIKYx4XE5oAAAFIZOwYwKxJ,51.631861,4.474125,SupermarktPuP,Fijnaart,NLD,120,,4793 RR,Kadedijk,{},,jumbo
+8yAKY7OS958AAAGKD2A30nIk,51.797435,5.204560,SupermarktPuP,Gameren,NLD,6,,5311 PC,Middelkampseweg,{},,jumbo
+D8YKY7Wb8fcAAAGKVoE3kUjx,51.741324,5.462339,SupermarktPuP,Geffen,NLD,1,,5386 BD,Aloysiusplein,{},,jumbo
+DP0KYx4XWNEAAAFVAtI0qXV1,51.417019,5.573509,SupermarktPuP,Geldrop,NLD,5,,5665 GA,Coevering,{},,jumbo
+P6kKY7UZ.eEAAAFzrNtL8lof,50.971110,5.840834,SupermarktPuP,Geleen,NLD,9,,6166 CV,Pastoor Vonckenstraat,{},,jumbo
+lEkKYx4X78oAAAFIHBcYwKxK,50.984474,5.814687,SupermarktPuP,Geleen,NLD,32,,6163 CG,Bloemenmarkt,{},,jumbo
+E2MKYx4X1rEAAAFIgGEYwKxK,51.561268,5.686091,SupermarktPuP,Gemert,NLD,9,,5421 PL,Past.Poellplein,{},,jumbo
+ifUKYx4XJ9sAAAFI7TgYwKxK,51.698053,5.970160,SupermarktPuP,Gennep,NLD,10B,,6591 AZ,Europaplein,{},,jumbo
+k8QKY7TyBWMAAAGKQmE4LfLj,51.698816,5.969856,SupermarktPuP,Gennep,NLD,1,,6591 BP,Het Straatje,{},,jumbo
+tpQKYx4XUWQAAAFLRdAai3Gk,53.002018,6.764721,SupermarktPuP,Gieten,NLD,37,,9461 GR,Stationsstraat,{},,jumbo
+Wb0KY7WG3eAAAAGAJPNGwPX9,51.544320,4.942080,SupermarktPuP,Gilze,NLD,2,,5126 BC,Lange Wagenstraat,{},,jumbo
+pdUKYx4X28UAAAFIIOEYwKxJ,52.212865,6.970179,SupermarktPuP,Glanerbrug,NLD,60,,7534 CC,Schoolstraat,{},,jumbo
+PeEKY7Q7dC0AAAFt5y8mp_DR,51.497458,3.885096,SupermarktPuP,Goes,NLD,2,,4462 EX,Van Doornestraat,{},,jumbo
+U68KYx4XpZAAAAFIFmIYwKxK,51.499215,3.885063,SupermarktPuP,Goes,NLD,1-2,,4461 HH,Marconistraat,{},,jumbo
+PZEKYx4XIxYAAAFmbk9Ssg4U,51.521556,5.068546,SupermarktPuP,Goirle,NLD,16,,5051 NP,De Hovel,{},,jumbo
+40UKYx4XyxQAAAFIF8EYwKxK,52.234230,6.578758,SupermarktPuP,Goor,NLD,7,,7471 DP,van Kollaan,{},,jumbo
+iLYKY7U6JssAAAF8Ry9rhmJn,51.837900,4.961150,SupermarktPuP,Gorinchem,NLD,22-30,,4204 BP,Piazza Center,{},,jumbo
+ZhAKYx4XaVQAAAFcyDlerHrB,53.003553,6.056909,SupermarktPuP,Gorredijk,NLD,34,,8401 BL,Badweg,{},,jumbo
+6RMKYx4XHr0AAAFI3aUYwKxK,52.202170,6.202666,SupermarktPuP,Gorssel,NLD,22,,7213 DB,Nijverheidsstraat,{},,jumbo
+LI8KYx4XvSEAAAFIg2UYwKrH,52.032288,4.703370,SupermarktPuP,Gouda,NLD,2,,2804 VT,Ruigenburg,{},,jumbo
+T2gKYx4XESQAAAFXfaUpiSDl,52.010371,4.730030,SupermarktPuP,Gouda,NLD,4a,,2806 HC,Sportlaan,{},,jumbo
+T68KY7NNdvYAAAGO5EE4.IfG,51.751660,5.746917,SupermarktPuP,Grave,NLD,72,,5361 JT,Essinklaan,{},,jumbo
+0XQKY7T18G4AAAF5LVRGVe4f,53.263260,6.307238,SupermarktPuP,Grijpskerk,NLD,5,,9843 BD,Schoutstraat,{},,jumbo
+CGoKYx4XhfAAAAFqk_sZpyOB,52.043561,6.610539,SupermarktPuP,Groenlo,NLD,2,,7141 VW,Den Koem,{},,jumbo
+e74KYx4XXIAAAAFIqz4YwKxK,51.772985,5.933827,SupermarktPuP,Groesbeek,NLD,1,,6562 CZ,De Meent,{},,jumbo
+P5YKYx4Xo9oAAAFI_LwYwKxK,53.226915,6.562667,SupermarktPuP,Groningen,NLD,85,,9714 DW,Beren,{},,jumbo
+xa4KYx4XTL0AAAFlUTgqZDXJ,53.207145,6.591977,SupermarktPuP,Groningen,NLD,525,,9723 ZS,Boumaboulevard,{},,jumbo
+JUsKY7V7pgYAAAGEKIxbHSEX,53.231550,6.651590,SupermarktPuP,Groningen,NLD,184-186,,9613 CG,Vossenburglaan,{},,jumbo
+yVUKYx4Xv0AAAAFIsxgYwKxK,53.222301,6.582396,SupermarktPuP,Groningen,NLD,55,,9713 GP,Linnaeusplein,{},,jumbo
+C.UKYx4XQgcAAAFJ76AFS1eI,53.216437,6.570859,SupermarktPuP,Groningen,NLD,58,,9711 NX,Oosterstraat,{},,jumbo
+SWMKY7U.1B0AAAGCKHdGqMgN,53.198044,6.561594,SupermarktPuP,Groningen,NLD,7,,9728 GP,Overwinningsplein,{},,jumbo
+RL8KYx4XICcAAAFIAM8YwKxK,53.236004,6.522026,SupermarktPuP,Groningen,NLD,261-467,,9746 RE,Reitdiephaven,{},,jumbo
+B7gKYx4XsksAAAFIzK0YwKxK,53.219487,6.547277,SupermarktPuP,Groningen,NLD,21,,9717 AB,Wilhelminakade,{},,jumbo
+r1cKYx4XC3EAAAFI.6wYwKxK,53.094319,5.830876,SupermarktPuP,Grou,NLD,38F,,9001 EH,Stationsweg,{},,jumbo
+8xkKYx4XBawAAAFIQsEYwKxK,52.157674,6.737974,SupermarktPuP,Haaksbergen,NLD,12,,7481 JA,Stationsstraat,{},,jumbo
+MNgKYx4XWO8AAAFn4OMST9N6,51.601823,5.226160,SupermarktPuP,Haaren,NLD,56,,5076 BJ,Driehoeven,{},,jumbo
+qb0KY7WtpFkAAAFyS7RNgLp6,52.380299,4.632334,SupermarktPuP,Haarlem,NLD,66,,2011 GT,Gedempte Oude Gracht,{},,jumbo
+200KY7TSXAgAAAF0bu5M2bMp,52.383044,4.633221,SupermarktPuP,Haarlem,NLD,51,,2011 PW,Kruisstraat,{},,jumbo
+hckKY7Xv89gAAAGOC9o.Q6ub,52.351871,4.653853,SupermarktPuP,Haarlem,NLD,70,,2036 RS,Engelenburg,{},,jumbo
+rPwKYx4XcEIAAAFI5a8YwKxK,51.736020,4.899847,SupermarktPuP,Hank,NLD,43,,4273 CA,Kerkstraat,{},,jumbo
+w6AKYx4Xwz8AAAFI0dsYwKxJ,51.369247,5.251834,SupermarktPuP,Hapert,NLD,26,,5527 EN,Markt,{},,jumbo
+SHQKYx4X9.AAAAFIZ_gYwKWf,52.574053,6.620719,SupermarktPuP,Hardenberg,NLD,1,,7772 BV,Adm Helfrichstraat,{},,jumbo
+3u0KYx4XlCAAAAFJ3QsYZ4CR,52.324772,5.601576,SupermarktPuP,Harderwijk,NLD,83,,3845 GD,Triasplein,{},,jumbo
+XNsKYx4XolwAAAFN9CQ7frI2,52.336666,5.608147,SupermarktPuP,Harderwijk,NLD,3,,3844 HR,Achterste Wei,{},,jumbo
+A0MKY7PtzQsAAAF.UMhc2G_m,52.335639,5.633571,SupermarktPuP,Harderwijk,NLD,10,,3843 DC,Nassaulaan,{},,jumbo
+kcAKYx4X6nkAAAFZm1UnMIXx,53.170992,6.623632,SupermarktPuP,Haren,NLD,31,,9753 GT,Anjerplein,{},,jumbo
+KpEKYx4X9lcAAAFIcQIYwKxK,53.171885,6.603423,SupermarktPuP,Haren,NLD,10,,9752 KH,Kroonkampweg,{},,jumbo
+VeMKYx4XFmMAAAFNF907fryC,53.170788,5.420315,SupermarktPuP,Harlingen,NLD,1,,8861 XX,Spoorstraat,{},,jumbo
+Ix4KYx4XP4MAAAFoiQ1Drrs5,52.593924,6.092464,SupermarktPuP,Hasselt (NL),NLD,5,,8061 KM,Buiten de Venepoort,{},,jumbo
+r64KYx4XpSQAAAFIfjsYwKxK,52.127781,4.588355,SupermarktPuP,Hazerswoude Rijndijk,NLD,34-36,,2394 BL,Da Costasingel,{},,jumbo
+jwEKY7OSayIAAAGKOrs30ndK,51.744609,5.260698,SupermarktPuP,Hedel,NLD,5,,5321 GL,Kasteellaan,{},,jumbo
+mMsKYx4XB.IAAAFIcewYwKxJ,51.180560,5.901233,SupermarktPuP,Heel,NLD,21,,6097 AL,Dorpsstraat,{},,jumbo
+g88KYx4XlfYAAAFI.O4YwKxJ,52.512793,4.676774,SupermarktPuP,Heemskerk,NLD,8,,1962 KE,Haydnplein,{},,jumbo
+Qk0KYx4X1pIAAAFI2ssYwKxK,52.390008,6.038636,SupermarktPuP,Heerde,NLD,29,,8181 CW,Stationsstraat,{},,jumbo
+tzMKYx4X2KMAAAFIAbsYwKxK,52.953238,5.914327,SupermarktPuP,Heerenveen,NLD,29,,8446 CE,Jister,{},,jumbo
+p8YKYx4XIMYAAAFIL6sYwKxK,52.957082,5.925564,SupermarktPuP,Heerenveen,NLD,27,,8442 LM,Molenplein,{},,jumbo
+tyoKYx4XQacAAAFmXdgIysKJ,52.671280,4.847974,SupermarktPuP,Heerhugowaard,NLD,245,,1701 GC,Middenweg,{},,jumbo
+BCAKYx4Xf7QAAAFUal0HNU_r,50.891763,5.975051,SupermarktPuP,Heerlen,NLD,81,,6412 AA,Spoorsingel,{},,jumbo
+ouUKYx4XkrYAAAFM0H8hgW3F,51.734366,5.526183,SupermarktPuP,Heesch,NLD,8,,5384 AN,Schoonstraat,{},,jumbo
+qe4KYx4X_K8AAAFIK0gYwKrH,51.648961,5.474725,SupermarktPuP,Heeswijk Dinther,NLD,39,,5473 GA,St. Servatiusstraat,{},,jumbo
+3a8KYx4X2ZUAAAFmpNoxiXo5,51.471704,3.819644,SupermarktPuP,Heinkenszand,NLD,2,,4451 KB,Stenevate,{},,jumbo
+We8KYx4XYcgAAAFIwmIYwKxK,51.834368,4.144655,SupermarktPuP,Hellevoetsluis,NLD,349,,3223 DE,Struijtse Hoeck,{},,jumbo
+1p8KYx4XZgoAAAFp9hkKvUtr,51.476034,5.645320,SupermarktPuP,Helmond,NLD,42,,5707 VK,2e Haagstraat,{},,jumbo
+xyMKYx4XuLQAAAFIbj0YwKxK,51.476521,5.675169,SupermarktPuP,Helmond,NLD,64,,5701 CM,Azalealaan,{},,jumbo
+sW4KYx4XpV0AAAFIcHsYwKxK,51.460648,5.609562,SupermarktPuP,Helmond,NLD,2,,5708 XA,Huiskensstraat,{},,jumbo
+S4oKYx4X52UAAAFIRtEYwKxJ,51.469665,5.702682,SupermarktPuP,Helmond,NLD,10,,5704 EH,Brouwhorst,{},,jumbo
+lxIKYx4XqGsAAAFIemMYwKxK,51.467106,5.634897,SupermarktPuP,Helmond,NLD,168,,5706 AP,Hoofdstraat,{},,jumbo
+UiUKYx4XLucAAAFmbFhf8VYt,51.476344,5.706331,SupermarktPuP,Helmond,NLD,14,,5709 CD,Wederhof,{},,jumbo
+lrMKYx4X00kAAAFIY5sYwKxK,51.849812,4.645400,SupermarktPuP,Hendrik Ido Ambacht,NLD,120,,3341 EB,de Schoof,{},,jumbo
+Av4KYx4XjDsAAAFNbJZasEYQ,52.256202,6.789338,SupermarktPuP,Hengelo,NLD,9,,7553 CZ,Dikkersplein,{},,jumbo
+40sKYx4XycAAAAFo2JB8ON9F,52.266416,6.801715,SupermarktPuP,Hengelo,NLD,40,,7551 HC,Oude Molenweg,{},,jumbo
+PTEKYx4X50QAAAFIz9sYwKxJ,52.262410,6.822234,SupermarktPuP,Hengelo,NLD,34-40,,7552 WZ,Willem de Merodestraat,{},,jumbo
+2tkKYx4XIcwAAAFpD1BZRXnE,52.284590,6.827428,SupermarktPuP,Hengelo,NLD,29,,7558 CW,Christiaan Langefeldstraat,{},,jumbo
+Qx0KYx4XE0kAAAFqQ9EdbY.k,52.270021,6.773564,SupermarktPuP,Hengelo,NLD,149,,7555 LL,Woolderesweg,{},,jumbo
+pJwKYx4X19wAAAFN1BZasCIE,51.959135,5.757288,SupermarktPuP,Heteren,NLD,38,,6666 DL,Beemdhof,{},,jumbo
+CWAKYx4XHi0AAAFIOO8YwKxJ,52.291150,4.583050,SupermarktPuP,Hillegom,NLD,6,,2181 JH,Jonkheer Mockkade,{},,jumbo
+DmAKYx4XkLUAAAFI.MYYwKxJ,51.483345,5.138948,SupermarktPuP,Hilvarenbeek,NLD,99,,5081 AV,Hilverstraat,{},,jumbo
+EcwKYx4XTO8AAAFIOI4YwKxK,52.232860,5.188460,SupermarktPuP,Hilversum,NLD,155,,1221 CL,Larenseweg,{},,jumbo
+338KYx4XtnsAAAFq.lIqU_vK,52.237964,5.176066,SupermarktPuP,Hilversum,NLD,45-49,,1222 NV,Stephensonlaan,{},,jumbo
+XhgKYx4X.ZQAAAFIl7YYwKxK,52.175137,5.455213,SupermarktPuP,Hoevelaken,NLD,23,,3871 AT,Westerdorpsstraat,{},,jumbo
+uHkKY7Ra5jAAAAFvk0ph0aGe,52.302893,4.692037,SupermarktPuP,Hoofddorp,NLD,31,,2132 DL,Marktlaan,{},,jumbo
+tSAKYx4Xi6gAAAFId_sYwKrG,52.309034,4.670973,SupermarktPuP,Hoofddorp,NLD,204,,2133 DW,Skagerrak,{},,jumbo
+sMkKYx4XsAUAAAFRato6N_Bz,51.424797,4.323448,SupermarktPuP,Hoogerheide,NLD,87,,4631 NC,Raadhuisstraat,{},,jumbo
+USoKYx4Xea0AAAFIjk4YwKxK,52.727123,6.479598,SupermarktPuP,Hoogeveen,NLD,1,,7902 GK,Tamboerpassage,{},,jumbo
+oAMKY7TS21QAAAF02OxM2bMp,53.149165,6.742062,SupermarktPuP,Hoogezand,NLD,11,,9602 KD,Pleiaden,{},,jumbo
+UIYKYx4XYtoAAAFIoMkYwKxK,53.162784,6.743613,SupermarktPuP,Hoogezand,NLD,26-32,,9601 KG,Meint Veningastraat,{},,jumbo
+wNYKYx4X1DUAAAFI5GQYwKxK,51.850736,4.368372,SupermarktPuP,Hoogvliet,NLD,80,,3192 HD,in de Fuik,{},,jumbo
+KDQKY7Wb0IQAAAGKaVY3kWKx,51.451750,6.054250,SupermarktPuP,Horst,NLD,3d,,5961 GC,Kerkstraat,{},,jumbo
+vKoKYx4XdVAAAAFIr5IYwKxK,52.032318,5.180756,SupermarktPuP,Houten,NLD,57A,,3994 AS,Odijkseweg,{},,jumbo
+tGMKYx4Xy_kAAAFUOVAHNU_r,52.035284,5.168394,SupermarktPuP,Houten,NLD,129,,3995 ED,Spoorhaag,{},,jumbo
+QPwKYx4XkHYAAAFIZ6AYwKxK,51.945259,5.926741,SupermarktPuP,Huissen,NLD,14,,6852 EE,Brink,{},,jumbo
+LbQKYx4X0QIAAAFI28EYwKxJ,52.291946,5.254419,SupermarktPuP,Huizen,NLD,2,,1276 CJ,De Kostmand,{},,jumbo
+UHAKYx4XW6AAAAFqzfgZpyOB,51.277243,4.047523,SupermarktPuP,Hulst,NLD,22H,,4561 GC,Stationsplein,{},,jumbo
+SCgKYx4XPxwAAAFbXlxmxNDP,51.277046,4.044236,SupermarktPuP,Hulst,NLD,30,,4561 GC,Stationsplein,{},,jumbo
+1IIKYx4XARUAAAFiaWI0nIjb,52.027293,5.047225,SupermarktPuP,IJsselstein,NLD,2,,3402 GB,De Clinckhoeff,{},,jumbo
+eTYKYx4X5fsAAAFMsH0hgW3F,52.022563,5.027952,SupermarktPuP,IJsselstein,NLD,11,,3401 GD,De Biezen,{},,jumbo
+dNgKYx4X_RcAAAFI0TAYwKxK,52.025147,5.053706,SupermarktPuP,,NLD,102,,,Televisiebaan,{},,jumbo
+xwwKYx4XXCwAAAFiTGU0nIjb,52.025147,5.053706,SupermarktPuP,IJsselstein,NLD,102,,3402 VH,Televisiebaan,{},,jumbo
+gUEKYx4XtaEAAAFIHqsYwKxK,52.961306,5.808165,SupermarktPuP,Joure,NLD,52A,,8501 MK,G. Knolweg,{},,jumbo
+dToKY7Nl.00AAAF_rIl9BUML,52.898250,4.754250,SupermarktPuP,Julianadorp,NLD,63,,1787 AV,Schoolweg,{},,jumbo
+19YKYx4XW1wAAAFIHWcYwKxK,51.661627,5.035866,SupermarktPuP,Kaatsheuvel,NLD,22,,5171 DN,Hoofdpoort,{},,jumbo
+Ih4KYx4X6l0AAAFRsHgebetN,52.559315,5.900337,SupermarktPuP,Kampen,NLD,27,,8262 WN,Hanzeplein,{},,jumbo
+bZAKYx4X6h4AAAFO1mlJcyio,52.552999,5.900489,SupermarktPuP,Kampen,NLD,25,,8265 EX,Penningkruid,{},,jumbo
+8E0KYx4XCQQAAAFoMTtWMVlg,51.486515,3.955938,SupermarktPuP,Kapelle,NLD,2,,4421 AC,Weststraat,{},,jumbo
+KBQKY7VxY6UAAAF7_tFGuxOp,50.863680,6.069627,SupermarktPuP,Kerkrade,NLD,5,,6461 BM,Onze Lieve Vrouwenstraat,{},,jumbo
+c3MKYx4XrCoAAAFI7tMYwKxK,50.857340,6.026938,SupermarktPuP,Kerkrade,NLD,6,,6466 CX,Carboonplein,{},,jumbo
+JW8KYx4XHlMAAAFIK0EYwKxK,52.724771,6.991792,SupermarktPuP,Klazienaveen,NLD,500,,7891 AX,Langestraat,{},,jumbo
+1sUKYx4XBLMAAAFIeoIYwKrH,53.282416,6.153888,SupermarktPuP,Kollum,NLD,16,,9291 MA,Mr. Andreaestraat,{},,jumbo
+nEwKYx4X.wQAAAFIWzgYwKxK,52.240180,5.114510,SupermarktPuP,Kortenhoef,NLD,2,,1241 XZ,Curtevenneweg,{},,jumbo
+MFEKY7WnK9IAAAGB.rdRBSwQ,51.483350,3.547650,SupermarktPuP,Koudekerke,NLD,18a,,4371 AZ,Duinstraat,{},,jumbo
+hPoKYx4XM.4AAAFIEd4YwKxJ,51.430880,4.111352,SupermarktPuP,Krabbendijke,NLD,90,,4413 CE,Dorpsstraat,{},,jumbo
+pM8KYx4Xni0AAAFIHIgYwKxK,51.921959,4.610666,SupermarktPuP,Krimpen aan den IJssel,NLD,8b,,2924 AH,De Korf,{},,jumbo
+BRsKYx4X7sIAAAFb78x1hRyQ,51.914615,4.617253,SupermarktPuP,Krimpen aan den IJssel,NLD,7-8,,2925 CJ,De Olm,{},,jumbo
+a6MKYx4XAxEAAAFjas8d.Z7y,52.014433,4.254604,SupermarktPuP,Kwintsheul,NLD,4,,2295 NZ,De Raaphorst,{},,jumbo
+b60KYx4X8V8AAAFiwPdz2fUA,52.014433,4.254604,SupermarktPuP,,NLD,4,,,De Raaphorst,{},,jumbo
+zlAKYx4XpXIAAAFIJM0YwKxJ,51.706275,4.705207,SupermarktPuP,Lage Zwaluwe,NLD,3,,4926 CG,Pastoor van Hooijdonklaan,{},,jumbo
+49EKYx4XKIUAAAFIOoMYwKxK,50.891752,6.015092,SupermarktPuP,Landgraaf,NLD,146,,6372 EN,Hoofdstraat,{},,jumbo
+kpQKYx4XaoYAAAFITtgYwKrG,50.906079,6.024173,SupermarktPuP,Landgraaf,NLD,5,,6371 LL,Vivaldipassage,{},,jumbo
+f4AKYx4XIgYAAAFIIgcYwKrH,52.428866,4.914647,SupermarktPuP,Landsmeer,NLD,3,,1121 GW,Nieuwe Gouw,{},,jumbo
+5awKY7PTYWIAAAGLJng4dkpv,52.254750,5.229742,SupermarktPuP,Laren,NLD,3,,1251 MA,Plein 1945,{},,jumbo
+KyMKY7Xp9moAAAFwgxVXEYQ2,53.167989,6.377430,SupermarktPuP,Leek,NLD,5R,,9351 PA,Industriepark,{},,jumbo
+YVoKYx4XYp4AAAFIcswYwKxK,53.361064,6.375019,SupermarktPuP,Leens,NLD,2,,9965 NA,Nije Nering,{},,jumbo
+zL8KYx4XOHsAAAFoswFvHysH,51.890921,5.090996,SupermarktPuP,Leerdam,NLD,14F,,4141 AP,Westwal,{},,jumbo
+CMoKYx4X0ekAAAFLPaIJ5gql,53.206660,5.782159,SupermarktPuP,Leeuwarden,NLD,32,,8916 BV,Eksterstraat,{},,jumbo
+yNMKYx4XvlgAAAFI67MYwKxK,53.205761,5.801714,SupermarktPuP,Leeuwarden,NLD,1,,8911 JV,Hoeksterpad,{},,jumbo
+324KYx4XKhQAAAFIvTMYwKrH,53.215068,5.813789,SupermarktPuP,Leeuwarden,NLD,1,,8923 CX,Johannes Kolfplein,{},,jumbo
+ZO8KYx4XRnsAAAFIqMQYwKxJ,53.211136,5.840113,SupermarktPuP,Leeuwarden,NLD,165,,8925 CJ,Lieuwenburg,{},,jumbo
+pMAKY7Xv89cAAAGOC9o.Q6ub,53.203630,5.768405,SupermarktPuP,Leeuwarden,NLD,3,,8914 BX,Stadionplein,{},,jumbo
+D6wKY7M7H8UAAAF0t9lNHyL3,53.194008,5.783758,SupermarktPuP,Leeuwarden,NLD,112,,8932 AV,Van Loonstraat,{},,jumbo
+bwoKYx4XGOsAAAFNHwI7fttp,53.205165,5.813410,SupermarktPuP,Leeuwarden,NLD,66,,8921 RG,Cambuurplein,{},,jumbo
+2RQKYx4XKZQAAAFIg_EYwKxJ,53.179247,5.824342,SupermarktPuP,Leeuwarden,NLD,4,,8939 BB,Kruisdobbe,{},,jumbo
+uN8KYx4XeBYAAAFIm9QYwKxJ,52.156762,4.465321,SupermarktPuP,Leiden,NLD,55,,2332 HT,Diamantplein,{},,jumbo
+zAwKY7S1_CwAAAGCPep4Vlvn,52.164830,4.482740,SupermarktPuP,Leiden,NLD,210,,2312 AR,Stationsplein,{},,jumbo
+dE8KY7VxpN0AAAF7fdRGuxOp,52.088671,4.386239,SupermarktPuP,Leidschendam,NLD,2,,2262 AC,Liguster,{},,jumbo
+fCwKYx4X4CgAAAFIKlMYwKxK,52.510070,5.473270,SupermarktPuP,Lelystad,NLD,76,,8232 DV,Waagpassage,{},,jumbo
+dhIKYx4XSE8AAAFMeF4hgZb4,52.510327,5.447317,SupermarktPuP,Lelystad,NLD,37-01,,8243 HP,Jol,{},,jumbo
+gRgKYx4XhGUAAAFKRpJPW5Zz,52.493662,5.490848,SupermarktPuP,Lelystad,NLD,282,,8226 HG,Voorstraat,{},,jumbo
+R6gKY7SqJOEAAAFwhElWnWp2,52.843464,5.708640,SupermarktPuP,Lemmer,NLD,4,,8531 HH,Stationsweg,{},,jumbo
+FP8KY7SyGGwAAAGKi0k5dBqY,51.869770,5.864140,SupermarktPuP,Lent,NLD,1,,6663 MB,Frankrijkstraat,{},,jumbo
+8ykKY7U.wMYAAAGC3C99cNJa,52.137368,5.427718,SupermarktPuP,Leusden,NLD,5,,3831 JA,De Biezenkamp,{},,jumbo
+mt4KYx4XReAAAAFJCw0YZ4CR,52.128752,5.427728,SupermarktPuP,Leusden,NLD,29,,3831 CR,'t Plein,{},,jumbo
+KHMKYx4X4dAAAAFJWw0YZ4CR,51.985796,6.561418,SupermarktPuP,Lichtenvoorde,NLD,17,,7131 CA,Van Heijdenstraat,{},,jumbo
+9lIKYx4X0l8AAAFUS7pasOVD,51.944427,5.518607,SupermarktPuP,Lienden,NLD,16,,4033 GP,Verbrughweg,{},,jumbo
+sS0KYx4XBcYAAAFIK8QYwKxK,51.521123,5.593917,SupermarktPuP,Lieshout,NLD,54A,,5737 GC,Dorpsstraat,{},,jumbo
+s8gKYx4XSSQAAAFIrCIYwKxK,52.249097,4.561452,SupermarktPuP,Lisse,NLD,13,,2162 AA,Vivaldistraat,{},,jumbo
+cYIKYx4XZFMAAAFI1i4YwKxK,52.162642,6.418972,SupermarktPuP,Lochem,NLD,24,,7241 DH,Prins Bernhardweg,{},,jumbo
+ylUKYx4XuvQAAAFI4vEYwKxJ,52.210053,5.020968,SupermarktPuP,Loenen aan de Vecht,NLD,127-129,,3632 AB,Rijksstraatweg,{},,jumbo
+OdcKY7NVB8wAAAF_NaBGqdMG,52.200054,5.138788,SupermarktPuP,Loosdrecht,NLD,45,,1231 CR,Nootweg,{},,jumbo
+qzkKYx4X58YAAAFJ3osFS1eI,52.261236,7.006359,SupermarktPuP,Losser,NLD,46,,7581 JB,De Brink,{},,jumbo
+uVMKY7NpIZAAAAGJcl83jiiN,51.311312,5.613650,SupermarktPuP,Maarheeze,NLD,2G,,6026 CP,Smits van Oyenlaan,{},,jumbo
+ICEKYx4X1jUAAAFIbPIYwKxJ,52.155640,5.176653,SupermarktPuP,Maartensdijk,NLD,31,,3738 GM,Maertensplein,{},,jumbo
+K10KYx4Xrq4AAAFIX2cYwKxK,51.358343,6.045675,SupermarktPuP,Maasbree,NLD,10,,5993 GD,Heierveldlaan,{},,jumbo
+kWEKYx4XNdsAAAFINvQYwKxJ,51.923658,4.255636,SupermarktPuP,Maassluis,NLD,31,,3142 CC,Lange boonestraat,{},,jumbo
+U60KYx4X_JsAAAFIl_MYwKxJ,50.850220,5.666505,SupermarktPuP,Maastricht,NLD,19,,6216 CE,Brusselsepoort,{},,jumbo
+GRQKYx4Xq9AAAAFIP2kYwKxK,50.857349,5.699375,SupermarktPuP,Maastricht,NLD,2D,,6221 AE,Franciscus Romanusweg,{},,jumbo
+igwKYx4XMQwAAAFIxmgYwKxK,50.852012,5.693437,SupermarktPuP,Maastricht,NLD,26,,6211 DV,Laag Mosae Forum,{},,jumbo
+qBEKYx4XAvIAAAFIrcYYwKxK,50.863643,5.654949,SupermarktPuP,Maastricht,NLD,74,,6218 AV,Malbergsingel,{},,jumbo
+NfUKY7XMOokAAAGFpC5jKC0Z,50.827243,5.726087,SupermarktPuP,Maastricht,NLD,303,,6228 DR,Roserije,{},,jumbo
+wr8KYx4XTo8AAAFdyM84dS7_,50.852285,5.713890,SupermarktPuP,Maastricht,NLD,7,,6224 EK,Voltastraat,{},,jumbo
+FzIKYx4XRWgAAAFIefQYwKxJ,51.682775,4.795532,SupermarktPuP,Made,NLD,19,,4921 AC,Stationsstraat,{},,jumbo
+wwgKYx4XSVsAAAFI474YwKxK,53.058663,5.402998,SupermarktPuP,Makkum,NLD,9,,8754 BL,Lieuwkemastraat,{},,jumbo
+A4IKYx4XrQUAAAFIjq0YwKxK,52.708604,5.862276,SupermarktPuP,Marknesse,NLD,29,,8316 AN,Breestraat,{},,jumbo
+1MkKY7TQGbMAAAFwhdlT5Nab,51.962553,5.420041,SupermarktPuP,Maurik,NLD,54,,4021 EJ,Raadhuisstraat,{},,jumbo
+gOQKYx4XS2EAAAFI3VMYwKrH,50.875352,5.738504,SupermarktPuP,Meerssen,NLD,73,,6231 AV,Kuilenstraat,{},,jumbo
+.OsKY7VxDN4AAAF7fNRGuxOp,51.344738,5.890803,SupermarktPuP,Meijel,NLD,25,,5768 BH,Kerkstraat,{},,jumbo
+6K8KYx4XywEAAAFItrEYwKxK,52.697298,6.195687,SupermarktPuP,Meppel,NLD,16,,7941 KR,Marktstraat,{},,jumbo
+jhEKYx4XctsAAAFJPokFS1eI,51.468029,5.250701,SupermarktPuP,Middelbeers,NLD,1A,,5091 BN,'t Ven,{},,jumbo
+8nMKYx4XlvMAAAFnKu8s5uLt,51.492710,3.621671,SupermarktPuP,Middelburg,NLD,51,,4337 EB,Vrijlandstraat,{},,jumbo
+Tr0KYx4XZ9kAAAFsYgQfM0A7,51.486257,3.617729,SupermarktPuP,Middelburg,NLD,11,,4336 XA,Johan van Reigersbergstraat,{},,jumbo
+53sKYx4Xb84AAAFIN2oYwKxK,51.509157,3.612508,SupermarktPuP,Middelburg,NLD,49,,4333 BB,Sir W. Churchilllaan,{},,jumbo
+e0MKY7QJSSoAAAFtiqJSQszE,51.751263,4.164932,SupermarktPuP,Middelharnis,NLD,24,,3241 AS,Korendreef,{},,jumbo
+6x0KY7S4LeYAAAGKr904sYa9,51.685570,5.783936,SupermarktPuP,Mill,NLD,20a,,5451 BS,Markt,{},,jumbo
+BF8KYx4XLxgAAAFIeH4YwKWg,51.545230,5.179625,SupermarktPuP,Moergestel,NLD,38,,5066 AX,Rootven,{},,jumbo
+KJUKY7TyUI0AAAGLU2U4LTr8,51.875867,4.819762,SupermarktPuP,Molenaarsgraaf,NLD,5,,2973 AB,Dorpsstraat,{},,jumbo
+b8sKY7X.370AAAGPyVc_IwhO,52.022350,4.172880,SupermarktPuP,Monster,NLD,68,,2681 BA,Molenbrink,{},,jumbo
+5h4KYx4XHHQAAAFoAolGLpcs,52.042989,4.946187,SupermarktPuP,Montfoort,NLD,2,,3417 GK,Julianalaan,{},,jumbo
+I14KY7VoljYAAAGHFgw5E9nQ,51.750320,5.883200,SupermarktPuP,Mook,NLD,121,,6585 AC,Rijksweg,{},,jumbo
+ycgKY7ULttsAAAGCRP5FoewZ,51.992430,4.204630,SupermarktPuP,Naaldwijk,NLD,43,,2671 JD,Patijnenburg,{},,jumbo
+GcsKY7RG0.IAAAGNmRE4DFfv,51.283670,5.748380,SupermarktPuP,Nederweert,NLD,66,,6031 VA,Burgemeester Hobusstraat,{},,jumbo
+4YQKYx4Xg7sAAAFqM9IdbY.k,52.133384,6.610549,SupermarktPuP,Neede,NLD,11,,7161 GX,Zwaluwstraat,{},,jumbo
+CSkKYx4X6DwAAAFI3w8YwKWg,51.603947,6.054809,SupermarktPuP,Nieuw Bergen,NLD,2,,5854 EM,Rembrandtplein,{},,jumbo
+B0sKY7S5kY8AAAGGubIBeOLV,52.264493,4.632534,SupermarktPuP,Nieuw Vennep,NLD,65,,2151 ME,De Symfonie,{},,jumbo
+Zh4KYx4XPW8AAAFIVkgYwKxK,52.746498,4.904489,SupermarktPuP,Nieuwe Niedorp,NLD,69,,1733 AX,Trambaan,{},,jumbo
+84IKYx4XziUAAAFInSYYwKrH,52.028360,5.085092,SupermarktPuP,Nieuwegein,NLD,1,,3431 LX,Laag Raadstede,{},,jumbo
+4aEKYx4XuEoAAAFmDdcIysKJ,52.053561,5.082190,SupermarktPuP,Nieuwegein,NLD,7,,3437 JV,Winkelcentrum Galecop,{},,jumbo
+sZsKYx4Xnf0AAAFLFdcai7m9,52.036205,5.071883,SupermarktPuP,Nieuwegein,NLD,4A,,3436 JA,Walnootgaarde,{},,jumbo
+Dd4KYx4XJf0AAAFl6P0zR9BH,51.646574,3.999052,SupermarktPuP,Nieuwerkerk,NLD,3,,4306 BV,Polderweg,{},,jumbo
+.ykKYx4XdX8AAAFJJA8YZ4CR,51.968149,4.617804,SupermarktPuP,Nieuwerkerk ad IJssel,NLD,113,,2914 KE,Reigerhof,{},,jumbo
+QmkKYx4XmEAAAAFIY4kYwKxK,52.148031,4.773509,SupermarktPuP,Nieuwkoop,NLD,1,,2421 EN,Kennedyplein,{},,jumbo
+9KUKYx4XyecAAAFQMN1eARZz,52.224197,5.489236,SupermarktPuP,Nijkerk,NLD,15,,3862 JL,Molenplein,{},,jumbo
+ppsKYx4XOTsAAAFIZX4YwKxK,51.845745,5.842963,SupermarktPuP,Nijmegen,NLD,3,,6541 RW,Fenikshof,{},,jumbo
+fGgKYx4Xl8MAAAFl5TYqZDXJ,51.807892,5.823865,SupermarktPuP,Nijmegen,NLD,835,,6535 ZT,Hatertseweg,{},,jumbo
+EDcKYx4X6qwAAAFIIswYwKxJ,51.832242,5.780225,SupermarktPuP,Nijmegen,NLD,1028,,6546 XB,Leuvensbroek,{},,jumbo
+nwYKYx4XnEkAAAFIf8QYwKxJ,51.808912,5.807995,SupermarktPuP,Nijmegen,NLD,7023,,6538 DP,Malvert,{},,jumbo
+nucKYx4XYlUAAAFJeIAFS1eI,51.812206,5.846686,SupermarktPuP,Nijmegen,NLD,500,,6533 VZ,Sint Jacobslaan,{},,jumbo
+O8gKYx4X81IAAAFIUjAYwKxK,52.365477,6.456592,SupermarktPuP,Nijverdal,NLD,135,,7443 BE,Grotestraat,{},,jumbo
+V1EKYx4XgmUAAAFIJjcYwKxK,52.377312,6.482797,SupermarktPuP,Nijverdal,NLD,13,,7443 HC,Kuperserf,{},,jumbo
+OikKYx4X2o4AAAFIGGUYwKrH,51.702118,5.560448,SupermarktPuP,Nistelrode,NLD,10,,5388 HS,Parkstraat,{},,jumbo
+ieEKYx4XPfMAAAFKD5JPW5Zz,52.892021,6.141294,SupermarktPuP,Noordwolde,NLD,18,,8391 AG,Industriestraat,{},,jumbo
+E90KYx4XMrMAAAFIYs4YwKxK,52.044122,4.390582,SupermarktPuP,Nootdorp,NLD,7,,2632 GG,Paradeplein,{},,jumbo
+GPwKYx4XPxsAAAFISGsYwKxK,51.464950,5.550116,SupermarktPuP,Nuenen,NLD,36-40,,5672 GL,Hoge Brake,{},,jumbo
+AZgKYx4XQrYAAAFIDwoYwKxK,51.473983,5.546980,SupermarktPuP,Nuenen,NLD,1,,5671 EW,De Smidse,{},,jumbo
+R2EKY7V_1VYAAAGF.3Y3w.uk,52.370486,5.781029,SupermarktPuP,Nunspeet,NLD,15,,8071 CS,Industrieweg,{},,jumbo
+KHwKYx4XgGUAAAFI02sYwKxK,50.917300,5.884780,SupermarktPuP,Nuth,NLD,21,,6361 CB,Markt,{},,jumbo
+ik4KYx4XEoYAAAFIvMsYwKxK,52.050024,5.233290,SupermarktPuP,Odijk,NLD,40C,,3984 JK,de Meent,{},,jumbo
+O_0KY7TQVy8AAAF5qvEOzymR,52.185805,4.470259,SupermarktPuP,Oegstgeest,NLD,2F,,2341 KA,Lange Voort,{},,jumbo
+Q84KYx4X6qwAAAFm3NkxiXo5,52.178252,4.450306,SupermarktPuP,Oegstgeest,NLD,9,,2342 CV,Rustenburgerpad,{},,jumbo
+YqMKYx4Xl_EAAAFIO2wYwKxK,50.949431,5.907725,SupermarktPuP,Oirsbeek,NLD,20,,6438 HB,Markt,{},,jumbo
+EhAKYx4XI8UAAAFILvwYwKxJ,51.504259,5.313410,SupermarktPuP,,NLD,28,,,De Loop,{},,jumbo
+90AKYx4XQaYAAAFbXFxmxNDP,51.504259,5.313410,SupermarktPuP,Oirschot,NLD,28,,5688 EW,De Loop,{},,jumbo
+YggKYx4XI3AAAAFcbztE1DKo,51.580992,5.191100,SupermarktPuP,Oisterwijk,NLD,1,,5061 EW,Fabriekspad,{},,jumbo
+5A8KYx4XVP0AAAFqp8gvx0eL,51.583132,5.176343,SupermarktPuP,Oisterwijk,NLD,32,,5061 WP,Pannenschuurplein,{},,jumbo
+ut8KYx4X39EAAAFNovRasEs2,52.316759,6.927969,SupermarktPuP,Oldenzaal,NLD,38-44,,7572 ZA,Deken Scholtenstraat,{},,jumbo
+1roKYx4XS8YAAAFITrcYwKxK,52.518869,6.420739,SupermarktPuP,Ommen,NLD,22-24,,7731 DB,Markt,{},,jumbo
+NswKYx4X5U8AAAFI34oYwKxK,51.465257,3.604443,SupermarktPuP,Oost-Souburg,NLD,72,,4388 AH,Oranjeplein,{},,jumbo
+TkwKY7S1KE4AAAGCUkktmGEO,51.325611,3.491134,SupermarktPuP,Oostburg,NLD,1,,4501 BR,Langestraat,{},,jumbo
+5jgKYx4XKTUAAAFIimwYwKxK,51.658229,4.863530,SupermarktPuP,Oosterhout,NLD,36,,4907 XT,Arkendonk,{},,jumbo
+F7gKYx4XulEAAAFIxm0YwKxK,51.642273,4.853041,SupermarktPuP,Oosterhout,NLD,2,,4901 KJ,Nieuwe Bouwlingstraat,{},,jumbo
+YC8KYx4XB88AAAFIDcIYwKxJ,51.627431,4.856886,SupermarktPuP,Oosterhout,NLD,4-7a,,4904 AS,Zuiderhout,{},,jumbo
+2dkKY7V76WsAAAGOFq85FlRG,51.565211,3.551615,SupermarktPuP,Oostkapelle,NLD,20,,4356 AJ,Dorpsstraat,{},,jumbo
+dZ4KYx4XC6EAAAFJ4GAwS.JS,52.427760,4.878919,PuP,Oostzaan,NLD,26,,1511 MA,Westeinde,{},,jumbo
+FRMKYx4XQ_oAAAFq0lJ44GuY,51.772179,5.536781,SupermarktPuP,Oss,NLD,38,,5348 BH,Kardinaal de Jongstraat,{},,jumbo
+UdcKYx4Xx3gAAAFITH0YwKrH,51.770144,5.514527,SupermarktPuP,Oss,NLD,7,,5341 PN,Vierhoeksingel,{},,jumbo
+QJMKYx4XS_cAAAFIPqMYwKxK,51.765882,5.501909,SupermarktPuP,Oss,NLD,49,,5345 MH,Wolfskooi,{},,jumbo
+RqwKYx4X0ZsAAAFVMHkfGrho,51.824634,4.417476,SupermarktPuP,Oud Beijerland,NLD,17,,3261 AZ,Koninginneplein,{},,jumbo
+8qsKYx4XA_MAAAFLFtEai3Gk,51.588186,4.459236,SupermarktPuP,Oud-Gastel,NLD,5,,4751 AH,Dorpsstraat,{},,jumbo
+rYoKYx4XeVsAAAFIhPYYwKxJ,51.812668,3.936138,SupermarktPuP,Ouddorp,NLD,4,,3253 AM,Molenweg,{},,jumbo
+YDYKYx4XS0sAAAFI40UYwKxK,53.103564,7.007317,SupermarktPuP,Oude Pekela,NLD,16,,9665 JX,De Helling,{},,jumbo
+qXoKY7QTOZ4AAAGEXCM4.eUA,52.297229,4.914565,SupermarktPuP,Ouderkerk aan de Amstel,NLD,41-46,,1191 GV,Sluisplein,{},,jumbo
+2hoKYx4XnFYAAAFIvQQYwKxK,52.031158,4.864820,SupermarktPuP,Oudewater,NLD,1,,3421 JB,Wagenerf,{},,jumbo
+fCgKYx4Xi8QAAAFNQBpasGod,51.326703,5.975569,SupermarktPuP,Panningen,NLD,43,,5981 CD,Kerkstraat,{},,jumbo
+w30KYx4XctYAAAFIVG4YwKxK,51.826161,4.684061,SupermarktPuP,Papendrecht,NLD,4,,3353 HH,Meent Passage,{},,jumbo
+COUKYx4XXuAAAAFKHgFHt7ov,51.836790,4.684962,SupermarktPuP,Papendrecht,NLD,5,,3351 JM,Jan van Goijenstraat,{},,jumbo
+5aEKYx4XB9UAAAFJYQ4YZ4CR,52.021798,4.218062,SupermarktPuP,Poeldijk,NLD,28,,2685 EB,Rijsenburgerweg,{},,jumbo
+Kh8KYx4X98kAAAFIrRQYwKxK,51.599912,4.719296,SupermarktPuP,Prinsenbeek,NLD,14,,4841 AC,Markt,{},,jumbo
+1pEKYx4XVMQAAAFIzdcYwKrG,52.506142,4.984732,SupermarktPuP,Purmerend,NLD,58,,1445 BM,Gildeplein,{},,jumbo
+pdwKY7XNWC8AAAGAQbJ9Fxsf,52.508640,4.948430,SupermarktPuP,Purmerend,NLD,19,,1441 CH,Willem Eggertstraat,{},,jumbo
+o.YKYx4XqacAAAFoVw1Drrs5,51.358296,4.392928,SupermarktPuP,Putte,NLD,34,,4645 HR,Tervoplein,{},,jumbo
+BR4KYx4XUbUAAAFmArQZaVtT,52.260197,5.610716,SupermarktPuP,Putten,NLD,4,,3881 EC,Postweg,{},,jumbo
+ZYIKYx4XTKcAAAFIjvsYwKxJ,52.384903,6.274948,SupermarktPuP,Raalte,NLD,6,,8102 CC,Domineeskamp,{},,jumbo
+Km0KYx4X._YAAAFI1NIYwKrG,52.392947,6.286877,SupermarktPuP,Raalte,NLD,2,,8103 EB,Kwartel,{},,jumbo
+GJUKYx4X6nwAAAFJxw4YZ4CR,51.695772,4.867307,SupermarktPuP,Raamsdonksveer,NLD,11,,4941 ZL,Boterpolderlaan,{},,jumbo
+iCkKYx4XraUAAAFIECkYwKxK,52.045478,4.725994,SupermarktPuP,Reeuwijk,NLD,18,,2811 BB,Miereakker,{},,jumbo
+ocwKYx4XBzAAAAFIIxQYwKxK,51.731862,3.773411,SupermarktPuP,Renesse,NLD,1,,4325 BD,Wilhelminaweg,{},,jumbo
+erQKYx4XlaAAAAFmEtcIysKJ,51.362622,5.159161,SupermarktPuP,Reusel,NLD,19,,5541 EE,Schoolstraat,{},,jumbo
+nC4KYx4XLQMAAAFIu9MYwKxK,51.958275,5.568021,SupermarktPuP,Rhenen,NLD,69,,3911 KA,Plantsoenstraat,{},,jumbo
+snwKYx4XlIcAAAFIxW4YwKxK,51.868761,4.601280,SupermarktPuP,Ridderkerk,NLD,72,,2981 ET,Ridderhof,{},,jumbo
+l8sKYx4XlVEAAAFqQx8ZpwSZ,51.588563,4.918835,SupermarktPuP,Rijen,NLD,20,,5121 ES,Wilhelminaplein,{},,jumbo
+DXUKYx4X.EoAAAFImVMYwKxK,52.310702,6.520921,SupermarktPuP,Rijssen,NLD,34,,7461 AX,Boomkamp,{},,jumbo
+1rYKYx4Xc9gAAAFmb09Ssg4U,52.312822,6.496097,SupermarktPuP,Rijssen,NLD,5,,7463 CH,Laan Oud-Indiegangers,{},,jumbo
+tuwKY7Sl1.IAAAGHXXY3Yu5p,53.137856,6.429479,SupermarktPuP,Roden,NLD,1,,9301 AX,Westerbaan,{},,jumbo
+fQAKYx4XODoAAAFI.1IYwKrH,51.193503,5.984644,SupermarktPuP,Roermond,NLD,5,,6041 EE,Roersingelpassage,{},,jumbo
+0ZsKY7PTLYcAAAGLdl44doNM,51.186390,6.010300,SupermarktPuP,Roermond,NLD,35,,6043 JR,Kasteel Hornstraat,{},,jumbo
+zy8KY7QTIPAAAAGETx84.eUA,51.522034,4.472260,SupermarktPuP,Roosendaal,NLD,2-4,,4707 CR,Lindenburg,{},,jumbo
+s2IKYx4X0UUAAAFIhpoYwKxK,51.534129,4.443489,SupermarktPuP,Roosendaal,NLD,103-109,,4703 GX,Rembrandtgalerij,{},,jumbo
+FGAKY7Q7K0kAAAFt4S8mp_DR,51.522808,4.463900,SupermarktPuP,Roosendaal,NLD,1A,,4707 CH,Streuvelslaan,{},,jumbo
+2hQKYx4X.v8AAAFInjoYwKxK,51.536074,4.465786,SupermarktPuP,Roosendaal,NLD,7,,4702 KE,Van Beethovenlaan,{},,jumbo
+wQYKYx4XuHsAAAFlbdww.rFh,51.715547,5.361841,SupermarktPuP,Rosmalen,NLD,55,,5241 BE,Harry Coppensstraat,{},,jumbo
+.EEKYx4XXeIAAAFIbFMYwKrH,51.699550,5.341700,SupermarktPuP,Rosmalen,NLD,16-22,,5246 BR,Pastoor van Thiellaan,{},,jumbo
+P_IKYx4X_l0AAAFIeUoYwKxK,51.718174,5.363011,SupermarktPuP,Rosmalen,NLD,10,,5241 EJ,Vreeburg,{},,jumbo
+RNMKYx4XAOwAAAFIzDcYwKxK,51.922860,4.485460,SupermarktPuP,Rotterdam,NLD,13-19,,3011 HE,Botersloot,{},,jumbo
+PYwKY7R2T7kAAAF1f3NPnK.4,51.916176,4.451604,SupermarktPuP,Rotterdam,NLD,20,,3023 RG,Gerrit Jan Mulderstraat,{},,jumbo
+bCMKYx4XYBQAAAFl_X4viPRU,51.903120,4.496199,SupermarktPuP,Rotterdam,NLD,77A,,3072 JE,Hillelaan,{},,jumbo
+DPEKY7Wb6TIAAAGKmVM3kWKx,51.920780,4.482500,SupermarktPuP,Rotterdam,NLD,1005,,3011 PM,Hoogstraat,{},,jumbo
+y5IKYx4XOAwAAAFNX_o7fpNP,51.877341,4.519412,SupermarktPuP,Rotterdam,NLD,293,,3076 EP,Spinozaweg,{},,jumbo
+ItMKYx4XHmYAAAFIFnAYwKxK,51.886404,4.546346,SupermarktPuP,Rotterdam,NLD,63,,3078 AL,Keizerswaard,{},,jumbo
+SE8KYx4XuW4AAAFIoMYYwKxJ,51.939974,4.548923,SupermarktPuP,Rotterdam,NLD,21,,3067 AP,Samuel Esmeijerplein,{},,jumbo
+xJ8KYx4X3iUAAAFIWQkYwKxK,51.962270,4.550861,SupermarktPuP,Rotterdam,NLD,435,,3069 EA,Hesseplaats,{},,jumbo
+MSIKYx4Xm1AAAAFImrwYwKxJ,51.986860,4.583800,SupermarktPuP,Rotterdam,NLD,402,,3059 XT,Sicilieboulevard,{},,jumbo
+kCMKYx4XXaIAAAFIOB0YwKrH,51.909892,4.445285,SupermarktPuP,Rotterdam,NLD,62,,3025 AD,Schiedamseweg,{},,jumbo
+mOIKYx4XB0MAAAFIonAYwKxK,51.911070,4.498710,SupermarktPuP,Rotterdam,NLD,33,,3071 PS,Vijf Werelddelen,{},,jumbo
+RO4KY7VMg1UAAAGILKE29w1P,51.917750,4.486680,SupermarktPuP,Rotterdam,NLD,73Z,,3011 WK,Wijnhaven,{},,jumbo
+EY0KYx4XZvEAAAFIGKQYwKxK,53.164310,6.787227,SupermarktPuP,Sappemeer,NLD,103,,9611 AC,Noorderstraat,{},,jumbo
+1xQKY7R98MUAAAF0JXZL0dc2,52.788745,4.800744,SupermarktPuP,Schagen,NLD,9,,1741 HB,Langestraat,{},,jumbo
+eywKYx4XBkYAAAFn_OMST9N6,51.745834,5.631996,SupermarktPuP,Schaijk,NLD,2,,5374 BX,Kapelanieplein,{},,jumbo
+uK0KY7V_LjMAAAGGzZtmkwqK,53.176170,6.969485,SupermarktPuP,Scheemda,NLD,3,,9679 AL,Vredenhovenstraat,{},,jumbo
+i0YKY7Px1WgAAAFvSf5grqvq,52.080626,5.489845,SupermarktPuP,Scherpenzeel,NLD,11,,3925 JN,Marktstraat,{},,jumbo
+ZgkKY7XahywAAAF5ZgdFPrBT,52.097164,4.269528,SupermarktPuP,Scheveningen,NLD,7,,2583 CS,Van Bergenstraat,{},,jumbo
+EVAKYx4XLuUAAAFIEtYYwKxK,51.929550,4.402537,PuP,Schiedam,NLD,406,,3125 BK,'s-Gravenlandseweg,{},,jumbo
+0hkKYx4X1wEAAAFJ0VpBh0Gd,51.605829,5.446227,SupermarktPuP,Schijndel,NLD,5,,5481 SG,Rooiseheide,{},,jumbo
+n1oKYx4X_AMAAAFIQNEYwKxJ,51.619075,5.432339,SupermarktPuP,Schijndel,NLD,4,,5481 AS,Sint Jorisplein,{},,jumbo
+cc4KYx4XSh0AAAFIqz8YwKxK,52.701062,4.693601,SupermarktPuP,Schoorl,NLD,3,,1871 EB,Heereweg,{},,jumbo
+7ygKYx4XKlgAAAFI1YAYwKWg,51.424294,6.035856,SupermarktPuP,Sevenum,NLD,64,,5975 NB,Horsterweg,{},,jumbo
+0fUKYx4XEN4AAAFmuoh80czW,51.006401,5.853358,SupermarktPuP,Sittard,NLD,38,,6135 CH,Dempseystraat,{},,jumbo
+uVMKY7XBe8EAAAGMOVE4jjyx,50.996098,5.894392,SupermarktPuP,Sittard,NLD,2,,6132 GN,Romeinenstraat,{},,jumbo
+0c8KY7NN.VMAAAF8aXJIXuiD,50.993400,5.841390,SupermarktPuP,Sittard,NLD,11,,6135 LP,Zurichstraat,{},,jumbo
+cVYKYx4XjjgAAAFIpSgYwKxK,52.627068,6.555704,SupermarktPuP,Slagharen,NLD,19,,7776 AG,Herenstraat,{},,jumbo
+9iIKYx4XpAYAAAFIYjkYwKxK,51.819860,4.775273,SupermarktPuP,Sliedrecht,NLD,41,,3361 BC,Kerkbuurt,{},,jumbo
+GB0KY7PPvTUAAAGIJTA2ysGO,51.826220,4.759817,SupermarktPuP,Sliedrecht,NLD,84,,3363 HN,Populierenhof,{},,jumbo
+elAKYx4XEskAAAFm6FF2_.aW,51.309789,3.380112,SupermarktPuP,Sluis,NLD,41,,4524 JB,Sint Annastraat,{},,jumbo
+PCgKYx4Xx4QAAAFISgcYwKxK,52.948429,6.445401,SupermarktPuP,Smilde,NLD,21-4,,9422 AB,Veenhoopsweg,{},,jumbo
+c18KYx4XF.wAAAFMzYccobXe,53.021280,5.647527,SupermarktPuP,Sneek,NLD,171,,8608 WD,Molenkrite,{},,jumbo
+zJQKYx4XsPoAAAFMvYYcobXe,53.035496,5.667409,SupermarktPuP,Sneek,NLD,4,,8603 CS,Normandiaplein,{},,jumbo
+BJEKYx4XcX8AAAFMcechgUnv,52.164730,5.308088,SupermarktPuP,Soest,NLD,6,,3768 EM,Zuidpromenade,{},,jumbo
+TqkKYx4XrEsAAAFIW8kYwKxK,51.385729,5.711173,SupermarktPuP,Someren,NLD,5,,5711 AS,Speelheuvelstraat,{},,jumbo
+ZtYKYx4XaGcAAAFIYFcYwKxK,51.506526,5.492391,SupermarktPuP,Son en Breugel,NLD,75-77,,5691 AB,Nieuwstraat,{},,jumbo
+o9YKYx4Xrc4AAAFI9lUYwKrH,51.839780,4.337996,SupermarktPuP,Spijkenisse,NLD,6,,3203 AM,Groenewoud,{},,jumbo
+RsUKYx4XBp8AAAFIri0YwKxK,51.833594,4.361974,SupermarktPuP,Spijkenisse,NLD,32,,3207 KG,Hadewijchplaat,{},,jumbo
+sG0KYx4XfnkAAAFIh80YwKxJ,51.832810,4.343776,SupermarktPuP,Spijkenisse,NLD,436,,3205 EM,Vlinderveen,{},,jumbo
+5xMKYx4XJPoAAAFIGRwYwKxK,51.602095,4.105913,SupermarktPuP,St. Annaland,NLD,1,,4697 BB,Spuistraat,{},,jumbo
+TY8KY7NbgOYAAAGAk0BG4M9e,51.638060,5.349700,SupermarktPuP,St. Michielsgestel,NLD,9,,5271 AX,Kloosterpad,{},,jumbo
+opcKYx4XBbYAAAFIZ1YYwKrH,51.641610,5.352683,SupermarktPuP,St. Michielsgestel,NLD,40,,5271 AD,Nieuwstraat,{},,jumbo
+n5MKYx4XLxAAAAFIG.EYwKxJ,52.923021,5.740684,SupermarktPuP,St. Nicolaasga,NLD,1,,8521 KD,Molewei,{},,jumbo
+JygKYx4XSVYAAAFlg8UV9qHu,51.561974,5.460663,SupermarktPuP,St. Oedenrode,NLD,1,,5492 BA,Hertog Hendrikstraat,{},,jumbo
+Fr8KYx4XQqMAAAFIcFYYwKrH,51.571694,5.456683,SupermarktPuP,St. Oedenrode,NLD,11,,5491 JN,Pieter Christiaanstraat,{},,jumbo
+fVUKYx4XPOoAAAFn7NMmYQqi,51.545755,4.590182,SupermarktPuP,St. Willebrord,NLD,17,,4711 KH,Kievitstraat,{},,jumbo
+o3sKYx4XET4AAAFIE_cYwKxJ,52.986461,6.955697,SupermarktPuP,Stadskanaal,NLD,6,,9501 CT,Beneluxlaan,{},,jumbo
+mcUKYx4X0TwAAAFIuVAYwKxK,52.994637,6.941398,SupermarktPuP,Stadskanaal,NLD,13,,9501 EP,Poststraat,{},,jumbo
+N2cKYx4XgjQAAAFIb3IYwKxK,51.580374,4.316309,SupermarktPuP,Steenbergen,NLD,2,,4651 NC,Floraplein,{},,jumbo
+XnoKYx4Xz5sAAAFNVwI7fttp,52.787036,6.109348,SupermarktPuP,Steenwijk,NLD,61,,8331 LP,Steenwijkerdiep,{},,jumbo
+jAoKYx4X49UAAAFWNpFQnZCz,50.968011,5.765977,SupermarktPuP,Stein,NLD,42,,6171 JC,Raadhuisplein,{},,jumbo
+lGcKYx4XAx0AAAFILREYwKxK,53.262826,5.758061,SupermarktPuP,Stiens,NLD,3-5,,9051 BT,St. Vitusplein,{},,jumbo
+sIsKYx4X910AAAFKl_RHt8ey,51.485199,5.621118,SupermarktPuP,Stiphout,NLD,58D,,5708 GJ,Dorpsstraat,{},,jumbo
+vY0KYx4XI9IAAAFIsBgYwKxK,51.192888,5.722356,SupermarktPuP,Stramproy,NLD,3,,6039 CP,Dr. Schaepmanstraat,{},,jumbo
+ansKYx4XuEAAAAFIvpkYwKxK,53.181220,6.164630,SupermarktPuP,Surhuisterveen,NLD,27,,9231 CG,Torenplein,{},,jumbo
+OE4KY7PTLYgAAAGLdl44doNM,51.232540,6.036000,SupermarktPuP,Swalmen,NLD,6,,6071 LM,Sint Jansplein,{},,jumbo
+B5gKYx4XbywAAAFIiL8YwKxK,52.875166,7.059699,SupermarktPuP,Ter Apel,NLD,41,,9561 KM,Nederveen Cappelstraat,{},,jumbo
+pLgKYx4XZ0AAAAFIMJ4YwKxK,51.640990,4.754919,SupermarktPuP,Terheijden,NLD,61,,4844 CB,Hoofdstraat,{},,jumbo
+oz8KY7PT2gYAAAGLa144doNM,51.332680,3.847730,SupermarktPuP,Terneuzen,NLD,2,,4532 JN,Drebbelstraat,{},,jumbo
+iqYKYx4XlBMAAAFInSsYwKWg,51.332382,3.847530,SupermarktPuP,Terneuzen,NLD,2,,4532 KP,Lorentzlaan,{},,jumbo
+emQKYx4XIEIAAAFIB8IYwKxJ,51.333874,3.828217,SupermarktPuP,Terneuzen,NLD,10,,4538 AA,Schuttershofweg,{},,jumbo
+JnYKY7PTuUwAAAGLM.o4dl8I,51.609860,4.822260,SupermarktPuP,Teteringen,NLD,7,,4847 EZ,Scheperij,{},,jumbo
+vmsKY7SyUH8AAAFwrcNU9kZp,51.891440,5.439404,SupermarktPuP,Tiel,NLD,3,,4005 DE,De Kranshof,{},,jumbo
+DlwKY7UEcD0AAAFykSJOq05V,51.878898,5.419650,SupermarktPuP,Tiel,NLD,12,,4006 BB,Westledeplein,{},,jumbo
+2a8KYx4XayEAAAFJRJUFS1eI,51.551547,5.106239,SupermarktPuP,Tilburg,NLD,8,,5021 AV,AaBe-straat,{},,jumbo
+LKMKYx4XpmYAAAFIH8wYwKxJ,51.544681,5.046396,SupermarktPuP,Tilburg,NLD,13,,5032 AZ,Amer,{},,jumbo
+aiMKYx4XpbEAAAFI_FYYwKxK,51.574567,5.084088,SupermarktPuP,Tilburg,NLD,1,,5046 GA,Bart van Peltplein,{},,jumbo
+AJAKYx4XAToAAAFIXnEYwKxK,51.546857,5.091938,SupermarktPuP,Tilburg,NLD,74,,5021 LG,Broekhovenseweg,{},,jumbo
+HUwKYx4X.UEAAAFm69kxiXo5,51.540760,5.079650,SupermarktPuP,Tilburg,NLD,175,,5022 DD,Stappegoorweg,{},,jumbo
+jf8KYx4XLIsAAAFIEnMYwKxK,51.577827,5.005621,SupermarktPuP,Tilburg,NLD,11-17,,5043 RA,Heyhoefpromenade,{},,jumbo
+pe0KY7V7l2kAAAGOrYc5FjVg,51.554104,5.079790,SupermarktPuP,Tilburg,NLD,11-12,,5038 TS,Lieve Vrouweplein,{},,jumbo
+34kKYx4XJrYAAAFI1XMYwKxK,51.540449,5.094109,SupermarktPuP,Tilburg,NLD,105,,5022 EH,Pater van de Elsenplein,{},,jumbo
+zv0KY7XZdywAAAFyhKJNNipI,51.540121,5.090601,SupermarktPuP,Tilburg,NLD,35,,5022 EG,Pater van de Elsenplein,{},,jumbo
+nScKYx4XyrEAAAFIetYYwKxK,51.536608,5.045190,PuP,Tilburg,NLD,5,,5032 MG,Rosa Castellanosstraat,{},,jumbo
+cWUKYx4X_EwAAAFo0AFvHysH,51.584365,5.085556,SupermarktPuP,Tilburg,NLD,18,,5011 LP,Wagnerplein,{},,jumbo
+axQKYx4XpNsAAAFqrFh4_7Ox,51.568331,5.052745,SupermarktPuP,Tilburg,NLD,38,,5042 MD,Westermarkt,{},,jumbo
+m74KYx4XTRQAAAFIDH4YwKxK,51.856504,6.101176,SupermarktPuP,Tolkamer,NLD,78a,,6916 AZ,'s-Gravenwaardsedijk,{},,jumbo
+UksKYx4XSAUAAAFU2o5EfXTT,52.235426,6.099551,SupermarktPuP,Twello,NLD,101,,7391 CT,Michiel de Ruyterstraat,{},,jumbo
+xG0KY7XFzGMAAAF7JdRFw3gV,51.662699,5.631399,SupermarktPuP,Uden,NLD,14-18,,5403 ET,Drossaard,{},,jumbo
+hSMKYx4XOWgAAAFqXNEdbY.k,51.655018,5.620601,SupermarktPuP,Uden,NLD,2,,5404 NJ,Losplaats,{},,jumbo
+iBsKYx4XP2UAAAFI2nMYwKxK,51.669460,5.612578,SupermarktPuP,Uden,NLD,11,,5402 CR,Muziekplein,{},,jumbo
+OScKYx4XuxQAAAFlcUszR8X7,51.608128,5.152860,SupermarktPuP,Udenhout,NLD,149,,5071 BC,Kreitenmolenstraat,{},,jumbo
+.JAKYx4Xe.AAAAFIWJ8YwKxK,52.530769,4.708856,SupermarktPuP,Uitgeest,NLD,1-3,,1911 SM,Melis Stokelaan,{},,jumbo
+H4MKY7TQwEQAAAF5z_IOzymR,52.246622,4.827601,SupermarktPuP,Uithoorn,NLD,60,,1422 DN,Zijdelwaardplein,{},,jumbo
+4sYKYx4XgNkAAAFITVAYwKxK,53.405810,6.677050,SupermarktPuP,Uithuizen,NLD,2,,9981 CP,Oosterstraat,{},,jumbo
+sPoKYx4XFvQAAAFOab4_ja6N,51.891198,6.379668,SupermarktPuP,Ulft,NLD,4,,7071 WT,Middelgraaf,{},,jumbo
+naAKYx4X8.EAAAFILZgYwKxK,51.541724,4.795884,SupermarktPuP,Ulvenhout,NLD,1,,4851 SM,Chaamseweg,{},,jumbo
+JawKYx4XY10AAAFN0yE7frI2,52.665623,5.595640,SupermarktPuP,Urk,NLD,7A,,8321 HH,Flevostraat,{},,jumbo
+40sKYx4XzHAAAAFNlRNasCIE,52.662767,5.625297,SupermarktPuP,Urk,NLD,60,,8321 RG,Nagel,{},,jumbo
+udsKYx4X4RgAAAFILHUYwKxK,50.989282,5.768530,SupermarktPuP,Urmond,NLD,14-15,,6129 EZ,Paalweg,{},,jumbo
+sWwKYx4XRAsAAAFIJoIYwKxK,52.095381,5.129767,SupermarktPuP,Utrecht,NLD,74,,3572 BG,Biltstraat,{},,jumbo
+iPsKYx4XNGgAAAFiKOwTMazn,52.098557,5.062648,SupermarktPuP,Utrecht,NLD,15,,3541 CH,Brusselplein,{},,jumbo
+AoYKYx4XRswAAAFIHzMYwKxK,52.126700,5.093240,SupermarktPuP,Utrecht,NLD,88,,3565 AD,Franciscusdreef,{},,jumbo
+NfcKYx4XeBAAAAFszj59Tq08,52.074306,5.094735,SupermarktPuP,Utrecht,NLD,61,,3527 HD,Hammarskjoldhof,{},,jumbo
+rzIKYx4Xl5EAAAFIiTMYwKxK,52.082126,5.134643,SupermarktPuP,Utrecht,NLD,64,,3582 VX,Ina Boudier Bakkerhof,{},,jumbo
+ARcKYx4XJ5cAAAFIckMYwKxK,52.100556,5.115163,SupermarktPuP,Utrecht,NLD,46,,3514 CN,Merelstraat,{},,jumbo
+R1kKY7XP3UEAAAF5uvBxlVjG,52.092790,5.128900,SupermarktPuP,Utrecht,NLD,16,,3581 AG,Nachtegaalstraat,{},,jumbo
+94EKYx4XwkwAAAFJYVpBh0Gd,52.126605,5.092550,PuP,Utrecht,NLD,27,,3565 AE,Nebraskadreef,{},,jumbo
+7hQKYx4X6QcAAAFI33UYwKxK,52.115515,5.127659,SupermarktPuP,Utrecht,NLD,10,,3561 CV,Euterpedreef,{},,jumbo
+NvIKY7SzNLkAAAF1gwVNJkNc,52.082411,5.123716,SupermarktPuP,Utrecht,NLD,46,,3511 ZL,Twijnstraat,{},,jumbo
+NbEKYx4XFDkAAAFIzkMYwKxK,52.087449,5.055079,SupermarktPuP,Utrecht,NLD,349,,3544 EB,Verlengde Houtrakgracht,{},,jumbo
+JYYKYx4XC1oAAAFItvcYwKxJ,52.287392,5.969374,SupermarktPuP,Vaassen,NLD,3,,8171 CB,Kosterstraat,{},,jumbo
+RUAKY7Sz8FoAAAGK.N04Oc7W,50.863634,5.833645,SupermarktPuP,Valkenburg,NLD,26,,6301 DD,Walramplein,{},,jumbo
+sqAKYx4XTE0AAAFmL2FzjJ5G,51.352268,5.468929,SupermarktPuP,Valkenswaard,NLD,120,,5555 CG,Leenderweg,{},,jumbo
+PdMKYx4XbvMAAAFoFAsB03Mg,51.360584,5.447647,SupermarktPuP,Valkenswaard,NLD,93,,5552 EE,Nieuwe Waalreseweg,{},,jumbo
+Hr8KYx4XGpwAAAFpJKNrJbeQ,51.774004,5.103552,SupermarktPuP,Veen,NLD,1,,4264 RN,Groeneweg,{},,jumbo
+BX4KYx4Xd5cAAAFJ844FS1eI,53.095878,6.859911,SupermarktPuP,Veendam,NLD,9-10,,9642 MA,De Reede,{},,jumbo
+1fIKYx4X9TIAAAFI1PoYwKxJ,52.018386,5.542167,SupermarktPuP,Veenendaal,NLD,20,,3904 CB,Dr. Slotemaker de Bruinestr,{},,jumbo
+w5gKY7Pbu08AAAF.8tpEGn9Z,52.005953,5.553395,SupermarktPuP,Veenendaal,NLD,40,,3903 GG,Paddestoelenlaan,{},,jumbo
+vbEKYx4XcBwAAAFKlztHt71m,52.029749,5.543731,SupermarktPuP,Veenendaal,NLD,617,,3905 CT,Prins Willem-Alexanderpark,{},,jumbo
+SjwKYx4XWsYAAAFIpy8YwKxK,51.623732,5.558496,SupermarktPuP,Veghel,NLD,68,,5467 JZ,De Bunders,{},,jumbo
+63UKYx4XPsEAAAFQvl1eATqA,51.615748,5.529160,SupermarktPuP,Veghel,NLD,14,,5462 EH,Verlengde Noordkade,{},,jumbo
+WyAKYx4XFF8AAAFNGlo7fph2,51.612597,5.525026,PuP,,NLD,15,,,Rijksweg,{},,jumbo
+.qIKYx4XzskAAAFm7VF2_.aW,51.618712,5.545887,SupermarktPuP,Veghel,NLD,11,,5461 JS,Stationsstraat,{},,jumbo
+27IKYx4XpVoAAAFn7dMmYQqi,51.412188,5.409546,SupermarktPuP,Veldhoven,NLD,12,,5503 BN,Burg. van Hoofflaan,{},,jumbo
+7oEKYx4X8ZcAAAFI.1oYwKrH,51.418445,5.408170,SupermarktPuP,Veldhoven,NLD,122,,5501 EC,Pleintjes,{},,jumbo
+LaYKYx4X5.QAAAFII.UYwKWf,51.991638,5.971713,SupermarktPuP,Velp,NLD,30,,6882 LG,IJsselstraat,{},,jumbo
+s6IKYx4XmkkAAAFqDdYjEde9,51.377697,6.180214,SupermarktPuP,Venlo,NLD,183,,5914 AL,Straelseweg,{},,jumbo
+V90KYx4XVL4AAAFIrDUYwKxK,51.368672,6.165824,SupermarktPuP,Venlo,NLD,1,,5911 DM,Tegelpoort,{},,jumbo
+NbEKYx4XaYcAAAFISs8YwKxJ,51.370024,6.187199,SupermarktPuP,Venlo,NLD,90,,5913 EG,Vinckenhofstraat,{},,jumbo
+lZYKYx4XNloAAAFlckszR8X7,51.526899,5.973172,SupermarktPuP,Venray,NLD,30,,5801 MD,De Bleek,{},,jumbo
+ZyUKY7SNf10AAAFyUgVM3XeI,51.522766,5.990958,SupermarktPuP,Venray,NLD,185,,5802 NV,Kiosk,{},,jumbo
+QoQKYx4XYCAAAAFJhpRvhK7t,51.519435,5.964891,SupermarktPuP,Venray,NLD,48,,5801 SH,Veltumse Kleffen,{},,jumbo
+7SAKY7PTs5UAAAGLxMA4dkAi,51.991481,5.094176,SupermarktPuP,Vianen,NLD,7,,4132 CB,Lijnbaan,{},,jumbo
+wPEKYx4Xr4EAAAFIDYsYwKxK,52.213915,4.925864,SupermarktPuP,Vinkeveen,NLD,7,,3645 GN,Plevierenlaan,{},,jumbo
+Kt0KYx4XMQAAAAFIBCYYwKxK,51.929489,4.347535,SupermarktPuP,Vlaardingen,NLD,2,,3136 CN,De Loper,{},,jumbo
+SLAKYx4XgZcAAAFJng8YZ4CR,53.026030,7.107055,SupermarktPuP,Vlagtwedde,NLD,4,,9541 AL,Dr. P. Rinsemastraat,{},,jumbo
+V9QKY7V1XUkAAAF6MIVEpw0F,52.093528,5.010888,SupermarktPuP,Vleuten,NLD,19,,3452 MG,Burchtwal,{},,jumbo
+c9IKYx4X3JoAAAFImoQYwKxK,51.694559,5.221231,SupermarktPuP,,NLD,4-5,,,Oliemaat,{},,jumbo
+A88KYx4XbH0AAAFpt5IV6yde,51.695675,5.219668,SupermarktPuP,Vlijmen,NLD,16,,5251 AT,Plein,{},,jumbo
+Dy4KYx4X98wAAAFIgL8YwKxJ,51.453082,3.586242,SupermarktPuP,Vlissingen,NLD,25,,4382 ND,Hermesweg,{},,jumbo
+GCQKY7QJlbUAAAFtjqJSQszE,51.465194,3.581901,SupermarktPuP,Vlissingen,NLD,5,,4386 DA,Papegaaienburg,{},,jumbo
+j0kKYx4XRdoAAAFojwsB03Mg,51.462201,3.552248,SupermarktPuP,Vlissingen,NLD,93,,4384 HD,Van Hogendorpweg,{},,jumbo
+5kMKYx4XvPoAAAFIWlsYwKrH,51.644085,5.655073,SupermarktPuP,Volkel,NLD,16,,5408 AW,Schakelplein,{},,jumbo
+yh8KYx4X9AAAAAFI3nYYwKxK,52.075516,4.358499,SupermarktPuP,Voorburg,NLD,14,,2274 VZ,Jacob van den Eyndestraat,{},,jumbo
+F4YKY7TSggcAAAF01exM2bMp,52.142133,4.460986,SupermarktPuP,Voorschoten,NLD,25,,2253 TS,Planciusplantsoen,{},,jumbo
+4icKYx4XdIMAAAFe1vF_kU9j,52.186591,5.603517,SupermarktPuP,Voorthuizen,NLD,155C,,3781 AD,Hoofdstraat,{},,jumbo
+F5cKYx4Xi3EAAAFNfSM7frI2,52.410116,6.619707,SupermarktPuP,Vriezenveen,NLD,74,,7671 XZ,Krijgerstraat,{},,jumbo
+tNkKYx4XeMYAAAFI2x4YwKxK,52.456427,6.566767,SupermarktPuP,Vroomshoop,NLD,25c,,7681 ZK,Linderflier,{},,jumbo
+c8EKYx4XfS0AAAFlcsoGOuoH,51.645946,5.283453,SupermarktPuP,Vught,NLD,109,,5262 CM,Moleneindplein,{},,jumbo
+pb4KYx4XLzoAAAFIREwYwKxK,51.657620,5.298887,SupermarktPuP,Vught,NLD,3G,,5261 EH,Raadhuisstraat,{},,jumbo
+FuEKYx4XK8sAAAFoppB8ON9F,51.691134,5.076974,SupermarktPuP,Waalwijk,NLD,358,,5142 CD,Grotestraat,{},,jumbo
+yIQKYx4XDUAAAAFILtUYwKxK,51.676893,5.052378,PuP,Waalwijk,NLD,5,,5144 NC,Professor Asserweg,{},,jumbo
+3hMKYx4XjScAAAFJFIgFS1eI,52.040349,4.650950,SupermarktPuP,Waddinxveen,NLD,89,,2741 NL,Promenade,{},,jumbo
+GeIKYx4XPWgAAAFNPYA7frdc,51.978542,5.662942,SupermarktPuP,Wageningen,NLD,1223,,6708 HZ,Tarthorst,{},,jumbo
+SpwKYx4X.FwAAAFL8E4TBE2Y,52.145623,4.394572,SupermarktPuP,Wassenaar,NLD,1,,2242 KT,Luifelbaan,{},,jumbo
+UpYKYx4Xzg8AAAFXGbxyk_kw,52.025250,4.274751,SupermarktPuP,Wateringen,NLD,6,,2291 RX,Vliethof,{},,jumbo
+n74KY7POyfIAAAGNi.Y4uTkI,51.253550,5.704549,SupermarktPuP,Weert,NLD,11,,6001 HN,Collegeplein,{},,jumbo
+d.QKY7POCvEAAAGNpho4uR9J,51.264030,5.709920,SupermarktPuP,Weert,NLD,3,,6003 BN,Molenakkerplein,{},,jumbo
+rRkKYx4XL7cAAAFN4Ps7fpNP,52.849851,6.607040,SupermarktPuP,Westerbork,NLD,8,,9431 AG,Burg. G van Weezelplein,{},,jumbo
+f84KYx4XFWQAAAFJEBAYZ4CR,52.459700,6.618790,SupermarktPuP,Westerhaar,NLD,45,,7676 DA,Kervelplein,{},,jumbo
+7UUKY7PWlnwAAAF1AaIeZJX4,51.954932,5.972927,SupermarktPuP,Westervoort,NLD,8,,6931 XS,Broeklanden,{},,jumbo
+ZBcKY7PTAvIAAAGBxIFGZUXQ,52.359754,6.594828,SupermarktPuP,Wierden,NLD,10,,7641 CC,Dikkensweg,{},,jumbo
+TCUKYx4X4nUAAAFpKhoKvUtr,51.809495,5.725060,SupermarktPuP,Wijchen,NLD,17,,6602 BA,Herenstraat,{},,jumbo
+OxUKYx4XG0YAAAFIB8wYwKxK,51.799795,5.724256,SupermarktPuP,Wijchen,NLD,12-14,,6605 HN,Zuiderpoort,{},,jumbo
+9dsKYx4XJOMAAAFIDIwYwKxK,51.979235,5.341617,SupermarktPuP,Wijk Bij Duurstede,NLD,2,,3962 DP,Madelinushof,{},,jumbo
+lb8KYx4Xj3MAAAFX8qkpiSDl,51.983363,5.340934,SupermarktPuP,Wijk bij Duurstede,NLD,3A,,3962 EH,Langbroekseweg,{},,jumbo
+PucKYx4XqzgAAAFo1pB8ON9F,51.756271,5.130119,SupermarktPuP,Wijk en Aalburg,NLD,67,,4261 DC,Markt,{},,jumbo
+ziYKYx4Xdm0AAAFI650YwKrH,51.692135,4.439780,SupermarktPuP,Willemstad,NLD,3,,4797 AP,Achterstraat,{},,jumbo
+DgcKYx4XjoQAAAFIIdcYwKxJ,52.200316,4.896847,SupermarktPuP,Wilnis,NLD,2,,3648 XK,Molmlaan,{},,jumbo
+s5kKYx4XCNYAAAFItdIYwKxK,53.147410,7.035044,SupermarktPuP,Winschoten,NLD,56,,9675 BN,Heemskerkstraat,{},,jumbo
+OWQKYx4XDDgAAAFIaMkYwKxK,51.880788,5.706499,SupermarktPuP,Winssen,NLD,7c,,6645 BA,Leegstraat,{},,jumbo
+6YcKYx4XHOcAAAFIiFgYwKxK,51.971362,6.705995,SupermarktPuP,Winterswijk,NLD,105,,7102 AC,Europalaan,{},,jumbo
+RtIKYx4XXu8AAAFMhV8hgZb4,52.086085,4.904900,SupermarktPuP,Woerden,NLD,19,,3446 BX,La Fontaineplein,{},,jumbo
+ji4KYx4X49UAAAFIVNsYwKxJ,52.088354,4.870138,SupermarktPuP,Woerden,NLD,92,,3443 EW,Tournoysveld,{},,jumbo
+PfIKYx4X.38AAAFKs9Z0LVDS,52.077242,4.863341,SupermarktPuP,Woerden,NLD,18,,3448 HM,Molenvlietbrink,{},,jumbo
+Ui4KYx4Xb9kAAAFIIaAYwKxK,52.878500,6.005416,SupermarktPuP,Wolvega,NLD,31,,8471 AS,Markt,{},,jumbo
+iGEKYx4XCWEAAAFIUL0YwKxK,53.108561,5.588159,SupermarktPuP,Wommels,NLD,11,,8731 AX,Terp,{},,jumbo
+7MwKY7PTDXgAAAGLKrg4dohy,52.081909,5.412983,SupermarktPuP,Woudenberg,NLD,18,,3931 VH,'t Schilt,{},,jumbo
+NsUKYx4XYc4AAAFM7eIcobsE,51.520602,4.388977,SupermarktPuP,Wouw,NLD,8,,4724 EE,Kloosterstraat,{},,jumbo
+iqcKY7PTUo4AAAGLCng4dkpv,51.802704,5.251408,SupermarktPuP,Zaltbommel,NLD,12,,5302 TA,Fiep Westendorpplein,{},,jumbo
+iloKYx4XvKcAAAFIhf8YwKxJ,51.696945,5.674078,SupermarktPuP,Zeeland,NLD,47,,5411 EA,Kerkstraat,{},,jumbo
+NpUKYx4XjHAAAAFMyzwcocAr,52.098069,5.239731,SupermarktPuP,Zeist,NLD,96,,3705 HK,Johan van Oldenbarneveltlaan,{},,jumbo
+rs0KYx4XxpwAAAFIkF0YwKrH,52.088909,5.248135,SupermarktPuP,Zeist,NLD,2,,3701 EX,Korte Steijnlaan,{},,jumbo
+F3wKYx4X9CgAAAFIBUIYwKxK,52.100900,5.222160,SupermarktPuP,Zeist,NLD,2785-3001,,3706 AL,Laan van Vollenhove,{},,jumbo
+bUsKYx4XxNMAAAFIZ7EYwKxK,52.007206,6.346952,SupermarktPuP,Zelhem,NLD,1,,7021 XG,Bergstraat,{},,jumbo
+s6wKYx4X8vIAAAFIB.EYwKxJ,51.929334,5.711857,SupermarktPuP,Zetten,NLD,8,,6671 CA,Julianaplein,{},,jumbo
+lOAKYx4XRzgAAAFJGxEYZ4CR,51.931510,6.078237,SupermarktPuP,Zevenaar,NLD,7,,6901 JC,Kampsingel,{},,jumbo
+uZwKYx4XyTMAAAFJ1w8YZ4CR,51.930226,6.064158,SupermarktPuP,Zevenaar,NLD,34,,6904 BD,van Oldebarneveldtlaan,{},,jumbo
+GJQKYx4X0dEAAAFizyA0nJMo,51.647711,4.590481,SupermarktPuP,Zevenbergen,NLD,4,,4761 TW,Zandberg,{},,jumbo
+p1AKYx4XTtsAAAFJ7xAYZ4CR,52.012988,4.579452,SupermarktPuP,Zevenhuizen,NLD,129,,2761 AL,Dorpsstraat,{},,jumbo
+Zd8KYx4XPhwAAAFIaNsYwKxJ,52.039918,4.494595,SupermarktPuP,Zoetermeer,NLD,109,,2718 GH,Groenblauwlaan,{},,jumbo
+qhoKYx4XrEkAAAFIxlEYwKWg,52.066911,4.478458,SupermarktPuP,Zoetermeer,NLD,3,,2717 HS,Kentgensplein,{},,jumbo
+M1wKYx4XuR0AAAFI0MgYwKxJ,52.055543,4.468679,SupermarktPuP,Zoetermeer,NLD,52,,2716 CW,Middelwaard,{},,jumbo
+DoAKYx4XYSMAAAFIB30YwKxK,52.059349,4.541213,SupermarktPuP,Zoetermeer,NLD,548,,2721 NJ,Oosterheemplein,{},,jumbo
+vNYKYx4XH7YAAAFZar8nMJqK,52.043506,4.477336,SupermarktPuP,Zoetermeer,NLD,201,,2719 CH,Quirinegang,{},,jumbo
+uMMKYx4XoXoAAAFNLZhasEYQ,52.069415,4.510174,SupermarktPuP,Zoetermeer,NLD,8,,2727 AK,Meeuwenveld,{},,jumbo
+mfoKYx4X7kYAAAFIKCYYwKxK,52.121030,4.496790,SupermarktPuP,Zoeterwoude,NLD,34,,2381 EN,Dorpsstraat,{},,jumbo
+HpUKY7XBBEcAAAGM6v44jn.j,52.144030,4.515980,SupermarktPuP,Zoeterwoude,NLD,1,,2382 BT,Molenplein,{},,jumbo
+v_gKYx4XMO4AAAFoP31NJAb6,51.502598,3.479821,SupermarktPuP,Zoutelande,NLD,10,,4374 BB,Westkapelseweg,{},,jumbo
+7oQKYx4X5fEAAAFIIT4YwKxK,53.093135,6.685443,SupermarktPuP,Zuidlaren,NLD,8,,9471 GR,Stationsweg,{},,jumbo
+hyoKYx4XnsAAAAFIsicYwKxK,52.675426,6.428343,SupermarktPuP,Zuidwolde,NLD,16,,7921 HR,Wethouder Klunderstraat,{},,jumbo
+te0KYx4XWzAAAAFIJIoYwKxK,52.126134,6.244301,SupermarktPuP,Zutphen,NLD,47,,7207 PV,Rudolf Steinerlaan,{},,jumbo
+tY0KYx4X6VYAAAFI.3oYwKxK,52.133391,6.204294,SupermarktPuP,Zutphen,NLD,14,,7204 MN,Ruys de Beerenbrouckstraat,{},,jumbo
+2AMKYx4X30YAAAFIxdAYwKxK,52.696381,5.117826,SupermarktPuP,Zwaagdijk-Oost,NLD,227F,,1684 NG,Zwaagdijk,{},,jumbo
+QH0KY7RaqEgAAAGE.HRGtqIN,51.812620,4.627060,SupermarktPuP,Zwijndrecht,NLD,97,,3333 EK,Kort Ambachtlaan,{},,jumbo
+9qoKYx4XE6YAAAFI4V0YwKrH,51.821797,4.650512,SupermarktPuP,Zwijndrecht,NLD,1,,3332 GG,Brabant,{},,jumbo
+T1wKYx4XWSYAAAFIiUMYwKxK,52.506300,6.101963,SupermarktPuP,Zwolle,NLD,71,,8012 DG,Assendorperstraat,{},,jumbo
+a5gKYx4XrmwAAAFIOS4YwKxK,52.529653,6.101823,SupermarktPuP,Zwolle,NLD,3,,8032 JV,De Dobbe,{},,jumbo
+WXIKYx4XBRYAAAFIIgoYwKxK,52.526612,6.082377,SupermarktPuP,Zwolle,NLD,14,,8031 HR,Bachplein,{},,jumbo
+8v4KYx4XuNwAAAFIWQAYwKxK,52.521300,6.106414,SupermarktPuP,Zwolle,NLD,10,,8022 EL,Hogenkampspassage,{},,jumbo
+iNcKYx4XORAAAAFICQIYwKxK,52.533564,6.055194,SupermarktPuP,Zwolle,NLD,102,,8043 LS,Wade,{},,jumbo
+NjYKYx4XJdEAAAFIRtYYwKxJ,52.487886,6.117280,SupermarktPuP,Zwolle,NLD,26,,8014 DR,Sellekamp,{},,jumbo
+XagKYx4XcygAAAFICFAYwKxK,52.510133,6.084357,SupermarktPuP,Zwolle,NLD,20,,8011 AH,Veemarkt,{},,jumbo
+cg0KYx4XhfUAAAFI3dMYwKxJ,52.522354,6.048675,SupermarktPuP,Zwolle,NLD,23,,8042 AV,Petuniaplein,{},,jumbo
+EOgKYx4XFiQAAAFJa_YYZ4At,51.778461,4.615551,SupermarktPuP,s-Gravendeel,NLD,37,,3295 BD,Kerkstraat,{},,jumbo
+gbcKYx4X4B8AAAFbARoHalpd,52.002103,4.163299,SupermarktPuP,s-Gravenzande,NLD,10,,2691 MW,Graaf Willem II straat,{},,jumbo
+7ewKYx4Xqp0AAAFIHigYwKrH,51.874272,6.245829,SupermarktPuP,s-Heerenberg,NLD,71,,7041 JE,Stadsplein,{},,jumbo

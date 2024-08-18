@@ -31,7 +31,7 @@ export async function GET(req) {
   try {
     const connection = await connectToDatabase();
     const [results] = await connection.execute(
-        'SELECT id, street, houseNumber, city FROM albertheijn WHERE street LIKE ? LIMIT 10',
+        'SELECT id, street, houseNumber, city FROM supermarkets WHERE street LIKE ? LIMIT 10',
         [`%${query}%`]);
 
     return NextResponse.json(results, {status: 200});
