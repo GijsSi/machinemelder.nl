@@ -44,10 +44,9 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
 
                     console.log('Stores:', data);
 
-                    // Log each store's properties to check the data structure
+                    // Ensure 'supermarktBranch' is at least an empty string if undefined
                     data.features.forEach(feature => {
                         console.log('Store ID:', feature.properties.id, 'Branch:', feature.properties.supermarktBranch);
-                        // Ensure 'supermarktBranch' is at least an empty string if undefined
                         feature.properties.supermarktBranch = feature.properties.supermarktBranch || 'unknown';
                     });
 
@@ -57,7 +56,25 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         data: data,
                     });
 
-                    // Add a layer for Albert Heijn stores
+                    // Add a layer for machine status (circle)
+                    map.current.addLayer({
+                        id: 'machine-status',
+                        type: 'circle',
+                        source: 'stores',
+                        paint: {
+                            'circle-color': [
+                                'case',
+                                ['==', ['get', 'machineWorking'], 1],
+                                '#00FF00', // Green for working
+                                ['==', ['get', 'machineWorking'], 0],
+                                '#FF0000', // Red for broken
+                                '#808080'  // Gray for unknown/not reported
+                            ],
+                            'circle-radius': 8,
+                        },
+                    });
+
+                    // Add layers for different supermarket branches
                     map.current.addLayer({
                         id: 'ah-stores',
                         type: 'symbol',
@@ -70,7 +87,6 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         filter: ['==', ['get', 'supermarktBranch'], 'albertheijn']
                     });
 
-                    // Add a layer for Jumbo stores
                     map.current.addLayer({
                         id: 'jumbo-stores',
                         type: 'symbol',
@@ -83,17 +99,71 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         filter: ['==', ['get', 'supermarktBranch'], 'jumbo']
                     });
 
-                    // Add a layer for stores with unknown or undefined branch
                     map.current.addLayer({
                         id: 'unknown-stores',
                         type: 'symbol',
                         source: 'stores',
                         layout: {
-                            'icon-image': 'defaultLogo', // Add a default logo if desired
+                            'icon-image': 'defaultLogo',
                             'icon-size': 0.12,
                             'icon-anchor': 'bottom',
                         },
-                        filter: ['==', ['get', 'supermarktBranch'], null]
+                        filter: ['==', ['get', 'supermarktBranch'], 'unknown']
+                    });
+
+                    // Hover functionality
+                    map.current.on('mouseenter', 'ah-stores', (e) => {
+                        if (e.features.length > 0) {
+                            map.current.getCanvas().style.cursor = 'pointer';
+                            const feature = e.features[0];
+                            onStoreHover(feature.properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    map.current.on('mouseenter', 'jumbo-stores', (e) => {
+                        if (e.features.length > 0) {
+                            map.current.getCanvas().style.cursor = 'pointer';
+                            const feature = e.features[0];
+                            onStoreHover(feature.properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    map.current.on('mouseleave', 'ah-stores', () => {
+                        map.current.getCanvas().style.cursor = '';
+                        onStoreHover(null, { x: 0, y: 0 });
+                    });
+
+                    map.current.on('mouseleave', 'jumbo-stores', () => {
+                        map.current.getCanvas().style.cursor = '';
+                        onStoreHover(null, { x: 0, y: 0 });
+                    });
+
+                    map.current.on('mousemove', 'ah-stores', (e) => {
+                        if (e.features.length > 0) {
+                            onStoreHover(e.features[0].properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    map.current.on('mousemove', 'jumbo-stores', (e) => {
+                        if (e.features.length > 0) {
+                            onStoreHover(e.features[0].properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    map.current.on('click', 'ah-stores', (e) => {
+                        if (e.features.length > 0) {
+                            const feature = e.features[0];
+                            console.log("Store Clicked: ", feature.properties.id); // Debug log
+                            onStoreClick(feature.properties.id);
+                        }
+                    });
+
+                    map.current.on('click', 'jumbo-stores', (e) => {
+                        if (e.features.length > 0) {
+                            const feature = e.features[0];
+                            console.log("Store Clicked: ", feature.properties.id); // Debug log
+                            onStoreClick(feature.properties.id);
+                        }
                     });
 
                 } catch (error) {
@@ -102,9 +172,6 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
             });
         }
     }, [amsterdam.lng, amsterdam.lat, zoom, onStoreHover, onStoreClick]);
-
-
-
 
     return <div ref={mapContainer} className="w-full h-screen" />;
 };

@@ -68,7 +68,7 @@ if response.status_code == 200:
 
         # Insert data into the database
         for store in filtered_stores:
-            sql = """INSERT INTO supermarkets (uuid, latitude, longitude, storeType, city, countryCode, 
+            sql = """INSERT INTO albertheijn (uuid, latitude, longitude, storeType, city, countryCode, 
                     houseNumber, houseNumberExtra, postalCode, street, openingDays, machineWorking, supermarketBranch) 
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     ON DUPLICATE KEY UPDATE

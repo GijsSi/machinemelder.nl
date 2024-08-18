@@ -23,13 +23,13 @@ const Map = () => {
         }
     };
 
-
     return (
         <div className="relative w-full h-full">
             <MapContainer
                 onStoreHover={handleStoreHover}
-                onStoreClick={(store) => handleStoreClick(store.id)}
-            />           {hoveredStore && (
+                onStoreClick={handleStoreClick}
+            />
+            {hoveredStore && (
                 <StoreCard store={hoveredStore} position={hoverPosition} />
             )}
         </div>
