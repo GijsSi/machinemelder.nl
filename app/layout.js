@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <PlausibleProvider
-      domain="www.machinemelder.nl"
+      domain="machinemelder.nl"
       customDomain="http://161.97.151.230:8001"
       selfHosted={true}
       trackOutboundLinks={true}
