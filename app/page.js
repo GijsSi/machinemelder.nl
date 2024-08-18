@@ -16,7 +16,7 @@ export default function Home() {
           Sticker aanvragen
         </Link>
         <Link
-          className='absolute top-4 right-4 z-50 bg-blue-500 text-white py-2 px-4 rounded md:py-3 md:px-6'
+          className='absolute top-4 right-4 z-50 bg-blue-500 text-white py-2 mr-8 px-4 rounded md:py-3 md:px-6 md:mr-8'
           href={'/waarom'}
         >
           Waarom?
