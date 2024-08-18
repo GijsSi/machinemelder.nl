@@ -357,13 +357,15 @@ const WinkelPage = ({ params }) => {
                             <ul className="mt-5 space-y-4 max-h-48 overflow-y-auto">
                                 {sortedReports.length > 0 ? (
                                     sortedReports.map((report) => (
-                                        <li key={report.properties.id} className="flex items-center justify-between pr-8">
-                                            <span>{formatDateTime(report.properties.createdAt)}</span>
-                                            <span className={`ml-2 relative flex h-3 w-3 `}>
-                                                <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${getStatusColor(report.properties.machineWorking)} opacity-75`}></span>
-                                                <span className={`relative inline-flex rounded-full h-3 w-3 ${getStatusColor(report.properties.machineWorking)}`}></span>
-                                            </span>
-                                        </li>
+                                        report && report.properties && (
+                                            <li key={report.properties.id} className="flex items-center justify-between pr-8">
+                                                <span>{formatDateTime(report.properties.createdAt)}</span>
+                                                <span className={`ml-2 relative flex h-3 w-3 `}>
+                                                    <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${getStatusColor(report.properties.machineWorking)} opacity-75`}></span>
+                                                    <span className={`relative inline-flex rounded-full h-3 w-3 ${getStatusColor(report.properties.machineWorking)}`}></span>
+                                                </span>
+                                            </li>
+                                        )
                                     ))
                                 ) : (
                                     <p>Geen meldingen beschikbaar.</p>

@@ -105,9 +105,9 @@ export async function POST(req, {params}) {
 
     // Update the machineWorking status in the albertheijn table
     const [updateResult] = await connection.execute(
-        'UPDATE albertheijn SET machineWorking = ? WHERE id = ?',
+        'UPDATE supermarkets SET machineWorking = ? WHERE id = ?',
         [machineWorking, id]);
-    // console.log('Update result:', updateResult);
+    console.log('Update result:', updateResult);
 
     return new Response(JSON.stringify({success: true, id: result.insertId}), {
       status: 201,

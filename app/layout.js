@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       selfHosted={true}
       trackOutboundLinks={true}
       trackFileDownloads={true}
-      trackLocalhost={true}
+      trackLocalhost={false}
       enabled={true}
     >
       <html lang="en">
