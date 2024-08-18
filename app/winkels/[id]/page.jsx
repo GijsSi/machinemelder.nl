@@ -71,7 +71,7 @@ const WinkelPage = ({ params }) => {
                         version: 'default',
                         title: 'Locatie Error',
                         message: 'Er is een fout opgetreden bij het ophalen van je locatie.',
-                        buttonText: 'Close',
+                        buttonText: 'Sluit',
                     };
 
                     switch (error.code) {
@@ -332,7 +332,9 @@ const WinkelPage = ({ params }) => {
                         <div className="text-center">
                             <p className="text-lg font-semibold mb-2 text-left">Wat is MachineMelder nou weer?</p>
                             <p className='text-left'>Deze tool heb ik gebouwd omdat ik er helemaal klaar mee ben dat elke keer als ik met kratten naar de Albert Heijn loop de statiegeldmachine weer kapot is. Om dit probleem op te lossen heb ik deze oplossing bedacht in de hoop dat mensen het gebruiken. Zo kun je van tevoren checken of de statiegeldmachine werkt. Scheelt je ook weer een telefoontje naar die sjacherijnige filiaalmanager 😜</p>
+
                             <p className="text-md pt-2 text-gray-600 text-left mb-6">Ik ben een student die deze tool in zijn eentje in de lucht houdt. Je kunt al vanaf 1 euro doneren! Ik drink graag een biertje op jou!</p>
+
                             <a
                                 href="https://www.buymeacoffee.com/gijssi"
                                 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none' }}
