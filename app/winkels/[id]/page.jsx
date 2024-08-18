@@ -95,7 +95,7 @@ const WinkelPage = ({ params }) => {
                             modalConfig = {
                                 version: 'warning',
                                 title: 'Request Timeout',
-                                message: 'The request to get your location timed out.',
+                                message: 'Het verzoek om je locatie op te halen duurde helaas te lang.',
                                 buttonText: 'Probeer opnieuw',
                             };
                             break;
@@ -103,7 +103,7 @@ const WinkelPage = ({ params }) => {
                             modalConfig = {
                                 version: 'error',
                                 title: 'Unknown Error',
-                                message: 'An unknown error occurred while retrieving your location.',
+                                message: 'Er is een onbekende fout opgetreden bij het ophalen van je locatie.',
                                 buttonText: 'Okay',
                             };
                             break;
@@ -111,8 +111,8 @@ const WinkelPage = ({ params }) => {
                             modalConfig = {
                                 version: 'default',
                                 title: 'Location Error',
-                                message: 'An unexpected error occurred.',
-                                buttonText: 'Understood',
+                                message: 'Onbekende fout opgetreden.',
+                                buttonText: 'Begrepen',
                             };
                             break;
                     }
@@ -124,9 +124,9 @@ const WinkelPage = ({ params }) => {
         } else {
             setModalProps({
                 version: 'warning',
-                title: 'Geolocation Not Supported',
-                message: 'Geolocation is not supported by this browser.',
-                buttonText: 'Close',
+                title: 'Geolocatie niet ondersteund',
+                message: 'Geolocatie niet ondersteund in deze browser.',
+                buttonText: 'Sluit',
             });
             setIsModalOpen(true);
         }
@@ -236,10 +236,10 @@ const WinkelPage = ({ params }) => {
             day: 'numeric',
             hour: 'numeric',
             minute: 'numeric',
-            hour12: false // If you want to use 24-hour format
+            hour12: false
         };
 
-        // Use 'nl-NL' for Dutch (Netherlands) formatting
+
         return date.toLocaleDateString('nl-NL', options);
     };
 
@@ -289,7 +289,7 @@ const WinkelPage = ({ params }) => {
                             )}
                             <div className="mt-2 text-sm text-gray-500">
                                 <p className="bg-yellow-100 border border-yellow-300 p-2 rounded">
-                                    ⚠️ We vragen voor je locatie om te controleren of je in de buurt van de winkel bent.
+                                    ⚠️ We vragen je locatie om te controleren of je in de buurt van de winkel bent.
                                 </p>
                             </div>
 
@@ -322,7 +322,7 @@ const WinkelPage = ({ params }) => {
                                 className="mt-4 w-full inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 text-center transition duration-300 ease-in-out transform hover:scale-105"
                             >
                                 <p className="w-full text-center">
-                                    Zie alle automaten in de buurt
+                                    Toon alle automaten in de buurt
                                 </p>
                             </Link>
                         </div>
@@ -330,9 +330,9 @@ const WinkelPage = ({ params }) => {
 
                     <div className="bg-white shadow-lg rounded-lg mt-8 mx-10 w-full max-w-3xl px-6 py-8 sm:p-10">
                         <div className="text-center">
-                            <p className="text-lg font-semibold mb-2 text-left">Ik ben student die deze tool in zijn eentje in de lucht houdt. Ik drink graag een biertje op jou!</p>
-                            <p className='text-left'>Deze tool heb ik gebouwd omdat ik er helemaal klaar mee ben, dat elke keer als ik met kratten naar de albert heijn loop en de machine kapot is. Om dit probleem op te lossen heb ik deze oplossing bedacht in de hoop dat mensen het gebruiken en dat je van te voren kan kijken of de machine werkt. Nu hoef je ook niet meer te bellen om te vragen of de machine werkt.</p>
-                            <p className="text-md text-gray-600 mb-6">Je kan al vanaf 1 euro doneren!</p>
+                            <p className="text-lg font-semibold mb-2 text-left">Wat is MachineMelder nou weer?</p>
+                            <p className='text-left'>Deze tool heb ik gebouwd omdat ik er helemaal klaar mee ben dat elke keer als ik met kratten naar de Albert Heijn loop de statiegeldmachine weer kapot is. Om dit probleem op te lossen heb ik deze oplossing bedacht in de hoop dat mensen het gebruiken. Zo kun je van tevoren checken of de statiegeldmachine werkt. Scheelt je ook weer een telefoontje naar die sjacherijnige filiaalmanager 😜</p>
+                            <p className="text-md pt-2 text-gray-600 text-left mb-6">Ik ben een student die deze tool in zijn eentje in de lucht houdt. Je kunt al vanaf 1 euro doneren! Ik drink graag een biertje op jou!</p>
                             <a
                                 href="https://www.buymeacoffee.com/gijssi"
                                 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none' }}
@@ -364,14 +364,14 @@ const WinkelPage = ({ params }) => {
                                         </li>
                                     ))
                                 ) : (
-                                    <p>No reports available.</p>  // Fallback message if no reports
+                                    <p>Geen meldingen beschikbaar.</p>
                                 )}
                             </ul>
                         </div>
                     </div>
                 </>
             ) : (
-                <p>Loading store data...</p>
+                <p>Winkeldata laden...</p>
             )}
         </div>
     )

@@ -41,8 +41,8 @@ const SuccessPageContent = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-green-50">
             <div className="text-center">
-                <h1 className="text-2xl font-semibold text-green-600">Betaling Geslaagd!</h1>
-                <p className="mt-4">Dankjewel voor je bestelling! Ik ga hem zo snel mogelijk op de bus voor je doen. (Meestal binnen 1-2 dagen)</p>
+                <h1 className="text-2xl font-semibold text-green-600">Betaling geslaagd!</h1>
+                <p className="mt-4">Dankjewel voor je bestelling! Ik ga het zo snel mogelijk opsturen (meestal binnen 1-2 dagen)</p>
                 <button
                     className="mt-6 inline-flex items-center justify-center rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500"
                     onClick={() => router.push(`/store/${storeId}`)}
