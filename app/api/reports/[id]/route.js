@@ -103,13 +103,20 @@ export async function POST(req, {params}) {
         'INSERT INTO meldingen (supermarktId, latitude, longitude, machineWorking, reporterIpAddress) VALUES (?, ?, ?, ?, ?)',
         [id, latitude, longitude, machineWorking, reporterIpAddress]);
 
-    // Update the machineWorking status in the albertheijn table
+    // Retrieve the inserted report
+    const [newReportRows] = await connection.execute(
+        'SELECT id, latitude, longitude, machineWorking, createdAt FROM meldingen WHERE id = ?',
+        [result.insertId]);
+
+    const newReport = newReportRows[0];
+
+    // Update the machineWorking status in the supermarkets table
     const [updateResult] = await connection.execute(
         'UPDATE supermarkets SET machineWorking = ? WHERE id = ?',
         [machineWorking, id]);
     console.log('Update result:', updateResult);
 
-    return new Response(JSON.stringify({success: true, id: result.insertId}), {
+    return new Response(JSON.stringify({success: true, report: newReport}), {
       status: 201,
       headers: {
         'Content-Type': 'application/json',

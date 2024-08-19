@@ -60,7 +60,7 @@ const WinkelPage = ({ params }) => {
                         setModalProps({
                             version: 'warning',
                             title: 'Out of Range',
-                            message: 'Je bent niet binnen 150m van de winkel.',
+                            message: 'Je bent niet binnen 1km van de winkel.',
                             buttonText: 'Close',
                         });
                         setIsModalOpen(true);
@@ -153,7 +153,6 @@ const WinkelPage = ({ params }) => {
         const longitude = position.coords.longitude;
 
         try {
-            // Fetch the client's IP address
             const ipResponse = await fetch('https://api.ipify.org?format=json');
             if (!ipResponse.ok) {
                 throw new Error('Failed to fetch IP address');
@@ -161,9 +160,6 @@ const WinkelPage = ({ params }) => {
             const ipData = await ipResponse.json();
             const ipAddress = ipData.ip;
 
-            console.log(ipAddress);
-
-            // Submit the report with the IP address
             const reportResponse = await fetch(`/api/reports/${params.id}`, {
                 method: 'POST',
                 headers: {
@@ -178,12 +174,14 @@ const WinkelPage = ({ params }) => {
             });
 
             const reportData = await reportResponse.json();
-            console.log('Report response status:', reportResponse.status);
-            console.log('Report response data:', reportData);
 
-            // Check if the report was successfully submitted
             if (reportResponse.status === 201 && reportData.success) {
-                // Set success modal properties
+                setReports(prevReports => {
+                    const updatedReports = [reportData.report, ...prevReports];
+                    console.log('Updated Reports State:', updatedReports); // Debugging line
+                    return updatedReports;
+                });
+
                 setModalProps({
                     version: 'success',
                     title: 'Success!',
@@ -191,7 +189,6 @@ const WinkelPage = ({ params }) => {
                     buttonText: 'Close',
                 });
                 setIsModalOpen(true);
-                setReports(prevReports => [reportData.report, ...prevReports]);
             } else {
                 throw new Error('Failed to submit report');
             }
@@ -206,6 +203,9 @@ const WinkelPage = ({ params }) => {
             setIsModalOpen(true);
         }
     };
+
+
+
 
     const handleWorkingClick = () => {
         checkUserLocation((position) => {
@@ -356,21 +356,26 @@ const WinkelPage = ({ params }) => {
                             </h3>
                             <ul className="mt-5 space-y-4 max-h-48 overflow-y-auto">
                                 {sortedReports.length > 0 ? (
-                                    sortedReports.map((report) => (
-                                        report && report.properties && (
-                                            <li key={report.properties.id} className="flex items-center justify-between pr-8">
-                                                <span>{formatDateTime(report.properties.createdAt)}</span>
-                                                <span className={`ml-2 relative flex h-3 w-3 `}>
-                                                    <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${getStatusColor(report.properties.machineWorking)} opacity-75`}></span>
-                                                    <span className={`relative inline-flex rounded-full h-3 w-3 ${getStatusColor(report.properties.machineWorking)}`}></span>
-                                                </span>
-                                            </li>
-                                        )
-                                    ))
+                                    sortedReports.map((report, index) => {
+                                        console.log(`Rendering Report ${index}:`, report);
+                                        return (
+                                            report && report.properties && (
+                                                <li key={report.properties.id} className="flex items-center justify-between pr-8">
+                                                    <span>{formatDateTime(report.properties.createdAt)}</span>
+                                                    <span className="ml-2 relative flex h-3 w-3">
+                                                        <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${getStatusColor(report.properties.machineWorking)} opacity-75`}></span>
+                                                        <span className={`relative inline-flex rounded-full h-3 w-3 ${getStatusColor(report.properties.machineWorking)}`}></span>
+                                                    </span>
+                                                </li>
+                                            )
+                                        );
+                                    })
                                 ) : (
                                     <p>Geen meldingen beschikbaar.</p>
                                 )}
                             </ul>
+
+
                         </div>
                     </div>
                 </>
