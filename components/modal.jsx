@@ -34,6 +34,11 @@ const Modal = ({
 
     const modalBackground = versionStyles[version] || versionStyles.default;
 
+    const handleButtonClick = () => {
+        setIsModalOpen(false);
+        window.location.reload(); // Reload the page
+    };
+
     return (
         <AnimatePresence>
             {isOpen && (
@@ -81,7 +86,7 @@ const Modal = ({
                                     Go to the map
                                 </Link>
                                 <button
-                                    onClick={() => setIsModalOpen(false)}
+                                    onClick={handleButtonClick} // Use window.location.reload here
                                     className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
                                 >
                                     {buttonText}

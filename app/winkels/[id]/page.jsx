@@ -5,6 +5,7 @@ import WarningAnimation from '@/public/images/warning-animation.gif'
 import { useRouter } from 'next/navigation'
 import Modal from '@/components/modal'
 import Link from 'next/link'
+import LoadingButton from '@/components/LoadingButton';
 
 const WinkelPage = ({ params }) => {
     const [storeData, setStoreData] = useState(null);
@@ -207,15 +208,21 @@ const WinkelPage = ({ params }) => {
 
 
 
-    const handleWorkingClick = () => {
-        checkUserLocation((position) => {
-            submitReport(position, true);
+
+
+    const handleWorkingClick = async () => {
+        return new Promise((resolve, reject) => {
+            checkUserLocation((position) => {
+                submitReport(position, true).then(resolve).catch(reject);
+            });
         });
     };
 
-    const handleBrokenClick = () => {
-        checkUserLocation((position) => {
-            submitReport(position, false);
+    const handleBrokenClick = async () => {
+        return new Promise((resolve, reject) => {
+            checkUserLocation((position) => {
+                submitReport(position, false).then(resolve).catch(reject);
+            });
         });
     };
 
@@ -294,20 +301,16 @@ const WinkelPage = ({ params }) => {
                             </div>
 
                             <div className="mt-5 flex justify-center space-x-4 w-full">
-                                <button
-                                    type="button"
-                                    className="inline-flex items-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-400 transition duration-300 ease-in-out transform hover:scale-105"
-                                    onClick={() => handleWorkingClick()}
-                                >
-                                    Werkend
-                                </button>
-                                <button
-                                    type="button"
-                                    className="inline-flex items-center rounded-full bg-rose-500 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-rose-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-400 transition duration-300 ease-in-out transform hover:scale-105"
-                                    onClick={() => handleBrokenClick()}
-                                >
-                                    Kapot
-                                </button>
+                                <LoadingButton
+                                    initialText="Werkend"
+                                    onClick={handleWorkingClick}
+                                    variantColor="bg-emerald-500"
+                                />
+                                <LoadingButton
+                                    initialText="Kapot"
+                                    onClick={handleBrokenClick}
+                                    variantColor="bg-rose-500"
+                                />
                                 <Link
                                     href={`/aanvraag-sticker/${params.id}`}
                                     type="button"
