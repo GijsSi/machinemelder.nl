@@ -27,6 +27,7 @@ const StoreCard = ({ store, position }) => {
 
     const formatDate = (dateString) => {
         const date = new Date(dateString);
+        date.setHours(date.getHours() - 2); // Subtract 2 hours
         const options = { weekday: 'long', day: 'numeric', month: 'short' };
         const datePart = date.toLocaleDateString('nl-NL', options);
         const timePart = date.toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' });

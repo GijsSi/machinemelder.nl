@@ -29,6 +29,8 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     ahLogo.src = '/images/ah-logo.png';
                     const jumboLogo = new Image();
                     jumboLogo.src = '/images/jumbo-logo.png';
+                    const dirkLogo = new Image();
+                    dirkLogo.src = '/images/dirk-logo.png';
 
                     await Promise.all([
                         new Promise((resolve) => (ahLogo.onload = resolve)),
@@ -37,6 +39,8 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
 
                     map.current.addImage('ahLogo', ahLogo);
                     map.current.addImage('jumboLogo', jumboLogo);
+                    map.current.addImage('dirkLogo', dirkLogo);
+
 
                     // Fetch store data from the API
                     const response = await fetch('/api/stores');
@@ -100,6 +104,19 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     });
 
                     map.current.addLayer({
+                        id: 'dirk-stores',
+                        type: 'symbol',
+                        source: 'stores',
+                        layout: {
+                            'icon-image': 'dirkLogo',
+                            'icon-size': 0.50,
+                            'icon-anchor': 'bottom',
+                        },
+                        filter: ['==', ['get', 'supermarktBranch'], 'dirk']
+                    });
+
+
+                    map.current.addLayer({
                         id: 'unknown-stores',
                         type: 'symbol',
                         source: 'stores',
@@ -121,6 +138,14 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     });
 
                     map.current.on('mouseenter', 'jumbo-stores', (e) => {
+                        if (e.features.length > 0) {
+                            map.current.getCanvas().style.cursor = 'pointer';
+                            const feature = e.features[0];
+                            onStoreHover(feature.properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    map.current.on('mouseenter', 'dirk-stores', (e) => {
                         if (e.features.length > 0) {
                             map.current.getCanvas().style.cursor = 'pointer';
                             const feature = e.features[0];
@@ -150,6 +175,12 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         }
                     });
 
+                    map.current.on('mousemove', 'dirk-stores', (e) => {
+                        if (e.features.length > 0) {
+                            onStoreHover(e.features[0].properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
                     map.current.on('click', 'ah-stores', (e) => {
                         if (e.features.length > 0) {
                             const feature = e.features[0];
@@ -159,6 +190,14 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     });
 
                     map.current.on('click', 'jumbo-stores', (e) => {
+                        if (e.features.length > 0) {
+                            const feature = e.features[0];
+                            console.log("Store Clicked: ", feature.properties.id); // Debug log
+                            onStoreClick(feature.properties.id);
+                        }
+                    });
+
+                    map.current.on('click', 'dirk-stores', (e) => {
                         if (e.features.length > 0) {
                             const feature = e.features[0];
                             console.log("Store Clicked: ", feature.properties.id); // Debug log

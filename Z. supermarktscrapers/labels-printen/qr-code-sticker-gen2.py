@@ -13,7 +13,7 @@ db = pymysql.connect(
 
 # Query the database to get the id, uuid, and street for stores in Amsterdam
 cursor = db.cursor()
-cursor.execute("SELECT id, uuid, street FROM supermarkets WHERE city = 'Zwanenburg'")
+cursor.execute("SELECT id, uuid, street FROM supermarkets ")
 results = cursor.fetchall()
 
 # Close the cursor and connection
@@ -21,7 +21,7 @@ cursor.close()
 db.close()
 
 # Filter results to include only the specified IDs
-specified_ids = {8514}
+specified_ids = {1090, 1354, 1318, 1391, 1320, 1112, 2209, 1676}
 filtered_results = [row for row in results if row[0] in specified_ids]
 
 # Template image (PDF converted to PNG or an existing image file)
