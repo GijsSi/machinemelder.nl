@@ -31,15 +31,21 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     jumboLogo.src = '/images/jumbo-logo.png';
                     const dirkLogo = new Image();
                     dirkLogo.src = '/images/dirk-logo.png';
+                    const dekaLogo = new Image();
+                    dekaLogo.src = '/images/deka-logo.png';
 
                     await Promise.all([
                         new Promise((resolve) => (ahLogo.onload = resolve)),
                         new Promise((resolve) => (jumboLogo.onload = resolve)),
+                        new Promise((resolve) => (dirkLogo.onload = resolve)),
+                        new Promise((resolve) => (dekaLogo.onload = resolve)),
                     ]);
 
                     map.current.addImage('ahLogo', ahLogo);
                     map.current.addImage('jumboLogo', jumboLogo);
                     map.current.addImage('dirkLogo', dirkLogo);
+                    map.current.addImage('dekaLogo', dekaLogo);
+
 
 
                     // Fetch store data from the API
@@ -115,6 +121,18 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         filter: ['==', ['get', 'supermarktBranch'], 'dirk']
                     });
 
+                    map.current.addLayer({
+                        id: 'deka-stores',
+                        type: 'symbol',
+                        source: 'stores',
+                        layout: {
+                            'icon-image': 'dekaLogo',
+                            'icon-size': 0.12,
+                            'icon-anchor': 'bottom',
+                        },
+                        filter: ['==', ['get', 'supermarktBranch'], 'deka']
+                    });
+
 
                     map.current.addLayer({
                         id: 'unknown-stores',
@@ -128,7 +146,7 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         filter: ['==', ['get', 'supermarktBranch'], 'unknown']
                     });
 
-                    // Hover functionality
+                    // Mouse enter - Hover functionality
                     map.current.on('mouseenter', 'ah-stores', (e) => {
                         if (e.features.length > 0) {
                             map.current.getCanvas().style.cursor = 'pointer';
@@ -153,6 +171,15 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         }
                     });
 
+                    map.current.on('mouseenter', 'deka-stores', (e) => {
+                        if (e.features.length > 0) {
+                            map.current.getCanvas().style.cursor = 'pointer';
+                            const feature = e.features[0];
+                            onStoreHover(feature.properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+                    // Mouse leave - Reset cursor
                     map.current.on('mouseleave', 'ah-stores', () => {
                         map.current.getCanvas().style.cursor = '';
                         onStoreHover(null, { x: 0, y: 0 });
@@ -163,6 +190,20 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         onStoreHover(null, { x: 0, y: 0 });
                     });
 
+                    map.current.on('mouseleave', 'dirk-stores', () => {
+                        map.current.getCanvas().style.cursor = '';
+                        onStoreHover(null, { x: 0, y: 0 });
+                    });
+
+                    map.current.on('mouseleave', 'deka-stores', () => {
+                        map.current.getCanvas().style.cursor = '';
+                        onStoreHover(null, { x: 0, y: 0 });
+                    });
+
+
+
+
+                    // Mouse move - Update hover position
                     map.current.on('mousemove', 'ah-stores', (e) => {
                         if (e.features.length > 0) {
                             onStoreHover(e.features[0].properties, { x: e.point.x, y: e.point.y });
@@ -181,6 +222,14 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                         }
                     });
 
+                    map.current.on('mousemove', 'deka-stores', (e) => {
+                        if (e.features.length > 0) {
+                            onStoreHover(e.features[0].properties, { x: e.point.x, y: e.point.y });
+                        }
+                    });
+
+
+                    // Click - Open store page
                     map.current.on('click', 'ah-stores', (e) => {
                         if (e.features.length > 0) {
                             const feature = e.features[0];
@@ -198,6 +247,14 @@ const MapContainer = ({ onStoreHover, onStoreClick }) => {
                     });
 
                     map.current.on('click', 'dirk-stores', (e) => {
+                        if (e.features.length > 0) {
+                            const feature = e.features[0];
+                            console.log("Store Clicked: ", feature.properties.id); // Debug log
+                            onStoreClick(feature.properties.id);
+                        }
+                    });
+
+                    map.current.on('click', 'deka-stores', (e) => {
                         if (e.features.length > 0) {
                             const feature = e.features[0];
                             console.log("Store Clicked: ", feature.properties.id); // Debug log
