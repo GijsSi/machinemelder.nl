@@ -1,7 +1,10 @@
-"use client"
+"use client";
 import React, { useState, useEffect, useCallback } from 'react';
 import debounce from 'lodash.debounce';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
+import StickerImage from '@/public/images/sticker.png'
+
 
 const WinkelSelector = () => {
     const [query, setQuery] = useState('');
@@ -49,9 +52,21 @@ const WinkelSelector = () => {
 
     return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
+
             <div className="winkel-selector bg-white shadow-lg rounded-lg p-6 max-w-lg w-full">
-                <h2 className="text-xl font-semibold mb-4">Zoek jouw winkel</h2>
-                <p className="text-gray-600 mb-2">Typ de straatnaam van de winkel in waar je naar op zoek bent:</p>
+                {/* Sticker Image Section */}
+                <div className="mt-12 text-center">
+                    <h2 className="text-xl font-semibold text-gray-900 mb-4">Stickers voor jouw winkel</h2>
+                    <Image
+                        src={StickerImage} // Ensure you update the path correctly
+                        alt="Sticker voor machinemelder"
+                        width={400} // Adjust the width and height as necessary
+                        height={300}
+                        className="mx-auto"
+                    />
+                </div>
+                <h2 className="text-xl font-semibold mb-4 mt-6">Zoek jouw winkel</h2>
+                <p className="text-gray-600 mb-2">Vul de straatnaam in onder de sticker voor jouw specifieke winkel:</p>
                 <input
                     type="text"
                     value={query}
@@ -84,6 +99,15 @@ const WinkelSelector = () => {
                         <p className="text-gray-700">Coördinaten: {selectedStore.geometry.coordinates.join(', ')}</p>
                     </div>
                 )}
+
+
+                {/* New Section */}
+                <div className="mt-12">
+                    <h2 className="text-xl font-semibold text-gray-900 mb-4">Werkt machinemelder.nl ook zonder sticker?</h2>
+                    <p className="text-gray-600 mb-4">
+                        Ja, machinemelder.nl werkt ook zonder sticker. Echter, er zullen vast mensen in de omgeving zijn die machinemelder.nl nog niet kennen. Als gevolg hiervan wordt de winkel minder vaak geüpdatet. Vandaar de sticker, om meer mensen te betrekken en ervoor te zorgen dat de status van de machines zo goed mogelijk up-to-date is.
+                    </p>
+                </div>
             </div>
         </div>
     );
