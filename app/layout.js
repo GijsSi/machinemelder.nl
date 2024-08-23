@@ -30,10 +30,7 @@ export default function RootLayout({ children }) {
         <Head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4648837828270370"
-            crossorigin="anonymous">
-
-          </script>
+          <meta name="google-adsense-account" content="ca-pub-4648837828270370" />
         </Head>
         <body className={inter.className}>
           {children}
