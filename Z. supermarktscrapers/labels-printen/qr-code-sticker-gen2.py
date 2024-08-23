@@ -21,7 +21,7 @@ cursor.close()
 db.close()
 
 # Filter results to include only the specified IDs
-specified_ids = {1090, 1354, 1318, 1391, 1320, 1112, 2209, 1676}
+specified_ids = {1113, 1025}
 filtered_results = [row for row in results if row[0] in specified_ids]
 
 # Template image (PDF converted to PNG or an existing image file)
