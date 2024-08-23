@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import PlausibleProvider from 'next-plausible';
+import GoogleAdsense from '@/components/Google/GoogleAdsense';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
       selfHosted={true}
       trackOutboundLinks={true}
       trackFileDownloads={true}
-      trackLocalhost={false}
+      trackLocalhost={true}
       enabled={true}
     >
       <html lang="en">
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           {children}
           <Analytics />
+          <GoogleAdsense pId="4648837828270370" />
         </body>
       </html>
     </PlausibleProvider>
