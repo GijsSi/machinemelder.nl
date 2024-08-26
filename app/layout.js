@@ -8,6 +8,7 @@ import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import PlausibleProvider from 'next-plausible';
 import GoogleAdsense from '@/components/Google/GoogleAdsense';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,28 +19,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <PlausibleProvider
-      domain="machinemelder.nl"
-      customDomain="http://161.97.151.230:8001"
-      selfHosted={true}
-      trackOutboundLinks={true}
-      trackFileDownloads={true}
-      trackLocalhost={true}
-      enabled={true}
-    >
-      <html lang="en">
-        <Head>
-          <title>{metadata.title}</title>
-          <meta name="description" content={metadata.description} />
-          <meta name="google-adsense-account" content="ca-pub-4648837828270370" />
-          <script defer src="https://plausible.machinemelder.nl/script.js" data-website-id="0cf3f602-710d-4fbe-8d53-b5476d0501a3"></script>
-        </Head>
-        <body className={inter.className}>
-          {children}
-          <Analytics />
-          <GoogleAdsense pId="4648837828270370" />
-        </body>
-      </html>
-    </PlausibleProvider>
+
+    <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="google-adsense-account" content="ca-pub-4648837828270370" />
+        <Script async defer src="https://plausible.machinemelder.nl/script.js" data-website-id="0cf3f602-710d-4fbe-8d53-b5476d0501a3"></Script>
+      </Head>
+      <body className={inter.className}>
+        {children}
+        <Analytics />
+        <GoogleAdsense pId="4648837828270370" />
+      </body>
+    </html>
   );
 }
