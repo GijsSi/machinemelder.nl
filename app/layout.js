@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="google-adsense-account" content="ca-pub-4648837828270370" />
-        <script async defer src="https://plausible.machinemelder.nl/script.js" data-website-id="0cf3f602-710d-4fbe-8d53-b5476d0501a3"></script>
       </Head>
+      <Script async defer src="https://plausible.machinemelder.nl/script.js" data-website-id="0cf3f602-710d-4fbe-8d53-b5476d0501a3"></Script>
       <body className={inter.className}>
         {children}
         <Analytics />
