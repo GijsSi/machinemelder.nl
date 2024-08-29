@@ -105,7 +105,7 @@ const WinkelSelector = () => {
                 <div className="mt-12">
                     <h2 className="text-xl font-semibold text-gray-900 mb-4">Werkt machinemelder.nl ook zonder sticker?</h2>
                     <p className="text-gray-600 mb-4">
-                        Ja, machinemelder.nl werkt ook zonder sticker. Echter, er zullen vast mensen in de omgeving zijn die machinemelder.nl nog niet kennen. Als gevolg hiervan wordt de winkel minder vaak geüpdatet. Vandaar de sticker, om meer mensen te betrekken en ervoor te zorgen dat de status van de machines zo goed mogelijk up-to-date is.
+                        Ja, machinemelder.nl werkt ook zonder sticker. Maar er zullen vast mensen in de omgeving zijn die machinemelder.nl nog niet kennen en als gevolg hiervan wordt de status van de statiegeldautomaat voor die betreffende winkels minder vaak geüpdatet. Vandaar de sticker, om meer mensen te betrekken en ervoor te zorgen dat de automaatstatus zo up-to-date mogelijk is.
                     </p>
                 </div>
             </div>
