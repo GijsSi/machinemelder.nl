@@ -7,21 +7,21 @@ const WaaromPage = () => {
         <div className="min-h-screen bg-gray-100 py-12">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="bg-white shadow-lg rounded-lg p-8">
-                    <h1 className="text-3xl font-bold text-gray-900 mb-6">Waarom Dit Project?</h1>
+                    <h1 className="text-3xl font-bold text-gray-900 mb-6">Waarom dit project?</h1>
 
                     <p className="text-gray-700 text-lg leading-7 mb-4">
                         Dit project is ontstaan vanuit een frustratie die velen van ons delen: het is enorm vervelend om je zware flessen en kratten naar de supermarkt te brengen, alleen om erachter te komen dat de automaat kapot is.
                     </p>
 
                     <p className="text-gray-700 text-lg leading-7 mb-4">
-                        Om dit probleem op te lossen, heb ik besloten om een platform te bouwen waar je van tevoren kunt controleren of de flessenautomaat in de supermarkt werkt. Dit bespaart je niet alleen een hoop moeite, maar zorgt er ook voor dat je je bezoek aan de supermarkt beter kunt plannen.
+                        Om dit probleem op te lossen, heb ik besloten om een platform te bouwen waar je van tevoren kunt controleren of de flessen- of blikjesautomaat in de supermarkt werkt. Dit bespaart je niet alleen een hoop moeite, maar zorgt er ook voor dat je je bezoek aan de supermarkt beter kunt plannen.
                     </p>
 
                     <p className="text-gray-700 text-lg leading-7 mb-4">
                         Het doel van dit project is om de ervaring van recyclen gemakkelijker en aangenamer te maken.
                     </p>
 
-                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Wie Heeft Aan Dit Project Gewerkt?</h2>
+                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Wie heeft aan dit project gewerkt?</h2>
 
                     <ul className="list-disc pl-5 text-gray-700 text-lg leading-7">
                         <li className="mb-2">
@@ -53,9 +53,9 @@ const WaaromPage = () => {
                         </li>
                     </ul>
 
-                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Hoe Kan Jij Helpen?</h2>
+                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Hoe kun jij helpen?</h2>
                     <p className="text-gray-700 text-lg leading-7 mb-4">
-                        Wil je ook bijdragen aan dit project? Je kunt een sticker aanvragen voor jouw supermarkt om anderen te helpen weten of de statiegeldmachine werkt.
+                        Wil je ook bijdragen aan dit project? Je kunt een sticker aanvragen voor jouw supermarkt zodat je anderen helpt informeren of de statiegeldmachine werkt.
                     </p>
 
                     <div className="text-center mb-8">
@@ -67,7 +67,7 @@ const WaaromPage = () => {
                         </a>
                     </div>
 
-                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Steun Dit Project</h2>
+                    <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Steun dit project</h2>
                     <p className="text-gray-700 text-lg leading-7 mb-4">
                         Ik ben een student die deze tool in zijn eentje in de lucht houdt. Je kunt al vanaf 1 euro doneren! Ik drink graag een biertje op jou!
                     </p>
@@ -87,7 +87,7 @@ const WaaromPage = () => {
 
                     <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Dankwoord</h2>
                     <p className="text-gray-700 text-lg leading-7">
-                        Ik wil iedereen bedanken die heeft bijgedragen aan dit project. Jullie steun, suggesties en feedback zijn van onschatbare waarde geweest. Samen kunnen we een verschil maken en het recyclen een stuk eenvoudiger maken.
+                        Ik wil iedereen bedanken die heeft bijgedragen aan dit project. Jullie steun, suggesties en feedback zijn van onschatbare waarde geweest. Samen kunnen we een verschil maken en het recyclen een stuk eenvoudiger en nuttiger maken.
                     </p>
                 </div>
             </div>
