@@ -156,7 +156,7 @@ const WinkelPage = ({ params }) => {
         try {
             const ipResponse = await fetch('https://api.ipify.org?format=json');
             if (!ipResponse.ok) {
-                throw new Error('Failed to fetch IP address');
+                throw new Error('Ophalen IP-adres niet gelukt');
             }
             const ipData = await ipResponse.json();
             const ipAddress = ipData.ip;
@@ -185,9 +185,9 @@ const WinkelPage = ({ params }) => {
 
                 setModalProps({
                     version: 'success',
-                    title: 'Success!',
+                    title: 'Gelukt!',
                     message: 'Dankjewel voor je melding. Jouw melding helpt anderen!',
-                    buttonText: 'Close',
+                    buttonText: 'Sluit',
                 });
                 setIsModalOpen(true);
             } else {
@@ -197,9 +197,9 @@ const WinkelPage = ({ params }) => {
             console.error('Error submitting report:', error);
             setModalProps({
                 version: 'error',
-                title: 'Submission Error',
+                title: 'Helaas :-(',
                 message: 'Melding is niet gelukt. Probeer het later nog een keer.',
-                buttonText: 'Close',
+                buttonText: 'Sluit',
             });
             setIsModalOpen(true);
         }
