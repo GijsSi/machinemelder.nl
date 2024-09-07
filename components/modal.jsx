@@ -83,7 +83,7 @@ const Modal = ({
                                 <Link href="/"
                                     className="bg-transparent hover:bg-white/10 transition-colors text-white font-semibold w-full py-2 rounded text-center"
                                 >
-                                    Go to the map
+                                    Terug naar de kaart
                                 </Link>
                                 <button
                                     onClick={handleButtonClick} // Use window.location.reload here

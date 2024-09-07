@@ -47,7 +47,7 @@ const SuccessPageContent = () => {
                     className="mt-6 inline-flex items-center justify-center rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500"
                     onClick={() => router.push(`/store/${storeId}`)}
                 >
-                    Terug naar de map 🗺️
+                    Terug naar de kaart 🗺️
                 </button>
             </div>
         </div>
@@ -55,7 +55,7 @@ const SuccessPageContent = () => {
 };
 
 const SuccessPage = () => (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Laden...</div>}>
         <SuccessPageContent />
     </Suspense>
 );
