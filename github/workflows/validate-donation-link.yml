@@ -1,0 +1,25 @@
+name: Validate Donation Link
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  check_donation_link:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Search for donation link
+        run: |
+          # Look for your donation link in the correct file
+          if ! grep -q 'https://www.buymeacoffee.com/gijssi' app/winkels/[id]/page.jsx; then
+            echo "Error: The donation link is missing or has been modified!" >&2
+            exit 1
+          else
+            echo "Donation link is present and valid."
+          fi

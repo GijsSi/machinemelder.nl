@@ -2,10 +2,14 @@
 import Map from '@/components/Map/Map'; // Import from the new location
 import SearchBar from '@/components/searchbar'; // Assuming SearchBar remains in the components directory
 import Link from 'next/link';
+import CookieBanner from '@/components/cookieBanner';
+
 
 export default function Home() {
   return (
-    <main className=''><SearchBar /><Map />
+    <main className=''>
+      <SearchBar />
+      <Map />
 
 
       <div>
@@ -23,6 +27,7 @@ export default function Home() {
         </Link>
       </div>
 
+      <CookieBanner />
 
     </main>);
 }
