@@ -1,0 +1,9 @@
+
+
+TODO: Jumbo toevoegen
+TODO: Dirk toevoegen
+TODO: Warning icon 1x af laten spelen (nu weggelaten)
+
+TODO: Engelse teksten er uit X
+TODO: meest recente melding bovenaan tonen. X
+
