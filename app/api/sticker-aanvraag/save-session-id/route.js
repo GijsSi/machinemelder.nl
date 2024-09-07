@@ -7,24 +7,24 @@ async function connectToDatabase() {
     return cachedConnection;
   }
 
-  cachedConnection = await mysql.createConnection({
+  cachedConnection = await mysql.createPool({
     host: process.env.MYSQL_HOST,
     port: process.env.MYSQL_PORT,
     user: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASSWORD,
     database: process.env.MYSQL_DATABASE,
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0,
   });
+
 
   return cachedConnection;
 }
 
-export async function POST(req, res) {
+export async function POST(req) {
   try {
     const {requestId, session_id} = await req.json();
-
-    console.log(
-        'Received request to save session_id:',
-        {requestId, session_id});  // Debugging line
 
     if (!requestId || !session_id) {
       console.error('Missing required fields:', {requestId, session_id});
@@ -36,10 +36,10 @@ export async function POST(req, res) {
 
     const connection = await connectToDatabase();
 
+    // Update sticker request with the sessionId
     const [result] = await connection.execute(
         'UPDATE sticker_requests SET sessionId = ? WHERE requestId = ?',
-        [session_id, requestId]  // Update the correct column with session_id
-    );
+        [session_id, requestId]);
 
     if (result.affectedRows === 0) {
       console.error('Sticker request not found for requestId:', requestId);
@@ -56,7 +56,7 @@ export async function POST(req, res) {
       headers: {'Content-Type': 'application/json'},
     });
   } catch (error) {
-    console.error('Database update failed:', error);
+    console.error('Database update failed:', error.message || error);
     return new Response(JSON.stringify({error: 'Failed to save session_id'}), {
       status: 500,
       headers: {'Content-Type': 'application/json'},

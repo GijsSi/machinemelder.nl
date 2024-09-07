@@ -337,7 +337,6 @@ const WinkelPage = ({ params }) => {
                             <p className='text-left'>Deze tool heb ik gebouwd omdat ik er helemaal klaar mee ben dat elke keer als ik met kratten naar de Albert Heijn loop de statiegeldmachine weer kapot is. Om dit probleem op te lossen heb ik deze oplossing bedacht in de hoop dat mensen het gebruiken. Zo kun je van tevoren checken of de statiegeldmachine werkt. Scheelt je ook weer een telefoontje naar die sjacherijnige filiaalmanager 😜</p>
 
                             <p className="text-md pt-2 text-gray-600 text-left mb-6">Ik ben een student die deze tool in zijn eentje in de lucht houdt. Je kunt al vanaf 1 euro doneren! Ik drink graag een biertje op jou!</p>
-
                             <a
                                 href="https://www.buymeacoffee.com/gijssi"
                                 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none' }}
@@ -348,6 +347,7 @@ const WinkelPage = ({ params }) => {
                                     style={{ maxWidth: '100%', height: 'auto' }}
                                 />
                             </a>
+
                         </div>
                     </div>
 
