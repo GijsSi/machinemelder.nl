@@ -1,58 +1,34 @@
-"use client";
+import React from "react";
+import { hasCookie, setCookie } from "cookies-next";
 
-import Link from "next/link";
-import { getLocalStorage, setLocalStorage } from "@/lib/Google/storageHelper";
-import { useState, useEffect } from "react";
+const CookieConsent = (props) => {
+    const [showConsent, setShowConsent] = React.useState(true);
 
-const CookieBanner = () => {
-    const [cookieConsent, setCookieConsent] = useState(false);
+    React.useEffect(() => {
+        setShowConsent(hasCookie("localConsent"));
+    }, []);
 
-    useEffect(() => {
-        const newValue = cookieConsent ? "granted" : "denied";
+    const acceptCookie = () => {
+        setShowConsent(true);
+        setCookie("localConsent", "true", {});
+    };
 
-        window.gtag("consent", "update", {
-            analytics_storage: newValue,
-        });
+    if (showConsent) {
+        return null;
+    }
 
-        setLocalStorage("cookie_consent", cookieConsent);
-
-        const timer = setTimeout(() => {
-            setCookieConsent(true);
-        }, 10000); // 10 seconds
-
-        return () => clearTimeout(timer);
-    }, [cookieConsent]);
     return (
-        <div
-            className={`my-10 mx-auto max-w-max md:max-w-screen-sm
-                  fixed bottom-0 left-0 right-0 
-                  flex px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
-                  bg-gray-700 rounded-lg shadow z-50
-                  ${cookieConsent !== null ? "hidden" : "flex"}`}
-        >
-            <div className="text-cente text-white-200">
-                <Link href="/info/cookies">
-                    <p>
-                        We use <span className="font-bold text-sky-400">cookies</span> on
-                        our site.
-                    </p>
-                </Link>
-            </div>
-
-            <div className="flex gap-2">
-                <button
-                    className="px-5 py-2 text-gray-300 rounded-md border-gray-900"
-                    onClick={() => setCookieConsent(false)}
-                >
-                    Decline
-                </button>
-                <button
-                    className="bg-gray-900 px-5 py-2 text-white-200 rounded-lg"
-                    onClick={() => setCookieConsent(true)}
-                >
-                    Allow Cookies
+        <div className="fixed inset-0 bg-slate-700 bg-opacity-70">
+            <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between px-4 py-8 bg-gray-100">
+                <span className="text-dark text-base mr-16">
+                    This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.
+                </span>
+                <button className="bg-green-500 py-2 px-8 rounded text-white" onClick={() => acceptCookie()}>
+                    Accept
                 </button>
             </div>
         </div>
     );
-}
+};
+
+export default CookieConsent;
