@@ -1,88 +1,89 @@
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (1, 52.36509499, 4.89020949, 1112, 1, '2024-08-15 12:58:26', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (2, 52.36508526, 4.89019498, 1112, 0, '2024-08-15 12:58:58', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (3, 52.36509577, 4.89019492, 1112, 1, '2024-08-15 13:59:58', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (4, 52.36509577, 4.89019492, 1112, 1, '2024-08-15 14:00:52', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (5, 52.36506946, 4.89015788, 1112, 0, '2024-08-15 14:07:01', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (6, 52.36510713, 4.89017681, 1112, 0, '2024-08-15 14:09:42', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (7, 52.36510713, 4.89017681, 1112, 1, '2024-08-15 14:09:53', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (8, 52.36510713, 4.89017681, 1112, 1, '2024-08-15 14:10:13', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (9, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:15:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (10, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:15:30', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (11, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:16:55', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (12, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:17:04', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (13, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:18:00', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (14, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:18:40', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (15, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:19:15', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (16, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:19:42', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (17, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:20:21', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (18, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:20:58', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (19, 52.36509552, 4.89014287, 1112, 1, '2024-08-15 14:25:40', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (20, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:38:56', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (21, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:39:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (22, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:40:53', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (23, 52.36509967, 4.89016113, 1112, 1, '2024-08-15 18:49:29', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (24, 52.36509154, 4.89016183, 2213, 1, '2024-08-15 20:56:22', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (25, 52.36509350, 4.89018003, 1112, 0, '2024-08-16 11:16:14', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (26, 52.36510309, 4.89015782, 1112, 1, '2024-08-16 12:43:59', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (27, 52.36510309, 4.89015782, 2213, 1, '2024-08-16 12:44:21', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (28, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:50:28', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (29, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:51:42', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (30, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:51:50', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (31, 52.36508633, 4.89011846, 1112, 1, '2024-08-16 13:10:55', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (32, 52.36508633, 4.89011846, 1112, 1, '2024-08-16 13:13:43', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (33, 52.36509715, 4.89015954, 1112, 1, '2024-08-16 13:17:05', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (34, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:25', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (35, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:41', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (36, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:46', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (37, 52.36510209, 4.89015714, 1112, 1, '2024-08-16 13:32:48', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (38, 52.36510209, 4.89015714, 1112, 1, '2024-08-16 13:33:57', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (39, 52.36510447, 4.89016127, 1112, 1, '2024-08-16 13:37:06', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (40, 52.36508989, 4.89014875, 1112, 1, '2024-08-16 13:49:55', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (42, 52.36649690, 4.92332339, 1321, 1, '2024-08-16 20:31:32', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (43, 52.37468268, 4.86120164, 1282, 0, '2024-08-16 21:29:32', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (44, 52.14629370, 4.47766830, 1649, 0, '2024-08-16 22:17:35', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (46, 52.35865540, 4.99017260, 1493, 0, '2024-08-16 22:37:47', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (50, 52.36511052, 4.89016913, 1594, 1, '2024-08-17 12:23:49', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (51, 52.36510239, 4.89016448, 1594, 0, '2024-08-17 12:25:03', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (52, 52.36510239, 4.89016448, 1594, 1, '2024-08-17 12:26:20', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (53, 52.36510239, 4.89016448, 1594, 1, '2024-08-17 12:27:08', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (57, 52.31565350, 4.95470450, 1502, 1, '2024-08-17 16:54:47', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (58, 52.31567520, 4.95456610, 1502, 1, '2024-08-17 16:55:02', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (59, 52.31576340, 4.95463930, 1502, 1, '2024-08-17 16:57:23', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (60, 52.36886656, 4.90372800, 1567, 1, '2024-08-17 18:26:34', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (61, 52.36889794, 4.90374685, 1567, 1, '2024-08-17 18:26:42', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (62, 52.36876065, 4.90354983, 1567, 1, '2024-08-17 18:30:05', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (63, 52.36893169, 4.90281631, 1567, 1, '2024-08-17 18:31:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (64, 52.34912465, 4.84028390, 1335, 0, '2024-08-17 21:08:36', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (65, 52.34914876, 4.84026284, 1335, 0, '2024-08-17 21:08:58', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (66, 52.34917908, 4.84024270, 1335, 0, '2024-08-17 21:09:02', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (67, 52.34920930, 4.84024570, 1335, 0, '2024-08-17 21:09:20', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (68, 52.34910964, 4.84029740, 1335, 0, '2024-08-17 21:11:49', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (71, 51.69626358, 5.32892860, 1494, 0, '2024-08-18 08:46:41', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (72, 52.06532540, 5.13735770, 1249, 0, '2024-08-18 11:02:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (73, 52.06532540, 5.13735770, 1249, 0, '2024-08-18 11:02:24', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (74, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:04:57', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (75, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:05:55', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (76, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:06:38', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (77, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:07:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (78, 52.36510656, 4.89018792, 1112, 0, '2024-08-18 19:12:17', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (79, 52.36507962, 4.89017252, 1112, 0, '2024-08-18 19:15:04', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (80, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:17:41', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (81, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:17:55', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (82, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:19:09', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (83, 52.36507548, 4.89015278, 1112, 1, '2024-08-18 19:20:21', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (84, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:21:35', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (85, 52.36504704, 4.89013392, 1112, 0, '2024-08-18 19:22:59', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (86, 52.36504704, 4.89013392, 2209, 1, '2024-08-18 19:24:16', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (87, 52.36504704, 4.89013392, 2209, 1, '2024-08-18 19:26:15', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (88, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:28:03', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (89, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:28:21', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (90, 52.36508644, 4.89016767, 2209, 1, '2024-08-18 19:30:17', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (91, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:30:27', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (92, 52.36508644, 4.89016767, 2209, 1, '2024-08-18 19:30:47', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (93, 52.36508898, 4.89019109, 2209, 1, '2024-08-18 19:33:45', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (94, 52.36511453, 4.89010625, 1112, 1, '2024-08-19 17:50:40', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (95, 52.36510618, 4.89019856, 1112, 1, '2024-08-19 17:54:51', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (96, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:57:30', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (97, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:58:15', null);
-INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES (98, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:59:36', null);
+INSERT INTO statiegeld_test.meldingen (id, latitude, longitude, supermarktId, machineWorking, createdAt, reporterIpAddress) VALUES 
+(1, 52.36509499, 4.89020949, 1112, 1, '2024-08-15 12:58:26', null),
+(2, 52.36508526, 4.89019498, 1112, 0, '2024-08-15 12:58:58', null),
+(3, 52.36509577, 4.89019492, 1112, 1, '2024-08-15 13:59:58', null),
+(4, 52.36509577, 4.89019492, 1112, 1, '2024-08-15 14:00:52', null),
+(5, 52.36506946, 4.89015788, 1112, 0, '2024-08-15 14:07:01', null),
+(6, 52.36510713, 4.89017681, 1112, 0, '2024-08-15 14:09:42', null),
+(7, 52.36510713, 4.89017681, 1112, 1, '2024-08-15 14:09:53', null),
+(8, 52.36510713, 4.89017681, 1112, 1, '2024-08-15 14:10:13', null),
+(9, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:15:16', null),
+(10, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:15:30', null),
+(11, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:16:55', null),
+(12, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:17:04', null),
+(13, 52.36508656, 4.89014968, 1112, 1, '2024-08-15 14:18:00', null),
+(14, 52.36508656, 4.89014968, 1112, 0, '2024-08-15 14:18:40', null),
+(15, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:19:15', null),
+(16, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:19:42', null),
+(17, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:20:21', null),
+(18, 52.36508325, 4.89019636, 1112, 0, '2024-08-15 14:20:58', null),
+(19, 52.36509552, 4.89014287, 1112, 1, '2024-08-15 14:25:40', null),
+(20, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:38:56', null),
+(21, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:39:16', null),
+(22, 52.36509051, 4.89021083, 1112, 0, '2024-08-15 16:40:53', null),
+(23, 52.36509967, 4.89016113, 1112, 1, '2024-08-15 18:49:29', null),
+(24, 52.36509154, 4.89016183, 2213, 1, '2024-08-15 20:56:22', null),
+(25, 52.36509350, 4.89018003, 1112, 0, '2024-08-16 11:16:14', null),
+(26, 52.36510309, 4.89015782, 1112, 1, '2024-08-16 12:43:59', null),
+(27, 52.36510309, 4.89015782, 2213, 1, '2024-08-16 12:44:21', null),
+(28, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:50:28', null),
+(29, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:51:42', null),
+(30, 52.36508328, 4.89015235, 1112, 1, '2024-08-16 12:51:50', null),
+(31, 52.36508633, 4.89011846, 1112, 1, '2024-08-16 13:10:55', null),
+(32, 52.36508633, 4.89011846, 1112, 1, '2024-08-16 13:13:43', null),
+(33, 52.36509715, 4.89015954, 1112, 1, '2024-08-16 13:17:05', null),
+(34, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:25', null),
+(35, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:41', null),
+(36, 52.36510147, 4.89016815, 1112, 1, '2024-08-16 13:24:46', null),
+(37, 52.36510209, 4.89015714, 1112, 1, '2024-08-16 13:32:48', null),
+(38, 52.36510209, 4.89015714, 1112, 1, '2024-08-16 13:33:57', null),
+(39, 52.36510447, 4.89016127, 1112, 1, '2024-08-16 13:37:06', null),
+(40, 52.36508989, 4.89014875, 1112, 1, '2024-08-16 13:49:55', null),
+(42, 52.36649690, 4.92332339, 1321, 1, '2024-08-16 20:31:32', null),
+(43, 52.37468268, 4.86120164, 1282, 0, '2024-08-16 21:29:32', null),
+(44, 52.14629370, 4.47766830, 1649, 0, '2024-08-16 22:17:35', null),
+(46, 52.35865540, 4.99017260, 1493, 0, '2024-08-16 22:37:47', null),
+(50, 52.36511052, 4.89016913, 1594, 1, '2024-08-17 12:23:49', null),
+(51, 52.36510239, 4.89016448, 1594, 0, '2024-08-17 12:25:03', null),
+(52, 52.36510239, 4.89016448, 1594, 1, '2024-08-17 12:26:20', null),
+(53, 52.36510239, 4.89016448, 1594, 1, '2024-08-17 12:27:08', null),
+(57, 52.31565350, 4.95470450, 1502, 1, '2024-08-17 16:54:47', null),
+(58, 52.31567520, 4.95456610, 1502, 1, '2024-08-17 16:55:02', null),
+(59, 52.31576340, 4.95463930, 1502, 1, '2024-08-17 16:57:23', null),
+(60, 52.36886656, 4.90372800, 1567, 1, '2024-08-17 18:26:34', null),
+(61, 52.36889794, 4.90374685, 1567, 1, '2024-08-17 18:26:42', null),
+(62, 52.36876065, 4.90354983, 1567, 1, '2024-08-17 18:30:05', null),
+(63, 52.36893169, 4.90281631, 1567, 1, '2024-08-17 18:31:16', null),
+(64, 52.34912465, 4.84028390, 1335, 0, '2024-08-17 21:08:36', null),
+(65, 52.34914876, 4.84026284, 1335, 0, '2024-08-17 21:08:58', null),
+(66, 52.34917908, 4.84024270, 1335, 0, '2024-08-17 21:09:02', null),
+(67, 52.34920930, 4.84024570, 1335, 0, '2024-08-17 21:09:20', null),
+(68, 52.34910964, 4.84029740, 1335, 0, '2024-08-17 21:11:49', null),
+(71, 51.69626358, 5.32892860, 1494, 0, '2024-08-18 08:46:41', null),
+(72, 52.06532540, 5.13735770, 1249, 0, '2024-08-18 11:02:16', null),
+(73, 52.06532540, 5.13735770, 1249, 0, '2024-08-18 11:02:24', null),
+(74, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:04:57', null),
+(75, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:05:55', null),
+(76, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:06:38', null),
+(77, 52.36509539, 4.89015173, 1594, 1, '2024-08-18 19:07:16', null),
+(78, 52.36510656, 4.89018792, 1112, 0, '2024-08-18 19:12:17', null),
+(79, 52.36507962, 4.89017252, 1112, 0, '2024-08-18 19:15:04', null),
+(80, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:17:41', null),
+(81, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:17:55', null),
+(82, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:19:09', null),
+(83, 52.36507548, 4.89015278, 1112, 1, '2024-08-18 19:20:21', null),
+(84, 52.36507548, 4.89015278, 1112, 0, '2024-08-18 19:21:35', null),
+(85, 52.36504704, 4.89013392, 1112, 0, '2024-08-18 19:22:59', null),
+(86, 52.36504704, 4.89013392, 2209, 1, '2024-08-18 19:24:16', null),
+(87, 52.36504704, 4.89013392, 2209, 1, '2024-08-18 19:26:15', null),
+(88, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:28:03', null),
+(89, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:28:21', null),
+(90, 52.36508644, 4.89016767, 2209, 1, '2024-08-18 19:30:17', null),
+(91, 52.36508644, 4.89016767, 2209, 0, '2024-08-18 19:30:27', null),
+(92, 52.36508644, 4.89016767, 2209, 1, '2024-08-18 19:30:47', null),
+(93, 52.36508898, 4.89019109, 2209, 1, '2024-08-18 19:33:45', null),
+(94, 52.36511453, 4.89010625, 1112, 1, '2024-08-19 17:50:40', null),
+(95, 52.36510618, 4.89019856, 1112, 1, '2024-08-19 17:54:51', null),
+(96, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:57:30', null),
+(97, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:58:15', null),
+(98, 52.36508890, 4.89017215, 1112, 1, '2024-08-19 17:59:36', null);

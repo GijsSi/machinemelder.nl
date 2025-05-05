@@ -25,15 +25,19 @@ const StoreCard = ({ store, position }) => {
         fetchReports();
     }, [store.id]);
 
-    const formatDate = (dateString) => {
-        const date = new Date(dateString);
-        date.setHours(date.getHours() - 2); // Subtract 2 hours
-        const options = { weekday: 'long', day: 'numeric', month: 'short' };
-        const datePart = date.toLocaleDateString('nl-NL', options);
-        const timePart = date.toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' });
-        return `${timePart} ${datePart}`;
+const formatDate = (dateString) => {
+    const date = new Date(dateString.replace(' ', 'T'));
+    const options = { 
+        weekday: 'long', 
+        day: 'numeric', 
+        month: 'short', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        timeZone: 'Europe/Amsterdam' 
     };
-
+    return date.toLocaleString('nl-NL', options);
+};
+    
     const machineWorking = latestReport?.properties?.machineWorking;
     const createdAt = latestReport?.properties?.createdAt;
     const dotColor = machineWorking ? 'bg-green-400' : 'bg-red-400';

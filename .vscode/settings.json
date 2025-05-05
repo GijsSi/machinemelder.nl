@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "MariaDB",
+            "database": "statiegeld_test",
+            "username": "user",
+            "password": "password"
+        }
+    ]
+}

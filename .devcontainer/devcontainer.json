@@ -1,0 +1,22 @@
+{
+    "name": "Devcontainer for machinemelder.nl",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [
+      3000,
+      3306
+    ],
+    "features": {
+        "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "mtxr.sqltools-driver-mysql"
+        ]
+      }
+    },
+    "postCreateCommand": "bash -i .devcontainer/setup_devcontainer.sh"
+    
+  }
